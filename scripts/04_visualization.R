@@ -1,0 +1,1 @@
+# Ni ska skapa minst 3 relevanta figurer och/eller tabeller som visualiserar data tydligt. Varje figur eller tabell ska följas av en kort tolkning.
