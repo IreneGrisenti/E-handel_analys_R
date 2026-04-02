@@ -49,3 +49,5 @@ Kort rapport för att sammanfatta:
 -   metod
 -   viktigaste resultat
 -   slutsatser och begränsningar
+
+git
