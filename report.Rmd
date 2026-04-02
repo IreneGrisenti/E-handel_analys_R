@@ -4,7 +4,7 @@ editor_options:
     wrap: 72
 ---
 
-**Dataförståelse:**
+## 1. **Dataförståelse:**
 
 Datasetet innehåller orderdata från ett e-handelsföretag och består av
 1000 rader och 16 kolumner.
@@ -37,15 +37,3 @@ shipping_days = leveranstid
 product_category, region, customer_type = jämförelser mellan grupper
 
 Används för att analysera returgrad och samband med leveranstid.
-
-Tolkning och slutsatser Ni ska sammanfatta: vad ni kom fram till vilka
-resultat som verkar mest användbara vilka begränsningar som finns i
-datan eller analysen
-
-Kort rapport för att sammanfatta:
-
--   syfte
--   valda frågeställningar
--   metod
--   viktigaste resultat
--   slutsatser och begränsningar
