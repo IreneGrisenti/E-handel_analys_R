@@ -27,8 +27,8 @@ campaign_source 31st, discount_pct 27st, payment_method 25st,
 shipping_days 22st och city 21st. resten av variablerna saknade inga
 saknade värden.
 
-**Delar som är viktigast för vår analys frågeställningar om returgrad
-och leveranstid är följande variabler särskilt viktiga.**
+**Delar som är viktigast för vår analys frågeställningar om returgrad**
+**och leveranstid är följande variabler särskilt viktiga.**
 
 returned = om ordern returnerats
 
@@ -49,5 +49,3 @@ Kort rapport för att sammanfatta:
 -   metod
 -   viktigaste resultat
 -   slutsatser och begränsningar
-
-git
