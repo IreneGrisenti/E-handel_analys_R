@@ -1,65 +1,53 @@
-Dataförståelse:
+---
+editor_options: 
+  markdown: 
+    wrap: 72
+---
 
-Datasetet innehåller orderdata från ett e-handelsföretag och består av 1000 rader och 16 kolumner.
+**Dataförståelse:**
 
+Datasetet innehåller orderdata från ett e-handelsföretag och består av
+1000 rader och 16 kolumner.
 
-Variabler och datatyper:
+**Variabler och datatyper:**
 
-Datan innehåller både numeriska och kategoriska variabler. 
+Datan innehåller både numeriska och kategoriska variabler.
 
+Numeriska variabler inkluderar exempelvis: quantity, unit_price,
+discount_pct och shipping_days.
 
-Numeriska variabler inkluderar exempelvis: 
-quantity, unit_price, discount_pct och shipping_days.
-
-
-Kategoriska variabler inkluderar:
-customer_segment, customer_type, region, city och product_category.
+Kategoriska variabler inkluderar: customer_segment, customer_type,
+region, city och product_category.
 
 Det finns även en datumvariabel: order_date.
 
+**Datasetet inehöll vissa saknade värden i variablerna:**
 
-Datasetet inehöll vissa saknade värden i variablerna:
+campaign_source 31st, discount_pct 27st, payment_method 25st,
+shipping_days 22st och city 21st. resten av variablerna saknade inga
+saknade värden.
 
-campaign_source 31st, discount_pct 27st, payment_method 25st, shipping_days 22st och city 21st.
-resten av variablerna saknade inga saknade värden.
+**Delar som är viktigast för vår analys frågeställningar om returgrad
+och leveranstid är följande variabler särskilt viktiga.**
 
-Delar som är viktigast för vår analys frågeställningar om returgrad och leveranstid är följande variabler särskilt viktiga.
+returned = om ordern returnerats
 
-returned = om ordern returnerats 
+shipping_days = leveranstid
 
-shipping_days = leveranstid  
-
-product_category, region, customer_type = jämförelser mellan grupper  
+product_category, region, customer_type = jämförelser mellan grupper
 
 Används för att analysera returgrad och samband med leveranstid.
 
+Tolkning och slutsatser Ni ska sammanfatta: vad ni kom fram till vilka
+resultat som verkar mest användbara vilka begränsningar som finns i
+datan eller analysen
 
+Kort rapport för att sammanfatta:
 
+-   syfte
+-   valda frågeställningar
+-   metod
+-   viktigaste resultat
+-   slutsatser och begränsningar
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Tolkning och slutsatser
-Ni ska sammanfatta:
-  vad ni kom fram till
-  vilka resultat som verkar mest användbara
-  vilka begränsningar som finns i datan eller analysen
-
-Kort rapport för att sammanfatta:  
-
-  - syfte
-  - valda frågeställningar
-  - metod
-  - viktigaste resultat
-  - slutsatser och begränsningar
+git
