@@ -37,6 +37,8 @@ df_clean <- df %>%
     # standardized campaign_source to avoid repeating values
     campaign_source = str_trim(campaign_source),
     campaign_source = str_to_title(campaign_source),
+    payment_method = str_trim(payment_method),
+    payment_method = str_to_title(payment_method),
     
     # turning return into 0-1
     returned = str_trim(returned),
@@ -56,11 +58,28 @@ checking_inconsistencies
 
 glimpse(df_clean)
 
-# hantera eventuella saknade värden på ett rimligt sätt
-    # city - 21
-    # payment methos - 25 
-    # campaign source 31 
-    # discount pct 27
+
+# Handling missing values
+
+# Helper function to find the most frequent category
+most_frequent_cat <- function(df, column) {
+  names(sort(table(pull(df, {{column}})), decreasing = TRUE))[1]
+}
+
+df_clean <- df_clean %>% 
+  mutate(
+    # Imputed cat cols with most frequent value
+    city = replace_na(city, most_frequent_cat(df_clean, city)),
+    campaign_source = replace_na(campaign_source, most_frequent_cat(df_clean, campaign_source)),
+    payment_method = replace_na(payment_method, most_frequent_cat(df_clean, payment_method)),
+    
+    # Imputed num cols with median
+    shipping_days = replace_na(shipping_days, median(shipping_days, na.rm = TRUE)),
+    discount_pct = replace_na(discount_pct, median(discount_pct, na.rm = TRUE))
+  )
+
+colSums(is.na(df_clean))
+
 
 # skapa minst 2 nya variabler som hjälper er analys
   
