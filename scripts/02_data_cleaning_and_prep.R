@@ -1,5 +1,3 @@
-View(df)
-
 ### Cleaning relevant variables ### 
 categorical_columns <- c("customer_segment", "customer_type", "region", 
                          "city", "product_category", "product_subcategory", 
