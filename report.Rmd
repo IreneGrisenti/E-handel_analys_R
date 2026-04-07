@@ -4,7 +4,7 @@ editor_options:
     wrap: 72
 ---
 
-**Dataförståelse:**
+## **1. Dataförståelse**
 
 Datasetet innehåller orderdata från ett e-handelsföretag och består av
 1000 rader och 16 kolumner.
@@ -13,39 +13,79 @@ Datasetet innehåller orderdata från ett e-handelsföretag och består av
 
 Datan innehåller både numeriska och kategoriska variabler.
 
-Numeriska variabler inkluderar exempelvis: quantity, unit_price,
-discount_pct och shipping_days.
+Numeriska variabler inkluderar exempelvis: `quantity`, `unit_price`,
+`discount_pct` och `shipping_days`.
 
-Kategoriska variabler inkluderar: customer_segment, customer_type,
-region, city och product_category.
+Kategoriska variabler inkluderar: `customer_segment`, `customer_type`,
+`region`, `city` och `product_category`.
 
-Det finns även en datumvariabel: order_date.
+Det finns även en datumvariabel: `order_date`.
 
 **Datasetet inehöll vissa saknade värden i variablerna:**
 
-campaign_source 31st, discount_pct 27st, payment_method 25st,
-shipping_days 22st och city 21st. resten av variablerna saknade inga
-saknade värden.
+`campaign_source` 31st, `discount_pct` 27st, `payment_method` 25st,
+`shipping_days` 22st och `city` 21st. Resten av variablerna saknade inga
+värden.
 
-**Delar som är viktigast för vår analys frågeställningar om returgrad**
-**och leveranstid är följande variabler särskilt viktiga.**
+**För vår analys och valda frågeställningar om returgrad** **och
+leveranstid, är följande variabler särskilt viktiga:**
 
-returned = om ordern returnerats
+`returned` = om ordern returnerats
 
-shipping_days = leveranstid
+`shipping_days` = leveranstid
 
-product_category, region, customer_type = jämförelser mellan grupper
+`product_category`, `region`, `customer_type` = jämförelser mellan
+grupper
 
 Används för att analysera returgrad och samband med leveranstid.
 
-Tolkning och slutsatser Ni ska sammanfatta: vad ni kom fram till vilka
-resultat som verkar mest användbara vilka begränsningar som finns i
-datan eller analysen
+## **2. Datastädning och förberedelse**
 
-Kort rapport för att sammanfatta:
+Datarensningen och förberedelsen av data gick igenom tre steg:
+standardisering och korrigering av data, hantering av saknade värden
+samt skapande av nya variabler.
 
--   syfte
--   valda frågeställningar
--   metod
--   viktigaste resultat
--   slutsatser och begränsningar
+**Standardisering**\
+I det första steget standardiserades kolumner för att säkerställa att
+datan var konsekvent:
+
+-   `order_id` och `customer_id` rensades från mellanslag och gjordes om
+    till versaler, eftersom samma order annars kunde ha räknats som två
+    olika om den stavades på olika sätt.
+
+-   `order_date` konverterades till date format så att det går att
+    sortera och räkna på datum.
+
+-   `city`korrigerades manuellt för att hantera svenska specialtecken,
+    annars hade samma stad dykt upp som flera olika städer i analysen.
+
+-   `campaign_source` och `payment_method` rengjordes på samma sätt.
+
+-   `returned` gjordes om från text (Yes/No) till siffror (1/0) för att
+    kunna räkna ut returfrekvenser.
+
+**Hantering av saknade värden**\
+För kategoriska kolumner som saknade värden (`city`, `campaign_source`,
+`payment_method`) fylldes dem i med det vanligaste förekommande värdet i
+respektive kolumn.
+
+För numeriska kolumner (`shipping_days`, `discount_pct`) användes
+medianen istället för medelvärdet, eftersom medianen påverkas mindre av
+extremvärden och därför ger en mer representativ bild av datan.
+
+**Nya variabler**\
+Fyra nya variabler skapades för att berika analysen:
+
+-   `order_value` beräknar det faktiska ordervärdet efter rabatt.
+
+-   `order_value_tier` delar in orders i fyra nivåer (Low, Medium, High
+    och Premium) baserat på värde.
+
+-   `delivery_group` grupperar leveranstiden i kategorier från snabb
+    till mycket långsam.
+
+-   `discount_tier` delar in rabatten i nivåer från ingen rabatt till
+    hög rabatt.
+
+Dessa variabler gör det enklare att se mönster och jämföra grupper i
+analysen.

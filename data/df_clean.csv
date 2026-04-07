@@ -1,0 +1,1001 @@
+order_id,order_date,customer_id,customer_segment,customer_type,region,city,product_category,product_subcategory,payment_method,campaign_source,quantity,unit_price,discount_pct,discount_tier,order_value,order_value_tier,shipping_days,delivery_group,returned
+O2025001,2025-04-25,C1198,Consumer,VIP,South,Helsingborg,Beauty,Skincare,Card,Organic,4,33.9,0.182,Medium (11-25%),110.9208,Medium,3,Medium (3-5d),1
+O2025002,2025-12-26,C1212,Corporate,New,South,Malmö,Fashion,Sportswear,Card,Organic,1,91.08,0.013,Low (1-10%),89.89596,Medium,2,Fast (1-2d),0
+O2025003,2025-11-06,C1096,Consumer,Returning,North,Uppsala,Sports,Fitness,Paypal,Organic,1,190.22,0,No discount,190.22,High,3,Medium (3-5d),0
+O2025004,2025-10-09,C1160,Consumer,New,East,Örebro,Fashion,Shoes,Paypal,Affiliate,1,144.56,0.042,Low (1-10%),138.48848,Medium,5,Medium (3-5d),0
+O2025005,2025-05-02,C1063,Consumer,Returning,East,Linköping,Beauty,Skincare,Invoice,Paid Search,2,52.01,0.091,Low (1-10%),94.55418,Medium,4,Medium (3-5d),0
+O2025006,2025-11-21,C1093,Small Business,Returning,West,Borås,Fashion,Shoes,Card,Paid Search,3,120.84,0.064,Low (1-10%),339.31872,High,4,Medium (3-5d),1
+O2025007,2025-02-27,C1238,Small Business,Returning,West,Göteborg,Fashion,Shoes,Gift Card,Organic,1,97.55,0.055,Low (1-10%),92.18475,Medium,1,Fast (1-2d),0
+O2025008,2025-06-19,C1218,Consumer,VIP,North,Västerås,Home,Furniture,Invoice,Affiliate,1,1051.52,0.12,Medium (11-25%),925.3376,Premium,5,Medium (3-5d),0
+O2025009,2025-03-18,C1240,Consumer,Returning,South,Lund,Fashion,Sportswear,Card,Organic,4,82.84,0.041,Low (1-10%),317.77424,High,3,Medium (3-5d),0
+O2025010,2025-01-01,C1129,Small Business,New,North,Västerås,Home,Kitchen,Invoice,Social,2,164.19,0.058,Low (1-10%),309.33396,High,5,Medium (3-5d),0
+O2025011,2025-07-22,C1046,Corporate,New,North,Stockholm,Beauty,Haircare,Gift Card,Social,1,38.97,0.028,Low (1-10%),37.87884,Low,2,Fast (1-2d),0
+O2025012,2025-01-15,C1093,Small Business,Returning,West,Borås,Sports,Team Sports,Invoice,Social,1,105.58,0.045,Low (1-10%),100.82889999999999,Medium,4,Medium (3-5d),0
+O2025013,2025-05-27,C1089,Consumer,Returning,South,Lund,Fashion,Jackets,Swish,Social,1,203.5,0.055,Low (1-10%),192.30749999999998,High,2,Fast (1-2d),0
+O2025014,2025-02-15,C1042,Consumer,Returning,North,Uppsala,Home,Lighting,Card,Email,1,162.61,0.137,Medium (11-25%),140.33243000000002,Medium,4,Medium (3-5d),0
+O2025015,2025-09-28,C1052,Consumer,Returning,West,Borås,Sports,Team Sports,Card,Social,1,96.08,0.088,Low (1-10%),87.62496,Medium,3,Medium (3-5d),0
+O2025016,2025-12-14,C1141,Small Business,Returning,South,Malmö,Beauty,Skincare,Paypal,Direct,1,44.96,0.002,Low (1-10%),44.87008,Low,5,Medium (3-5d),0
+O2025017,2025-06-11,C1164,Corporate,Returning,East,Linköping,Home,Kitchen,Swish,Direct,2,81.77,0.032,Low (1-10%),158.30671999999998,High,5,Medium (3-5d),0
+O2025018,2025-11-30,C1162,Consumer,Returning,South,Helsingborg,Fashion,Jackets,Card,Paid Search,1,175.92,0.143,Medium (11-25%),150.76343999999997,Medium,3,Medium (3-5d),0
+O2025019,2025-07-28,C1043,Corporate,New,South,Lund,Beauty,Fragrance,Card,Organic,1,73.27,0,No discount,73.27,Low,2,Fast (1-2d),0
+O2025020,2025-01-10,C1109,Small Business,Returning,South,Stockholm,Beauty,Makeup,Card,Affiliate,1,45.73,0.107,Medium (11-25%),40.83689,Low,3,Medium (3-5d),0
+O2025021,2025-12-24,C1184,Small Business,Returning,North,Västerås,Fashion,Sportswear,Swish,Social,1,90.24,0.014,Low (1-10%),88.97663999999999,Medium,4,Medium (3-5d),1
+O2025022,2025-09-07,C1189,Consumer,New,South,Helsingborg,Home,Kitchen,Card,Social,1,143.93,0.068,Low (1-10%),134.14276,Medium,3,Medium (3-5d),0
+O2025023,2025-06-18,C1243,Consumer,Returning,East,Linköping,Sports,Outdoor,Card,Direct,2,109.34,0.043,Low (1-10%),209.27676,High,6,Slow(6-9d),0
+O2025024,2025-04-23,C1138,Consumer,New,North,Stockholm,Fashion,Shoes,Swish,Social,2,103.55,0.036,Low (1-10%),199.6444,High,2,Fast (1-2d),0
+O2025025,2025-04-08,C1214,Corporate,Returning,South,Lund,Sports,Fitness,Swish,Organic,1,343.08,0.036,Low (1-10%),330.72911999999997,High,4,Medium (3-5d),0
+O2025026,2025-02-03,C1080,Consumer,New,North,Stockholm,Electronics,Laptop,Card,Organic,1,1272.53,0.081,Low (1-10%),1169.45507,Premium,5,Medium (3-5d),0
+O2025027,2025-09-13,C1257,Consumer,Returning,North,Uppsala,Fashion,Shoes,Paypal,Direct,1,110.05,0,No discount,110.05,Medium,1,Fast (1-2d),0
+O2025028,2025-06-13,C1246,Small Business,Returning,West,Borås,Fashion,Jackets,Card,Social,1,292.87,0.025,Low (1-10%),285.54825,High,2,Fast (1-2d),0
+O2025029,2025-08-15,C1067,Small Business,Returning,West,Halmstad,Sports,Fitness,Invoice,Email,1,251.89,0.021,Low (1-10%),246.60030999999998,High,4,Medium (3-5d),0
+O2025030,2025-10-29,C1219,Consumer,New,North,Stockholm,Beauty,Fragrance,Invoice,Paid Search,1,74.62,0.057,Low (1-10%),70.36666,Low,4,Medium (3-5d),0
+O2025031,2025-08-24,C1123,Small Business,Returning,East,Örebro,Sports,Cycling,Card,Organic,1,468.34,0.057,Low (1-10%),441.64462,Premium,4,Medium (3-5d),0
+O2025032,2025-03-07,C1083,Consumer,VIP,North,Västerås,Electronics,Headphones,Card,Organic,1,233.21,0.084,Low (1-10%),213.62036,High,1,Fast (1-2d),0
+O2025033,2025-05-11,C1013,Consumer,Returning,West,Halmstad,Electronics,Mobile,Invoice,Affiliate,2,414.67,0.147,Medium (11-25%),707.42702,Premium,3,Medium (3-5d),0
+O2025034,2025-01-23,C1084,Corporate,VIP,East,Linköping,Fashion,Sportswear,Invoice,Paid Search,1,58.56,0.006,Low (1-10%),58.20864,Low,4,Medium (3-5d),0
+O2025035,2025-10-22,C1206,Consumer,New,East,Örebro,Home,Decor,Invoice,Direct,1,123.8,0.107,Medium (11-25%),110.5534,Medium,5,Medium (3-5d),0
+O2025036,2025-10-20,C1164,Corporate,Returning,East,Linköping,Beauty,Haircare,Invoice,Paid Search,1,46.61,0.085,Low (1-10%),42.64815,Low,3,Medium (3-5d),0
+O2025037,2025-05-23,C1252,Corporate,Returning,North,Uppsala,Electronics,Laptop,Card,Email,1,1349.83,0.073,Low (1-10%),1251.29241,Premium,3,Medium (3-5d),0
+O2025038,2025-07-12,C1214,Corporate,Returning,South,Lund,Fashion,Shoes,Paypal,Email,1,160.73,0.063,Low (1-10%),150.60401,Medium,4,Medium (3-5d),1
+O2025039,2025-09-02,C1243,Consumer,Returning,East,Linköping,Electronics,Headphones,Invoice,Paid Search,1,49.76,0.073,Low (1-10%),46.12752,Low,4,Medium (3-5d),0
+O2025040,2025-11-18,C1228,Small Business,Returning,West,Halmstad,Fashion,Shoes,Invoice,Paid Search,1,96.19,0.112,Medium (11-25%),85.41672,Medium,1,Fast (1-2d),0
+O2025041,2025-04-09,C1221,Consumer,Returning,West,Halmstad,Beauty,Skincare,Invoice,Affiliate,1,9.17,0.085,Low (1-10%),8.390550000000001,Low,1,Fast (1-2d),0
+O2025042,2025-11-29,C1110,Corporate,Returning,East,Norrköping,Home,Furniture,Card,Email,2,601.47,0.21,Medium (11-25%),950.3226000000001,Premium,5,Medium (3-5d),0
+O2025043,2025-02-13,C1131,Small Business,Returning,North,Västerås,Electronics,Laptop,Card,Social,1,1094.44,0.079,Low (1-10%),1007.9792400000001,Premium,4,Medium (3-5d),0
+O2025044,2025-06-13,C1036,Consumer,New,North,Stockholm,Home,Furniture,Gift Card,Affiliate,2,809.42,0.128,Medium (11-25%),1411.6284799999999,Premium,5,Medium (3-5d),0
+O2025045,2025-02-05,C1229,Corporate,Returning,North,Stockholm,Fashion,Accessories,Gift Card,Direct,1,37.1,0.053,Low (1-10%),35.1337,Low,2,Fast (1-2d),0
+O2025046,2025-07-10,C1234,Consumer,New,East,Örebro,Electronics,Tablet,Invoice,Organic,1,817.81,0.02,Low (1-10%),801.4537999999999,Premium,4,Medium (3-5d),0
+O2025047,2025-10-17,C1115,Consumer,VIP,East,Linköping,Electronics,Laptop,Paypal,Organic,1,818.25,0.168,Medium (11-25%),680.784,Premium,3,Medium (3-5d),0
+O2025048,2025-08-14,C1218,Consumer,VIP,North,Västerås,Electronics,Tablet,Gift Card,Direct,1,574.82,0.181,Medium (11-25%),470.77758,Premium,1,Fast (1-2d),0
+O2025049,2025-10-18,C1224,Corporate,Returning,East,Linköping,Home,Kitchen,Card,Social,1,76.54,0.013,Low (1-10%),75.54498000000001,Low,7,Slow(6-9d),1
+O2025050,2025-04-26,C1040,Consumer,Returning,East,Linköping,Beauty,Fragrance,Card,Direct,1,91.81,0.027,Low (1-10%),89.33113,Medium,4,Medium (3-5d),1
+O2025051,2025-03-21,C1038,Consumer,Returning,North,Stockholm,Beauty,Skincare,Swish,Organic,1,54.84,0.129,Medium (11-25%),47.765640000000005,Low,1,Fast (1-2d),0
+O2025052,2025-02-16,C1090,Consumer,Returning,West,Göteborg,Home,Kitchen,Invoice,Social,2,121.12,0.056,Low (1-10%),228.67455999999999,High,6,Slow(6-9d),0
+O2025053,2025-06-09,C1045,Small Business,Returning,North,Uppsala,Home,Decor,Card,Direct,2,103.64,0.005,Low (1-10%),206.2436,High,2,Fast (1-2d),0
+O2025054,2025-01-12,C1132,Corporate,Returning,West,Borås,Beauty,Skincare,Invoice,Organic,1,43.04,0.098,Low (1-10%),38.82208,Low,3,Medium (3-5d),1
+O2025055,2025-06-27,C1155,Corporate,New,South,Helsingborg,Beauty,Fragrance,Swish,Affiliate,1,70.19,0.076,Low (1-10%),64.85556,Low,6,Slow(6-9d),0
+O2025056,2025-03-12,C1222,Consumer,Returning,East,Linköping,Home,Kitchen,Card,Email,1,91.02,0.159,Medium (11-25%),76.54781999999999,Low,5,Medium (3-5d),0
+O2025057,2025-08-30,C1127,Small Business,VIP,West,Göteborg,Sports,Outdoor,Swish,Social,1,268.75,0.11,Medium (11-25%),239.1875,High,3,Medium (3-5d),0
+O2025058,2025-02-06,C1248,Consumer,New,West,Borås,Electronics,Laptop,Swish,Social,1,1128.65,0.008,Low (1-10%),1119.6208000000001,Premium,5,Medium (3-5d),0
+O2025059,2025-04-17,C1208,Consumer,Returning,North,Stockholm,Home,Furniture,Card,Social,1,613.04,0,No discount,613.04,Premium,4,Medium (3-5d),0
+O2025060,2025-02-09,C1211,Consumer,New,North,Uppsala,Beauty,Makeup,Card,Paid Search,1,52.95,0.064,Low (1-10%),49.5612,Low,3,Medium (3-5d),0
+O2025061,2025-03-29,C1047,Consumer,Returning,East,Norrköping,Fashion,Jackets,Swish,Organic,1,70.13,0.011,Low (1-10%),69.35857,Low,6,Slow(6-9d),0
+O2025062,2025-01-09,C1225,Small Business,Returning,North,Stockholm,Fashion,Jackets,Card,Paid Search,3,148.78,0.061,Low (1-10%),419.1132600000001,Premium,1,Fast (1-2d),0
+O2025063,2025-11-21,C1127,Small Business,VIP,West,Göteborg,Fashion,Jackets,Swish,Organic,2,270.44,0.036,Low (1-10%),521.40832,Premium,2,Fast (1-2d),0
+O2025064,2025-02-13,C1231,Corporate,New,North,Uppsala,Home,Decor,Invoice,Email,1,79.08,0.133,Medium (11-25%),68.56236,Low,5,Medium (3-5d),1
+O2025065,2025-04-08,C1194,Consumer,New,North,Uppsala,Home,Furniture,Card,Organic,2,611.76,0.072,Low (1-10%),1135.42656,Premium,4,Medium (3-5d),0
+O2025066,2025-10-08,C1036,Consumer,New,North,Stockholm,Sports,Outdoor,Card,Email,1,108.56,0.005,Low (1-10%),108.0172,Medium,3,Medium (3-5d),0
+O2025067,2025-03-27,C1158,Corporate,New,North,Stockholm,Beauty,Fragrance,Gift Card,Paid Search,1,78.71,0.087,Low (1-10%),71.86223,Low,4,Medium (3-5d),0
+O2025068,2025-09-24,C1210,Small Business,New,North,Uppsala,Home,Kitchen,Card,Organic,1,157.71,0,No discount,157.71,High,2,Fast (1-2d),0
+O2025069,2025-09-30,C1192,Corporate,Returning,West,Göteborg,Home,Decor,Swish,Organic,1,90.97,0.038,Low (1-10%),87.51313999999999,Medium,6,Slow(6-9d),0
+O2025070,2025-02-17,C1052,Consumer,Returning,West,Borås,Fashion,Shoes,Card,Affiliate,2,102.38,0.085,Low (1-10%),187.3554,High,3,Medium (3-5d),1
+O2025071,2025-04-16,C1006,Consumer,VIP,East,Örebro,Home,Lighting,Card,Organic,2,176.2,0.122,Medium (11-25%),309.4072,High,6,Slow(6-9d),0
+O2025072,2025-05-24,C1238,Small Business,Returning,West,Göteborg,Beauty,Skincare,Invoice,Email,1,74.4,0.109,Medium (11-25%),66.2904,Low,3,Medium (3-5d),0
+O2025073,2025-03-25,C1041,Consumer,Returning,South,Lund,Fashion,Sportswear,Swish,Social,2,84.29,0,No discount,168.58,High,4,Medium (3-5d),0
+O2025074,2025-04-23,C1130,Consumer,VIP,South,Lund,Fashion,Sportswear,Swish,Organic,2,75.82,0.101,Medium (11-25%),136.32435999999998,Medium,3,Medium (3-5d),0
+O2025075,2025-05-25,C1087,Consumer,Returning,West,Halmstad,Sports,Team Sports,Invoice,Email,2,166.61,0.208,Medium (11-25%),263.91024000000004,High,5,Medium (3-5d),1
+O2025076,2025-08-07,C1107,Consumer,VIP,South,Malmö,Home,Decor,Card,Direct,1,45.05,0.109,Medium (11-25%),40.13955,Low,3,Medium (3-5d),0
+O2025077,2025-10-15,C1076,Consumer,New,North,Uppsala,Electronics,Headphones,Invoice,Paid Search,1,118.48,0.038,Low (1-10%),113.97776,Medium,4,Medium (3-5d),0
+O2025078,2025-10-01,C1008,Consumer,Returning,West,Borås,Beauty,Fragrance,Swish,Organic,2,74.27,0.047,Low (1-10%),141.55862,Medium,2,Fast (1-2d),0
+O2025079,2025-01-19,C1106,Consumer,Returning,North,Stockholm,Home,Lighting,Invoice,Social,1,103.6,0,No discount,103.6,Medium,4,Medium (3-5d),0
+O2025080,2025-02-14,C1116,Consumer,Returning,North,Uppsala,Electronics,Mobile,Card,Paid Search,2,146.91,0.019,Low (1-10%),288.23742,High,3,Medium (3-5d),0
+O2025081,2025-11-21,C1214,Corporate,Returning,South,Lund,Electronics,Laptop,Gift Card,Organic,1,750.58,0.085,Low (1-10%),686.7807,Premium,4,Medium (3-5d),0
+O2025082,2025-09-26,C1150,Consumer,VIP,East,Norrköping,Fashion,Jackets,Card,Social,1,159.28,0.166,Medium (11-25%),132.83952,Medium,2,Fast (1-2d),0
+O2025083,2025-11-18,C1109,Small Business,Returning,South,Helsingborg,Electronics,Tablet,Swish,Email,1,620.92,0.054,Low (1-10%),587.39032,Premium,3,Medium (3-5d),0
+O2025084,2025-03-17,C1079,Consumer,VIP,East,Linköping,Sports,Cycling,Invoice,Email,1,566.87,0.205,Medium (11-25%),450.66165,Premium,7,Slow(6-9d),0
+O2025085,2025-11-29,C1240,Consumer,Returning,South,Lund,Sports,Fitness,Card,Paid Search,2,155.43,0.009,Low (1-10%),308.06226000000004,High,5,Medium (3-5d),0
+O2025086,2025-10-31,C1193,Corporate,Returning,North,Uppsala,Beauty,Makeup,Card,Paid Search,2,28.57,0.085,Low (1-10%),52.283100000000005,Low,1,Fast (1-2d),0
+O2025087,2025-07-19,C1166,Consumer,New,South,Helsingborg,Electronics,Headphones,Invoice,Direct,1,33.82,0.089,Low (1-10%),30.81002,Low,6,Slow(6-9d),0
+O2025088,2025-08-03,C1047,Consumer,Returning,East,Norrköping,Electronics,Headphones,Card,Social,1,161.95,0.027,Low (1-10%),157.57735,High,4,Medium (3-5d),0
+O2025089,2025-01-01,C1251,Small Business,Returning,West,Borås,Home,Furniture,Card,Social,1,659.88,0.059,Low (1-10%),620.94708,Premium,4,Medium (3-5d),0
+O2025090,2025-06-29,C1220,Consumer,Returning,West,Halmstad,Home,Decor,Gift Card,Paid Search,1,89.25,0.117,Medium (11-25%),78.80775,Low,5,Medium (3-5d),0
+O2025091,2025-04-15,C1187,Consumer,Returning,North,Västerås,Electronics,Tablet,Card,Email,1,426.85,0.194,Medium (11-25%),344.04110000000003,High,2,Fast (1-2d),0
+O2025092,2025-08-01,C1207,Consumer,New,North,Stockholm,Home,Decor,Card,Social,1,87.2,0.099,Low (1-10%),78.5672,Low,3,Medium (3-5d),0
+O2025093,2025-07-19,C1137,Consumer,New,West,Borås,Beauty,Skincare,Invoice,Social,1,18.32,0.025,Low (1-10%),17.862,Low,4,Medium (3-5d),1
+O2025094,2025-04-04,C1170,Consumer,Returning,West,Halmstad,Electronics,Mobile,Card,Affiliate,1,399.76,0.016,Low (1-10%),393.36384,Premium,5,Medium (3-5d),0
+O2025095,2025-01-21,C1099,Consumer,Returning,North,Västerås,Beauty,Skincare,Invoice,Direct,1,51.24,0.049,Low (1-10%),48.72924,Low,4,Medium (3-5d),0
+O2025096,2025-02-21,C1188,Small Business,Returning,North,Uppsala,Beauty,Fragrance,Card,Email,1,121.41,0.143,Medium (11-25%),104.04836999999999,Medium,5,Medium (3-5d),0
+O2025097,2025-06-30,C1093,Small Business,Returning,West,Borås,Fashion,Shoes,Swish,Affiliate,1,116.99,0.161,Medium (11-25%),98.15460999999999,Medium,2,Fast (1-2d),0
+O2025098,2025-09-11,C1063,Consumer,Returning,North,Uppsala,Home,Kitchen,Card,Direct,1,76.97,0.064,Low (1-10%),72.04392,Low,4,Medium (3-5d),0
+O2025099,2025-07-09,C1247,Corporate,Returning,West,Halmstad,Beauty,Fragrance,Paypal,Organic,4,90.24,0.064,Low (1-10%),337.85855999999995,High,1,Fast (1-2d),0
+O2025100,2025-08-21,C1148,Consumer,Returning,East,Norrköping,Sports,Cycling,Invoice,Paid Search,2,295.7,0.01,Low (1-10%),585.486,Premium,3,Medium (3-5d),0
+O2025101,2025-01-28,C1006,Consumer,VIP,East,Örebro,Electronics,Laptop,Card,Social,1,884.2,0.064,Low (1-10%),827.6111999999999,Premium,5,Medium (3-5d),0
+O2025102,2025-10-14,C1062,Consumer,VIP,South,Helsingborg,Beauty,Skincare,Card,Organic,2,15.75,0.082,Low (1-10%),28.917,Low,2,Fast (1-2d),0
+O2025103,2025-04-05,C1107,Consumer,VIP,South,Malmö,Home,Kitchen,Paypal,Paid Search,1,93.84,0.165,Medium (11-25%),78.3564,Low,3,Medium (3-5d),0
+O2025104,2025-03-11,C1030,Small Business,Returning,North,Stockholm,Fashion,Jackets,Card,Organic,1,133.28,0.036,Low (1-10%),128.48192,Medium,2,Fast (1-2d),0
+O2025105,2025-02-21,C1140,Small Business,Returning,West,Borås,Electronics,Headphones,Card,Social,1,99.58,0.049,Low (1-10%),94.70057999999999,Medium,4,Medium (3-5d),0
+O2025106,2025-04-29,C1102,Small Business,Returning,West,Göteborg,Home,Lighting,Card,Paid Search,1,145.51,0.03,Low (1-10%),141.1447,Medium,3,Medium (3-5d),0
+O2025107,2025-07-13,C1216,Consumer,VIP,West,Halmstad,Sports,Team Sports,Gift Card,Direct,2,92.25,0.097,Low (1-10%),166.6035,High,2,Fast (1-2d),0
+O2025108,2025-04-14,C1139,Consumer,Returning,West,Borås,Beauty,Skincare,Card,Affiliate,1,35,0.024,Low (1-10%),34.16,Low,6,Slow(6-9d),0
+O2025109,2025-01-07,C1034,Small Business,Returning,East,Örebro,Fashion,Jackets,Invoice,Direct,1,199.09,0.008,Low (1-10%),197.49728,High,4,Medium (3-5d),0
+O2025110,2025-09-23,C1223,Corporate,Returning,West,Göteborg,Home,Kitchen,Card,Direct,1,100.88,0.066,Low (1-10%),94.22191999999998,Medium,4,Medium (3-5d),0
+O2025111,2025-11-09,C1146,Corporate,New,North,Uppsala,Electronics,Mobile,Card,Email,1,455.35,0.215,Medium (11-25%),357.44975000000005,High,2,Fast (1-2d),0
+O2025112,2025-02-06,C1221,Consumer,Returning,West,Halmstad,Electronics,Mobile,Card,Paid Search,1,512.02,0.213,Medium (11-25%),402.95974,Premium,4,Medium (3-5d),0
+O2025113,2025-11-25,C1235,Small Business,Returning,North,Stockholm,Sports,Team Sports,Card,Email,2,51.59,0.123,Medium (11-25%),90.48886,Medium,2,Fast (1-2d),0
+O2025114,2025-06-14,C1159,Consumer,Returning,East,Norrköping,Electronics,Laptop,Card,Email,1,605.56,0.066,Low (1-10%),565.5930399999999,Premium,3,Medium (3-5d),0
+O2025115,2025-06-02,C1100,Small Business,New,West,Göteborg,Home,Kitchen,Gift Card,Social,1,73.85,0.071,Low (1-10%),68.60665,Low,4,Medium (3-5d),0
+O2025116,2025-02-02,C1242,Small Business,New,East,Linköping,Sports,Outdoor,Swish,Paid Search,2,199.23,0.109,Medium (11-25%),355.02786,High,5,Medium (3-5d),0
+O2025117,2025-06-29,C1024,Consumer,New,West,Halmstad,Sports,Fitness,Swish,Social Media,2,301.75,0.096,Low (1-10%),545.564,Premium,4,Medium (3-5d),1
+O2025118,2025-02-04,C1195,Consumer,Returning,South,Malmö,Electronics,Laptop,Card,Organic,1,1149.64,0.104,Medium (11-25%),1030.07744,Premium,4,Medium (3-5d),0
+O2025119,2025-12-01,C1110,Corporate,Returning,East,Norrköping,Fashion,Shoes,Card,Organic,1,109.02,0.019,Low (1-10%),106.94861999999999,Medium,5,Medium (3-5d),0
+O2025120,2025-06-02,C1250,Corporate,Returning,North,Uppsala,Sports,Outdoor,Invoice,Organic,3,134.08,0.074,Low (1-10%),372.47424,Premium,3,Medium (3-5d),0
+O2025121,2025-04-26,C1068,Consumer,New,East,Linköping,Electronics,Laptop,Swish,Paid Search,1,926.43,0.052,Low (1-10%),878.2556399999999,Premium,5,Medium (3-5d),0
+O2025122,2025-07-25,C1018,Small Business,Returning,West,Göteborg,Beauty,Haircare,Invoice,Email,2,42.21,0.141,Medium (11-25%),72.51678,Low,2,Fast (1-2d),0
+O2025123,2025-09-18,C1027,Small Business,Returning,North,Stockholm,Fashion,Jackets,Card,Organic,1,200.25,0,No discount,200.25,High,2,Fast (1-2d),0
+O2025124,2025-11-15,C1084,Corporate,VIP,East,Linköping,Home,Kitchen,Card,Organic,1,133.4,0.145,Medium (11-25%),114.057,Medium,6,Slow(6-9d),0
+O2025125,2025-02-07,C1088,Consumer,New,South,Malmö,Electronics,Tablet,Card,Organic,1,552.43,0.12,Medium (11-25%),486.13839999999993,Premium,5,Medium (3-5d),0
+O2025126,2025-12-13,C1217,Small Business,New,North,Uppsala,Home,Furniture,Invoice,Email,1,341.61,0.087,Low (1-10%),311.88993000000005,High,3,Medium (3-5d),0
+O2025127,2025-12-31,C1200,Consumer,Returning,North,Uppsala,Fashion,Jackets,Card,Affiliate,1,147.19,0.074,Low (1-10%),136.29794,Medium,4,Medium (3-5d),0
+O2025128,2025-12-19,C1208,Consumer,Returning,North,Stockholm,Fashion,Jackets,Swish,Paid Search,1,170.56,0,No discount,170.56,High,3,Medium (3-5d),0
+O2025129,2025-06-12,C1196,Consumer,VIP,West,Borås,Beauty,Skincare,Swish,Direct,1,65.43,0.144,Medium (11-25%),56.00808000000001,Low,2,Fast (1-2d),0
+O2025130,2025-01-14,C1183,Small Business,New,North,Västerås,Electronics,Headphones,Card,Organic,2,174.59,0.089,Low (1-10%),318.10298,High,2,Fast (1-2d),0
+O2025131,2025-03-20,C1079,Consumer,VIP,East,Linköping,Electronics,Mobile,Gift Card,Social,1,413.44,0.116,Medium (11-25%),365.48096,High,5,Medium (3-5d),0
+O2025132,2025-09-23,C1226,Consumer,Returning,North,Västerås,Fashion,Jackets,Gift Card,Direct,1,224.23,0.009,Low (1-10%),222.21193,High,3,Medium (3-5d),0
+O2025133,2025-10-06,C1091,Corporate,VIP,South,Malmö,Electronics,Mobile,Card,Organic,1,365.34,0.152,Medium (11-25%),309.80832,High,5,Medium (3-5d),0
+O2025134,2025-10-06,C1103,Consumer,New,North,Västerås,Electronics,Tablet,Card,Paid Search,1,272.22,0.125,Medium (11-25%),238.19250000000002,High,4,Medium (3-5d),0
+O2025135,2025-02-04,C1179,Consumer,Returning,East,Örebro,Home,Decor,Swish,Organic,1,96.17,0.023,Low (1-10%),93.95809,Medium,7,Slow(6-9d),1
+O2025136,2025-07-27,C1257,Consumer,Returning,North,Uppsala,Electronics,Tablet,Card,Affiliate,1,481.37,0.074,Low (1-10%),445.74862,Premium,4,Medium (3-5d),0
+O2025137,2025-11-20,C1127,Small Business,VIP,West,Göteborg,Beauty,Makeup,Paypal,Paid Search,2,52.19,0.145,Medium (11-25%),89.2449,Medium,4,Medium (3-5d),0
+O2025138,2025-02-24,C1215,Consumer,Returning,North,Stockholm,Fashion,Jackets,Card,Email,1,232.89,0,No discount,232.89,High,3,Medium (3-5d),0
+O2025139,2025-03-19,C1156,Consumer,New,West,Göteborg,Sports,Team Sports,Card,Organic,1,102.82,0.043,Low (1-10%),98.39873999999999,Medium,7,Slow(6-9d),1
+O2025140,2025-11-06,C1087,Consumer,Returning,West,Halmstad,Sports,Team Sports,Card,Direct,1,119.35,0.012,Low (1-10%),117.9178,Medium,5,Medium (3-5d),0
+O2025141,2025-05-12,C1159,Consumer,Returning,South,Malmö,Sports,Cycling,Invoice,Organic,2,442.96,0.053,Low (1-10%),838.96624,Premium,5,Medium (3-5d),0
+O2025142,2025-07-16,C1177,Small Business,Returning,East,Linköping,Home,Furniture,Invoice,Organic,1,1075.62,0.005,Low (1-10%),1070.2419,Premium,6,Slow(6-9d),1
+O2025143,2025-07-16,C1025,Consumer,Returning,North,Uppsala,Electronics,Mobile,Swish,Organic,2,127.29,0.042,Low (1-10%),243.88764,High,3,Medium (3-5d),0
+O2025144,2025-11-22,C1186,Corporate,Returning,North,Uppsala,Home,Lighting,Card,Social,2,79.56,0.038,Low (1-10%),153.07344,High,1,Fast (1-2d),0
+O2025145,2025-09-12,C1001,Consumer,VIP,West,Halmstad,Fashion,Shoes,Invoice,Email,1,94.53,0.149,Medium (11-25%),80.44503,Low,3,Medium (3-5d),0
+O2025146,2025-03-11,C1166,Consumer,New,South,Helsingborg,Fashion,Sportswear,Invoice,Email,1,43.87,0,No discount,43.87,Low,3,Medium (3-5d),1
+O2025147,2025-07-16,C1103,Consumer,New,North,Västerås,Sports,Cycling,Card,Paid Search,2,951.35,0.101,Medium (11-25%),1710.5273,Premium,1,Fast (1-2d),0
+O2025148,2025-05-16,C1135,Consumer,Returning,North,Stockholm,Electronics,Tablet,Invoice,Direct,1,844.96,0.113,Medium (11-25%),749.4795200000001,Premium,1,Fast (1-2d),0
+O2025149,2025-02-22,C1009,Consumer,Returning,South,Helsingborg,Sports,Team Sports,Card,Email,2,65.51,0.092,Low (1-10%),118.96616000000002,Medium,4,Medium (3-5d),0
+O2025150,2025-12-28,C1143,Corporate,VIP,South,Helsingborg,Sports,Cycling,Swish,Direct,1,588.38,0.093,Low (1-10%),533.66066,Premium,3,Medium (3-5d),0
+O2025151,2025-07-01,C1171,Small Business,Returning,West,Halmstad,Fashion,Sportswear,Card,Organic,1,73.07,0,No discount,73.07,Low,1,Fast (1-2d),0
+O2025152,2025-01-08,C1058,Consumer,New,North,Stockholm,Electronics,Laptop,Paypal,Social,1,1265.49,0.023,Low (1-10%),1236.38373,Premium,4,Medium (3-5d),0
+O2025153,2025-03-01,C1246,Small Business,Returning,West,Borås,Fashion,Sportswear,Gift Card,Organic,1,111.34,0.005,Low (1-10%),110.7833,Medium,3,Medium (3-5d),0
+O2025154,2025-05-01,C1003,Corporate,Returning,East,Norrköping,Fashion,Shoes,Card,Direct,1,109.92,0.071,Low (1-10%),102.11568000000001,Medium,3,Medium (3-5d),0
+O2025155,2025-06-09,C1063,Consumer,Returning,East,Linköping,Beauty,Makeup,Card,Organic,1,66.48,0.08,Low (1-10%),61.16160000000001,Low,5,Medium (3-5d),0
+O2025156,2025-08-13,C1176,Small Business,Returning,North,Stockholm,Fashion,Accessories,Swish,Organic,1,35.98,0.072,Low (1-10%),33.38944,Low,3,Medium (3-5d),0
+O2025157,2025-08-09,C1166,Consumer,New,South,Helsingborg,Fashion,Sportswear,Card,Affiliate,1,83.97,0.133,Medium (11-25%),72.80199,Low,3,Medium (3-5d),0
+O2025158,2025-05-10,C1019,Consumer,New,South,Lund,Electronics,Headphones,Card,Paid Search,1,147.48,0.082,Low (1-10%),135.38664,Medium,4,Medium (3-5d),0
+O2025159,2025-06-12,C1224,Corporate,Returning,East,Linköping,Beauty,Skincare,Gift Card,Direct,1,66.06,0.056,Low (1-10%),62.36064,Low,4,Medium (3-5d),0
+O2025160,2025-09-15,C1195,Consumer,Returning,North,Uppsala,Home,Decor,Swish,Direct,1,43.02,0,No discount,43.02,Low,5,Medium (3-5d),0
+O2025161,2025-02-19,C1128,Consumer,Returning,North,Stockholm,Beauty,Haircare,Card,Direct,3,35.55,0.085,Low (1-10%),97.58475,Medium,2,Fast (1-2d),0
+O2025162,2025-10-28,C1185,Small Business,New,South,Lund,Home,Decor,Paypal,Paid Search,1,101,0.066,Low (1-10%),94.33399999999999,Medium,4,Medium (3-5d),0
+O2025163,2025-03-30,C1120,Small Business,New,North,Stockholm,Beauty,Makeup,Paypal,Paid Search,2,46.7,0.12,Medium (11-25%),82.19200000000001,Medium,3,Medium (3-5d),0
+O2025164,2025-03-14,C1239,Corporate,Returning,South,Helsingborg,Beauty,Fragrance,Swish,Affiliate,4,89.28,0.051,Low (1-10%),338.90688,High,5,Medium (3-5d),0
+O2025165,2025-05-30,C1147,Consumer,Returning,West,Borås,Home,Kitchen,Invoice,Organic,1,128.19,0,No discount,128.19,Medium,4,Medium (3-5d),1
+O2025166,2025-11-03,C1192,Corporate,Returning,West,Göteborg,Fashion,Accessories,Invoice,Paid Search,1,39.12,0.07,Low (1-10%),36.38159999999999,Low,4,Medium (3-5d),0
+O2025167,2025-09-11,C1193,Corporate,Returning,North,Uppsala,Sports,Cycling,Swish,Email,1,569.6,0.188,Medium (11-25%),462.51520000000005,Premium,4,Medium (3-5d),0
+O2025168,2025-11-08,C1126,Consumer,Returning,North,Stockholm,Home,Decor,Card,Direct,2,113.51,0.088,Low (1-10%),207.04224000000002,High,4,Medium (3-5d),0
+O2025169,2025-12-08,C1226,Consumer,Returning,North,Västerås,Fashion,Shoes,Paypal,Organic,2,76.51,0.152,Medium (11-25%),129.76096,Medium,2,Fast (1-2d),0
+O2025170,2025-05-22,C1208,Consumer,Returning,North,Stockholm,Home,Lighting,Invoice,Organic,1,224.33,0.017,Low (1-10%),220.51639,High,4,Medium (3-5d),0
+O2025171,2025-07-08,C1133,Small Business,VIP,North,Västerås,Home,Decor,Card,Affiliate,1,49.28,0.1,Low (1-10%),44.352000000000004,Low,4,Medium (3-5d),1
+O2025172,2025-05-30,C1183,Small Business,New,North,Västerås,Home,Kitchen,Invoice,Organic,1,139.41,0.103,Medium (11-25%),125.05077,Medium,5,Medium (3-5d),1
+O2025173,2025-04-21,C1219,Consumer,New,West,Göteborg,Sports,Team Sports,Invoice,Organic,2,50.43,0.03,Low (1-10%),97.8342,Medium,5,Medium (3-5d),0
+O2025174,2025-05-12,C1138,Consumer,New,South,Lund,Beauty,Fragrance,Swish,Social,2,111.58,0.046,Low (1-10%),212.89463999999998,High,4,Medium (3-5d),0
+O2025175,2025-08-12,C1026,Small Business,Returning,South,Malmö,Electronics,Headphones,Gift Card,Affiliate,1,169.43,0.064,Low (1-10%),158.58648,High,4,Medium (3-5d),0
+O2025176,2025-12-11,C1040,Consumer,Returning,East,Linköping,Home,Furniture,Card,Organic,1,764.86,0.082,Low (1-10%),702.14148,Premium,4,Medium (3-5d),0
+O2025177,2025-03-22,C1091,Corporate,VIP,South,Malmö,Sports,Fitness,Swish,Email,1,167.62,0.057,Low (1-10%),158.06566,High,2,Fast (1-2d),0
+O2025178,2025-09-08,C1210,Small Business,New,North,Stockholm,Fashion,Sportswear,Gift Card,Social,1,63.56,0.096,Low (1-10%),57.45824,Low,2,Fast (1-2d),0
+O2025179,2025-08-10,C1030,Small Business,Returning,North,Stockholm,Home,Decor,Card,Organic,1,73.25,0,No discount,73.25,Low,5,Medium (3-5d),1
+O2025180,2025-09-24,C1123,Small Business,Returning,East,Örebro,Fashion,Accessories,Swish,Email,1,54.58,0.152,Medium (11-25%),46.28384,Low,3,Medium (3-5d),0
+O2025181,2025-12-06,C1192,Corporate,Returning,West,Göteborg,Electronics,Tablet,Invoice,Paid Search,1,795.37,0.118,Medium (11-25%),701.51634,Premium,4,Medium (3-5d),0
+O2025182,2025-10-24,C1247,Corporate,Returning,West,Göteborg,Home,Decor,Card,Paid Search,1,73.4,0.145,Medium (11-25%),62.757000000000005,Low,4,Medium (3-5d),0
+O2025183,2025-11-20,C1060,Small Business,Returning,West,Halmstad,Home,Kitchen,Swish,Email,1,102.02,0.053,Low (1-10%),96.61294,Medium,4,Medium (3-5d),0
+O2025184,2025-03-14,C1194,Consumer,New,North,Uppsala,Home,Decor,Card,Email,1,68.91,0.152,Medium (11-25%),58.43568,Low,3,Medium (3-5d),0
+O2025185,2025-07-11,C1058,Consumer,New,North,Stockholm,Fashion,Shoes,Card,Organic,1,61.84,0.023,Low (1-10%),60.417680000000004,Low,2,Fast (1-2d),1
+O2025186,2025-02-15,C1042,Consumer,Returning,North,Uppsala,Fashion,Jackets,Gift Card,Organic,1,92.96,0,No discount,92.96,Medium,3,Medium (3-5d),0
+O2025187,2025-05-01,C1229,Corporate,Returning,North,Stockholm,Fashion,Sportswear,Card,Direct,4,64.37,0,No discount,257.48,High,3,Medium (3-5d),0
+O2025188,2025-06-09,C1242,Small Business,New,East,Linköping,Beauty,Makeup,Paypal,Organic,2,64.44,0.013,Low (1-10%),127.20456,Medium,3,Medium (3-5d),0
+O2025189,2025-05-19,C1134,Consumer,Returning,South,Malmö,Fashion,Accessories,Card,Organic,1,66.46,0.051,Low (1-10%),63.070539999999994,Low,6,Slow(6-9d),1
+O2025190,2025-11-15,C1041,Consumer,Returning,South,Lund,Electronics,Mobile,Swish,Email,1,325.99,0.025,Low (1-10%),317.84025,High,5,Medium (3-5d),0
+O2025191,2025-08-04,C1186,Corporate,Returning,North,Uppsala,Fashion,Sportswear,Card,Organic,1,59.94,0,No discount,59.94,Low,1,Fast (1-2d),0
+O2025192,2025-12-28,C1043,Corporate,New,West,Halmstad,Home,Furniture,Card,Direct,2,1000.98,0.06,Low (1-10%),1881.8424,Premium,5,Medium (3-5d),0
+O2025193,2025-04-29,C1206,Consumer,New,East,Örebro,Electronics,Headphones,Card,Direct,1,140.21,0.079,Low (1-10%),129.13341000000003,Medium,5,Medium (3-5d),0
+O2025194,2025-05-04,C1083,Consumer,VIP,North,Västerås,Fashion,Sportswear,Paypal,Organic,1,78.55,0.121,Medium (11-25%),69.04545,Low,4,Medium (3-5d),0
+O2025195,2025-03-08,C1176,Small Business,Returning,North,Stockholm,Beauty,Haircare,Invoice,Organic,1,39.29,0.113,Medium (11-25%),34.850229999999996,Low,1,Fast (1-2d),1
+O2025196,2025-12-18,C1142,Small Business,Returning,South,Helsingborg,Fashion,Accessories,Invoice,Paid Search,2,58.48,0.002,Low (1-10%),116.72608,Medium,3,Medium (3-5d),0
+O2025197,2025-10-16,C1222,Consumer,Returning,East,Linköping,Beauty,Fragrance,Card,Social,1,12.25,0.024,Low (1-10%),11.956,Low,3,Medium (3-5d),0
+O2025198,2025-05-02,C1020,Consumer,Returning,East,Linköping,Home,Kitchen,Swish,Email,2,184,0.17,Medium (11-25%),305.44,High,4,Medium (3-5d),0
+O2025199,2025-11-21,C1113,Small Business,Returning,South,Lund,Sports,Fitness,Card,Email,1,158.55,0.111,Medium (11-25%),140.95095,Medium,6,Slow(6-9d),0
+O2025200,2025-08-22,C1098,Small Business,Returning,West,Halmstad,Electronics,Laptop,Invoice,Social,1,1452.48,0.039,Low (1-10%),1395.83328,Premium,5,Medium (3-5d),0
+O2025201,2025-04-03,C1233,Corporate,Returning,West,Halmstad,Sports,Outdoor,Card,Social,1,135.1,0.132,Medium (11-25%),117.26679999999999,Medium,3,Medium (3-5d),1
+O2025202,2025-10-29,C1168,Consumer,New,East,Örebro,Fashion,Sportswear,Card,Organic,1,95.89,0.095,Low (1-10%),86.78045,Medium,5,Medium (3-5d),0
+O2025203,2025-06-30,C1042,Consumer,Returning,North,Uppsala,Fashion,Sportswear,Card,Social,1,56.12,0.064,Low (1-10%),52.528319999999994,Low,4,Medium (3-5d),0
+O2025204,2025-07-16,C1188,Small Business,Returning,North,Uppsala,Beauty,Haircare,Card,Email,1,47.72,0.242,Medium (11-25%),36.17176,Low,2,Fast (1-2d),0
+O2025205,2025-05-04,C1213,Consumer,Returning,West,Borås,Electronics,Tablet,Paypal,Direct,1,698.01,0.064,Low (1-10%),653.33736,Premium,1,Fast (1-2d),0
+O2025206,2025-02-17,C1121,Small Business,Returning,North,Stockholm,Home,Kitchen,Gift Card,Organic,1,149.43,0.051,Low (1-10%),141.80907,Medium,4,Medium (3-5d),0
+O2025207,2025-07-31,C1086,Consumer,Returning,South,Helsingborg,Electronics,Mobile,Swish,Social,1,408.49,0.09,Low (1-10%),371.7259,Premium,4,Medium (3-5d),0
+O2025208,2025-12-09,C1198,Consumer,VIP,South,Helsingborg,Home,Decor,Card,Email,1,98.07,0.17,Medium (11-25%),81.39809999999999,Low,4,Medium (3-5d),0
+O2025209,2025-04-03,C1033,Small Business,Returning,South,Helsingborg,Beauty,Skincare,Swish,Organic,3,42.91,0.064,Low (1-10%),120.49127999999999,Medium,7,Slow(6-9d),1
+O2025210,2025-06-05,C1018,Small Business,Returning,West,Göteborg,Home,Lighting,Swish,Organic,1,263.84,0.048,Low (1-10%),251.17567999999997,High,2,Fast (1-2d),0
+O2025211,2025-02-23,C1223,Corporate,Returning,West,Göteborg,Electronics,Mobile,Card,Organic,1,545.76,0.049,Low (1-10%),519.01776,Premium,3,Medium (3-5d),0
+O2025212,2025-08-07,C1121,Small Business,Returning,North,Stockholm,Beauty,Makeup,Swish,Social,1,62.54,0.077,Low (1-10%),57.72442,Low,2,Fast (1-2d),0
+O2025213,2025-10-20,C1157,Consumer,New,North,Uppsala,Sports,Fitness,Paypal,Organic,4,158.72,0.082,Low (1-10%),582.81984,Premium,3,Medium (3-5d),0
+O2025214,2025-09-17,C1162,Consumer,Returning,South,Helsingborg,Fashion,Sportswear,Swish,Organic,1,96.58,0.071,Low (1-10%),89.72282,Medium,4,Medium (3-5d),0
+O2025215,2025-04-17,C1050,Consumer,Returning,West,Borås,Fashion,Accessories,Card,Organic,1,55.31,0.062,Low (1-10%),51.88078,Low,3,Medium (3-5d),0
+O2025216,2025-10-24,C1238,Small Business,Returning,West,Göteborg,Beauty,Fragrance,Card,Organic,1,63.03,0.091,Low (1-10%),57.294270000000004,Low,5,Medium (3-5d),0
+O2025217,2025-06-02,C1253,Consumer,New,North,Uppsala,Sports,Cycling,Card,Email,1,634.49,0.122,Medium (11-25%),557.08222,Premium,4,Medium (3-5d),0
+O2025218,2025-04-16,C1180,Corporate,Returning,North,Stockholm,Sports,Team Sports,Card,Paid Search,1,90.98,0.204,Medium (11-25%),72.42008000000001,Low,2,Fast (1-2d),1
+O2025219,2025-09-05,C1133,Small Business,VIP,North,Västerås,Beauty,Skincare,Paypal,Email,1,67.18,0.076,Low (1-10%),62.07432000000001,Low,2,Fast (1-2d),0
+O2025220,2025-02-18,C1029,Consumer,VIP,West,Stockholm,Home,Kitchen,Invoice,Direct,2,151.07,0.129,Medium (11-25%),263.16393999999997,High,5,Medium (3-5d),1
+O2025221,2025-10-20,C1071,Consumer,Returning,East,Norrköping,Home,Lighting,Swish,Organic,1,194.5,0.011,Low (1-10%),192.3605,High,5,Medium (3-5d),0
+O2025222,2025-01-24,C1059,Small Business,New,South,Malmö,Sports,Outdoor,Swish,Paid Search,1,264.1,0.121,Medium (11-25%),232.14390000000003,High,3,Medium (3-5d),0
+O2025223,2025-12-14,C1046,Corporate,New,North,Stockholm,Home,Kitchen,Card,Organic,1,106.29,0.081,Low (1-10%),97.68051000000001,Medium,3,Medium (3-5d),0
+O2025224,2025-01-12,C1163,Corporate,Returning,West,Borås,Electronics,Mobile,Invoice,Paid Search,1,261.97,0.12,Medium (11-25%),230.53360000000004,High,6,Slow(6-9d),0
+O2025225,2025-06-08,C1248,Consumer,New,West,Borås,Electronics,Laptop,Card,Organic,2,871.36,0,No discount,1742.72,Premium,5,Medium (3-5d),1
+O2025226,2025-03-17,C1006,Consumer,VIP,East,Örebro,Electronics,Mobile,Card,Social,2,485.5,0.165,Medium (11-25%),810.785,Premium,3,Medium (3-5d),1
+O2025227,2025-12-07,C1025,Consumer,Returning,North,Uppsala,Electronics,Mobile,Invoice,Affiliate,1,460.43,0.152,Medium (11-25%),390.44464,Premium,4,Medium (3-5d),0
+O2025228,2025-11-20,C1131,Small Business,Returning,North,Västerås,Beauty,Makeup,Card,Email,1,38.29,0.08,Low (1-10%),35.2268,Low,3,Medium (3-5d),0
+O2025229,2025-04-11,C1234,Consumer,New,West,Göteborg,Beauty,Haircare,Swish,Paid Search,1,8,0.029,Low (1-10%),7.768,Low,5,Medium (3-5d),0
+O2025230,2025-05-01,C1102,Small Business,Returning,North,Västerås,Home,Furniture,Invoice,Paid Search,1,581.41,0.108,Medium (11-25%),518.61772,Premium,3,Medium (3-5d),0
+O2025231,2025-03-07,C1090,Consumer,Returning,West,Göteborg,Fashion,Shoes,Card,Social,1,74,0.02,Low (1-10%),72.52,Low,4,Medium (3-5d),1
+O2025232,2025-04-25,C1225,Small Business,Returning,North,Stockholm,Fashion,Sportswear,Card,Direct,1,94.24,0.078,Low (1-10%),86.88928,Medium,4,Medium (3-5d),0
+O2025233,2025-06-26,C1239,Corporate,Returning,South,Helsingborg,Electronics,Headphones,Card,Paid Search,1,149.63,0.077,Low (1-10%),138.10849,Medium,6,Slow(6-9d),0
+O2025234,2025-09-08,C1168,Consumer,New,East,Örebro,Beauty,Skincare,Swish,Social,1,26.09,0.071,Low (1-10%),24.23761,Low,5,Medium (3-5d),0
+O2025235,2025-07-01,C1235,Small Business,Returning,North,Stockholm,Sports,Outdoor,Swish,Organic,1,187.57,0.042,Low (1-10%),179.69206,High,2,Fast (1-2d),1
+O2025236,2025-07-08,C1123,Small Business,Returning,East,Örebro,Fashion,Jackets,Paypal,Affiliate,2,208.21,0.012,Low (1-10%),411.42296,Premium,4,Medium (3-5d),0
+O2025237,2025-05-07,C1040,Consumer,Returning,East,Linköping,Electronics,Tablet,Invoice,Paid Search,2,665.59,0,No discount,1331.18,Premium,4,Medium (3-5d),0
+O2025238,2025-11-17,C1257,Consumer,Returning,North,Uppsala,Electronics,Laptop,Card,Organic,1,1153.88,0,No discount,1153.88,Premium,3,Medium (3-5d),0
+O2025239,2025-01-08,C1176,Small Business,Returning,North,Stockholm,Home,Lighting,Card,Organic,1,130.81,0.065,Low (1-10%),122.30735000000001,Medium,4,Medium (3-5d),0
+O2025240,2025-10-27,C1051,Small Business,VIP,West,Halmstad,Fashion,Jackets,Swish,Social,1,191.31,0.043,Low (1-10%),183.08366999999998,High,3,Medium (3-5d),0
+O2025241,2025-10-16,C1206,Consumer,New,East,Örebro,Fashion,Sportswear,Card,Paid Search,1,106.83,0,No discount,106.83,Medium,3,Medium (3-5d),0
+O2025242,2025-04-18,C1146,Corporate,New,North,Uppsala,Sports,Fitness,Swish,Social,1,296.77,0.107,Medium (11-25%),265.01561,High,3,Medium (3-5d),0
+O2025243,2025-11-02,C1076,Consumer,New,East,Norrköping,Fashion,Jackets,Card,Social Media,2,114.71,0.078,Low (1-10%),211.52524,High,4,Medium (3-5d),0
+O2025244,2025-02-17,C1100,Small Business,New,West,Göteborg,Sports,Fitness,Swish,Affiliate,1,465.16,0.132,Medium (11-25%),403.75888000000003,Premium,6,Slow(6-9d),0
+O2025245,2025-02-15,C1256,Consumer,New,North,Uppsala,Beauty,Fragrance,Swish,Paid Search,1,90.63,0.056,Low (1-10%),85.55471999999999,Medium,5,Medium (3-5d),1
+O2025246,2025-10-03,C1154,Corporate,VIP,West,Göteborg,Fashion,Jackets,Invoice,Affiliate,1,153.55,0.093,Low (1-10%),139.26985000000002,Medium,3,Medium (3-5d),0
+O2025247,2025-01-02,C1042,Consumer,Returning,North,Uppsala,Sports,Cycling,Paypal,Email,1,727.26,0.146,Medium (11-25%),621.0800399999999,Premium,3,Medium (3-5d),0
+O2025248,2025-03-25,C1035,Consumer,New,South,Malmö,Fashion,Jackets,Paypal,Affiliate,4,238.12,0.156,Medium (11-25%),803.89312,Premium,2,Fast (1-2d),0
+O2025249,2025-04-13,C1076,Consumer,New,North,Uppsala,Fashion,Accessories,Invoice,Social,1,41.66,0.02,Low (1-10%),40.8268,Low,4,Medium (3-5d),0
+O2025250,2025-12-04,C1083,Consumer,VIP,North,Västerås,Fashion,Sportswear,Card,Social,2,97.43,0.059,Low (1-10%),183.36326000000003,High,2,Fast (1-2d),0
+O2025251,2025-08-07,C1100,Small Business,New,West,Göteborg,Home,Decor,Card,Affiliate,1,79.21,0.179,Medium (11-25%),65.03141,Low,5,Medium (3-5d),0
+O2025252,2025-09-30,C1257,Consumer,Returning,North,Uppsala,Sports,Outdoor,Swish,Email,1,228.21,0.016,Low (1-10%),224.55864,High,2,Fast (1-2d),0
+O2025253,2025-07-27,C1226,Consumer,Returning,North,Västerås,Beauty,Skincare,Card,Paid Search,1,53.92,0.034,Low (1-10%),52.08672,Low,3,Medium (3-5d),0
+O2025254,2025-06-09,C1064,Consumer,VIP,North,Uppsala,Home,Furniture,Paypal,Social,1,458.81,0.198,Medium (11-25%),367.96562,High,4,Medium (3-5d),0
+O2025255,2025-05-09,C1041,Consumer,Returning,South,Lund,Beauty,Haircare,Swish,Affiliate,1,45.36,0.121,Medium (11-25%),39.87144,Low,3,Medium (3-5d),0
+O2025256,2025-08-15,C1237,Small Business,Returning,South,Malmö,Electronics,Headphones,Invoice,Email,2,134.35,0.029,Low (1-10%),260.9077,High,5,Medium (3-5d),0
+O2025257,2025-04-06,C1209,Consumer,Returning,North,Stockholm,Home,Decor,Swish,Organic,2,64.34,0,No discount,128.68,Medium,4,Medium (3-5d),0
+O2025258,2025-01-12,C1111,Corporate,Returning,North,Stockholm,Electronics,Tablet,Card,Email,1,669.12,0.122,Medium (11-25%),587.48736,Premium,3,Medium (3-5d),1
+O2025259,2025-03-22,C1055,Corporate,New,North,Stockholm,Beauty,Skincare,Card,Organic,1,66.61,0.038,Low (1-10%),64.07882,Low,3,Medium (3-5d),0
+O2025260,2025-09-05,C1219,Consumer,New,West,Göteborg,Home,Decor,Invoice,Email,2,83.76,0.127,Medium (11-25%),146.24496000000002,Medium,4,Medium (3-5d),0
+O2025261,2025-01-01,C1044,Consumer,Returning,North,Stockholm,Fashion,Shoes,Invoice,Direct,1,194.62,0.043,Low (1-10%),186.25134,High,4,Medium (3-5d),0
+O2025262,2025-03-09,C1162,Consumer,Returning,South,Helsingborg,Sports,Fitness,Card,Organic,1,178.76,0,No discount,178.76,High,5,Medium (3-5d),0
+O2025263,2025-07-16,C1015,Small Business,Returning,West,Halmstad,Home,Furniture,Swish,Direct,1,555.65,0.064,Low (1-10%),520.0884,Premium,4,Medium (3-5d),0
+O2025264,2025-09-02,C1233,Corporate,Returning,West,Halmstad,Sports,Team Sports,Invoice,Social,3,75.42,0,No discount,226.26,High,3,Medium (3-5d),0
+O2025265,2025-10-12,C1207,Consumer,New,North,Stockholm,Home,Decor,Invoice,Direct,2,68.81,0.097,Low (1-10%),124.27086000000001,Medium,3,Medium (3-5d),0
+O2025266,2025-09-17,C1057,Small Business,VIP,South,Malmö,Sports,Outdoor,Paypal,Organic,1,240.34,0.108,Medium (11-25%),214.38328,High,6,Slow(6-9d),0
+O2025267,2025-03-16,C1065,Small Business,New,North,Uppsala,Home,Decor,Swish,Paid Search,1,80.78,0.015,Low (1-10%),79.5683,Low,2,Fast (1-2d),0
+O2025268,2025-03-15,C1073,Small Business,New,North,Västerås,Electronics,Laptop,Card,Organic,3,759.75,0.064,Low (1-10%),2133.3779999999997,Premium,2,Fast (1-2d),0
+O2025269,2025-03-23,C1087,Consumer,Returning,West,Halmstad,Fashion,Accessories,Swish,Affiliate,3,49.02,0.258,High (25%+),109.11852,Medium,5,Medium (3-5d),1
+O2025270,2025-12-10,C1210,Small Business,New,North,Uppsala,Electronics,Tablet,Invoice,Organic,2,439.43,0,No discount,878.86,Premium,2,Fast (1-2d),1
+O2025271,2025-12-05,C1090,Consumer,Returning,West,Göteborg,Home,Decor,Swish,Paid Search,1,80.54,0.056,Low (1-10%),76.02976,Low,5,Medium (3-5d),0
+O2025272,2025-04-29,C1003,Corporate,Returning,North,Stockholm,Home,Decor,Invoice,Social Media,1,96.38,0.068,Low (1-10%),89.82615999999999,Medium,5,Medium (3-5d),0
+O2025273,2025-03-07,C1218,Consumer,VIP,North,Västerås,Electronics,Mobile,Card,Paid Search,1,453.85,0.155,Medium (11-25%),383.50325,Premium,7,Slow(6-9d),0
+O2025274,2025-06-02,C1163,Corporate,Returning,West,Borås,Electronics,Headphones,Paypal,Email,1,151.56,0,No discount,151.56,Medium,5,Medium (3-5d),0
+O2025275,2025-09-21,C1203,Small Business,Returning,East,Örebro,Home,Kitchen,Swish,Organic,1,171.97,0.033,Low (1-10%),166.29498999999998,High,6,Slow(6-9d),0
+O2025276,2025-07-07,C1169,Consumer,Returning,North,Uppsala,Beauty,Fragrance,Card,Organic,2,87.53,0.064,Low (1-10%),163.85616,High,3,Medium (3-5d),0
+O2025277,2025-07-05,C1220,Consumer,Returning,West,Halmstad,Electronics,Laptop,Card,Social,2,1331.89,0,No discount,2663.78,Premium,4,Medium (3-5d),0
+O2025278,2025-01-03,C1089,Consumer,Returning,South,Lund,Home,Kitchen,Card,Paid Search,1,44.57,0.023,Low (1-10%),43.54489,Low,7,Slow(6-9d),1
+O2025279,2025-07-25,C1151,Consumer,Returning,West,Halmstad,Electronics,Tablet,Swish,Email,2,481,0.078,Low (1-10%),886.964,Premium,5,Medium (3-5d),0
+O2025280,2025-04-14,C1253,Consumer,New,East,Linköping,Beauty,Fragrance,Invoice,Social,1,70.34,0.052,Low (1-10%),66.68232,Low,5,Medium (3-5d),0
+O2025281,2025-09-29,C1080,Consumer,New,North,Stockholm,Electronics,Headphones,Invoice,Social,1,161.71,0.086,Low (1-10%),147.80294,Medium,2,Fast (1-2d),0
+O2025282,2025-03-12,C1137,Consumer,New,West,Borås,Fashion,Accessories,Card,Email,1,63.48,0.08,Low (1-10%),58.4016,Low,3,Medium (3-5d),0
+O2025283,2025-05-22,C1171,Small Business,Returning,West,Halmstad,Electronics,Tablet,Invoice,Organic,1,525.1,0.051,Low (1-10%),498.3199,Premium,4,Medium (3-5d),1
+O2025284,2025-11-13,C1024,Consumer,New,West,Halmstad,Fashion,Sportswear,Card,Paid Search,1,98.29,0,No discount,98.29,Medium,3,Medium (3-5d),0
+O2025285,2025-10-19,C1024,Consumer,New,North,Västerås,Fashion,Shoes,Card,Organic,1,113.2,0.04,Low (1-10%),108.672,Medium,2,Fast (1-2d),0
+O2025286,2025-05-03,C1249,Corporate,Returning,West,Göteborg,Sports,Fitness,Card,Direct,1,152.6,0.053,Low (1-10%),144.51219999999998,Medium,4,Medium (3-5d),0
+O2025287,2025-01-26,C1033,Small Business,Returning,South,Helsingborg,Home,Decor,Card,Paid Search,1,95.04,0.005,Low (1-10%),94.5648,Medium,5,Medium (3-5d),0
+O2025288,2025-09-19,C1051,Small Business,VIP,North,Västerås,Electronics,Mobile,Card,Organic,1,370.37,0.059,Low (1-10%),348.51817,High,1,Fast (1-2d),0
+O2025289,2025-03-21,C1018,Small Business,Returning,West,Göteborg,Fashion,Shoes,Card,Paid Search,4,87.72,0.103,Medium (11-25%),314.73936,High,1,Fast (1-2d),1
+O2025290,2025-12-28,C1173,Corporate,New,West,Halmstad,Home,Furniture,Paypal,Email,1,521.07,0.245,Medium (11-25%),393.40785000000005,Premium,4,Medium (3-5d),1
+O2025291,2025-01-25,C1128,Consumer,Returning,North,Stockholm,Electronics,Mobile,Card,Direct,1,467.42,0,No discount,467.42,Premium,4,Medium (3-5d),0
+O2025292,2025-08-12,C1211,Consumer,New,North,Uppsala,Sports,Outdoor,Paypal,Email,1,137.11,0.121,Medium (11-25%),120.51969000000001,Medium,4,Medium (3-5d),0
+O2025293,2025-09-12,C1172,Corporate,Returning,East,Norrköping,Beauty,Makeup,Card,Paid Search,1,49.73,0.08,Low (1-10%),45.751599999999996,Low,5,Medium (3-5d),0
+O2025294,2025-07-06,C1138,Consumer,New,South,Lund,Fashion,Jackets,Invoice,Direct,2,168,0.037,Low (1-10%),323.568,High,3,Medium (3-5d),0
+O2025295,2025-05-03,C1095,Corporate,New,West,Halmstad,Beauty,Skincare,Paypal,Affiliate,1,40.08,0.131,Medium (11-25%),34.829519999999995,Low,3,Medium (3-5d),0
+O2025296,2025-09-02,C1110,Corporate,Returning,East,Norrköping,Sports,Team Sports,Swish,Organic,1,63.96,0.049,Low (1-10%),60.825959999999995,Low,6,Slow(6-9d),0
+O2025297,2025-11-19,C1047,Consumer,Returning,East,Stockholm,Fashion,Accessories,Swish,Email,1,49.91,0.018,Low (1-10%),49.01161999999999,Low,3,Medium (3-5d),0
+O2025298,2025-06-03,C1043,Corporate,New,West,Halmstad,Sports,Outdoor,Invoice,Direct,1,209.84,0.012,Low (1-10%),207.32192,High,4,Medium (3-5d),1
+O2025299,2025-06-24,C1026,Small Business,Returning,South,Malmö,Beauty,Makeup,Invoice,Paid Search,1,61.43,0.141,Medium (11-25%),52.76837,Low,3,Medium (3-5d),0
+O2025300,2025-03-10,C1153,Consumer,New,North,Stockholm,Home,Decor,Swish,Social,2,91.41,0.047,Low (1-10%),174.22745999999998,High,4,Medium (3-5d),0
+O2025301,2025-08-14,C1215,Consumer,Returning,North,Stockholm,Fashion,Jackets,Card,Direct,1,102.17,0.001,Low (1-10%),102.06783,Medium,4,Medium (3-5d),0
+O2025302,2025-10-08,C1154,Corporate,VIP,West,Göteborg,Beauty,Fragrance,Swish,Paid Search,1,92.09,0.128,Medium (11-25%),80.30248,Low,6,Slow(6-9d),0
+O2025303,2025-01-19,C1111,Corporate,Returning,North,Stockholm,Fashion,Jackets,Swish,Social,1,97.83,0.033,Low (1-10%),94.60161,Medium,2,Fast (1-2d),1
+O2025304,2025-01-08,C1013,Consumer,Returning,West,Halmstad,Home,Kitchen,Card,Paid Search,1,98.34,0.113,Medium (11-25%),87.22758,Medium,5,Medium (3-5d),0
+O2025305,2025-01-20,C1001,Consumer,VIP,West,Halmstad,Electronics,Headphones,Paypal,Organic,1,190.89,0.116,Medium (11-25%),168.74676,High,4,Medium (3-5d),0
+O2025306,2025-06-14,C1185,Small Business,New,South,Lund,Fashion,Shoes,Gift Card,Social,1,67.45,0.021,Low (1-10%),66.03355,Low,3,Medium (3-5d),0
+O2025307,2025-05-07,C1159,Consumer,Returning,South,Malmö,Fashion,Accessories,Card,Social,2,44.7,0.022,Low (1-10%),87.4332,Medium,5,Medium (3-5d),1
+O2025308,2025-11-25,C1237,Small Business,Returning,South,Malmö,Electronics,Laptop,Invoice,Email,1,1304.43,0.134,Medium (11-25%),1129.6363800000001,Premium,4,Medium (3-5d),1
+O2025309,2025-09-22,C1232,Corporate,Returning,North,Uppsala,Sports,Fitness,Swish,Social,1,342.12,0.062,Low (1-10%),320.90855999999997,High,4,Medium (3-5d),0
+O2025310,2025-09-29,C1052,Consumer,Returning,West,Borås,Home,Furniture,Swish,Organic,1,594.6,0.069,Low (1-10%),553.5726000000001,Premium,3,Medium (3-5d),0
+O2025311,2025-06-14,C1121,Small Business,Returning,South,Malmö,Electronics,Tablet,Invoice,Organic,2,692.4,0.037,Low (1-10%),1333.5623999999998,Premium,3,Medium (3-5d),1
+O2025312,2025-03-21,C1121,Small Business,Returning,North,Stockholm,Electronics,Headphones,Invoice,Direct,1,171.23,0.051,Low (1-10%),162.49727,High,3,Medium (3-5d),0
+O2025313,2025-02-19,C1123,Small Business,Returning,East,Örebro,Sports,Outdoor,Swish,Organic,2,162.29,0.006,Low (1-10%),322.63252,High,3,Medium (3-5d),0
+O2025314,2025-04-07,C1119,Small Business,New,East,Stockholm,Electronics,Headphones,Card,Direct,1,100.1,0,No discount,100.1,Medium,4,Medium (3-5d),0
+O2025315,2025-07-06,C1212,Corporate,New,South,Malmö,Fashion,Jackets,Gift Card,Social,2,200.35,0.005,Low (1-10%),398.6965,Premium,3,Medium (3-5d),0
+O2025316,2025-06-04,C1024,Consumer,New,South,Malmö,Beauty,Fragrance,Invoice,Email,2,79.9,0.098,Low (1-10%),144.1396,Medium,4,Medium (3-5d),1
+O2025317,2025-04-16,C1235,Small Business,Returning,North,Stockholm,Beauty,Fragrance,Card,Organic,1,97.73,0.091,Low (1-10%),88.83657000000001,Medium,2,Fast (1-2d),0
+O2025318,2025-03-17,C1115,Consumer,VIP,East,Örebro,Fashion,Jackets,Card,Direct,1,197.03,0.107,Medium (11-25%),175.94779,High,4,Medium (3-5d),0
+O2025319,2025-09-09,C1046,Corporate,New,North,Stockholm,Fashion,Jackets,Swish,Organic,1,197.69,0.042,Low (1-10%),189.38701999999998,High,5,Medium (3-5d),0
+O2025320,2025-10-24,C1204,Small Business,New,West,Göteborg,Home,Decor,Card,Organic,1,166.78,0.057,Low (1-10%),157.27354,High,5,Medium (3-5d),0
+O2025321,2025-10-28,C1098,Small Business,Returning,West,Halmstad,Electronics,Tablet,Paypal,Paid Search,2,415.46,0.1,Low (1-10%),747.828,Premium,4,Medium (3-5d),1
+O2025322,2025-10-18,C1132,Corporate,Returning,West,Borås,Electronics,Mobile,Gift Card,Social,1,318.18,0.049,Low (1-10%),302.58918,High,4,Medium (3-5d),0
+O2025323,2025-02-15,C1115,Consumer,VIP,East,Örebro,Electronics,Tablet,Swish,Direct,1,489.32,0.08,Low (1-10%),450.1744,Premium,6,Slow(6-9d),0
+O2025324,2025-08-17,C1192,Corporate,Returning,West,Göteborg,Fashion,Sportswear,Invoice,Paid Search,4,76.93,0.046,Low (1-10%),293.56488,High,2,Fast (1-2d),0
+O2025325,2025-08-29,C1228,Small Business,Returning,West,Halmstad,Electronics,Mobile,Card,Social,1,467.35,0.025,Low (1-10%),455.66625,Premium,5,Medium (3-5d),0
+O2025326,2025-10-11,C1083,Consumer,VIP,North,Västerås,Fashion,Shoes,Swish,Organic,3,93.77,0.084,Low (1-10%),257.67996,High,2,Fast (1-2d),0
+O2025327,2025-11-04,C1068,Consumer,New,East,Linköping,Home,Decor,Card,Social,1,117.03,0.03,Low (1-10%),113.5191,Medium,4,Medium (3-5d),0
+O2025328,2025-07-05,C1005,Small Business,Returning,West,Göteborg,Fashion,Sportswear,Card,Direct,3,90.29,0.124,Medium (11-25%),237.28212,High,4,Medium (3-5d),0
+O2025329,2025-08-06,C1058,Consumer,New,North,Stockholm,Sports,Fitness,Invoice,Organic,1,259.68,0.065,Low (1-10%),242.8008,High,2,Fast (1-2d),0
+O2025330,2025-03-29,C1059,Small Business,New,South,Malmö,Home,Decor,Card,Organic,1,61.67,0.059,Low (1-10%),58.031470000000006,Low,6,Slow(6-9d),0
+O2025331,2025-03-10,C1194,Consumer,New,North,Uppsala,Beauty,Haircare,Card,Email,1,41.93,0.064,Low (1-10%),39.24648,Low,4,Medium (3-5d),0
+O2025332,2025-07-24,C1028,Consumer,VIP,East,Norrköping,Home,Kitchen,Gift Card,Affiliate,1,134.34,0.14,Medium (11-25%),115.5324,Medium,6,Slow(6-9d),0
+O2025333,2025-06-28,C1061,Small Business,Returning,North,Västerås,Fashion,Jackets,Card,Paid Search,1,132.47,0.048,Low (1-10%),126.11143999999999,Medium,5,Medium (3-5d),0
+O2025334,2025-11-12,C1039,Consumer,Returning,North,Västerås,Fashion,Sportswear,Swish,Email,1,102.55,0.144,Medium (11-25%),87.7828,Medium,1,Fast (1-2d),0
+O2025335,2025-12-29,C1095,Corporate,New,West,Halmstad,Beauty,Haircare,Swish,Social,4,16.83,0,No discount,67.32,Low,6,Slow(6-9d),0
+O2025336,2025-04-30,C1201,Consumer,Returning,West,Halmstad,Home,Lighting,Card,Direct,1,190.55,0.047,Low (1-10%),181.59415,High,6,Slow(6-9d),0
+O2025337,2025-07-14,C1006,Consumer,VIP,East,Örebro,Sports,Outdoor,Invoice,Social,1,157.49,0.118,Medium (11-25%),138.90618,Medium,3,Medium (3-5d),0
+O2025338,2025-11-10,C1048,Consumer,VIP,North,Uppsala,Home,Lighting,Card,Organic,1,157.23,0.113,Medium (11-25%),139.46301,Medium,5,Medium (3-5d),0
+O2025339,2025-08-03,C1160,Consumer,New,East,Örebro,Electronics,Tablet,Swish,Affiliate,1,601.39,0.146,Medium (11-25%),513.58706,Premium,3,Medium (3-5d),0
+O2025340,2025-11-03,C1060,Small Business,Returning,North,Västerås,Sports,Cycling,Card,Paid Search,2,381.18,0.096,Low (1-10%),689.17344,Premium,3,Medium (3-5d),0
+O2025341,2025-04-26,C1239,Corporate,Returning,East,Linköping,Fashion,Shoes,Swish,Organic,1,34.46,0.044,Low (1-10%),32.94376,Low,3,Medium (3-5d),0
+O2025342,2025-05-10,C1061,Small Business,Returning,North,Västerås,Home,Furniture,Card,Social,2,695.69,0.064,Low (1-10%),1302.33168,Premium,4,Medium (3-5d),0
+O2025343,2025-01-04,C1071,Consumer,Returning,East,Norrköping,Electronics,Headphones,Card,Paid Search,1,245.18,0.097,Low (1-10%),221.39754000000002,High,5,Medium (3-5d),1
+O2025344,2025-08-30,C1183,Small Business,New,North,Västerås,Electronics,Laptop,Card,Paid Search,2,1546.41,0.096,Low (1-10%),2795.9092800000003,Premium,4,Medium (3-5d),0
+O2025345,2025-09-29,C1255,Consumer,Returning,East,Linköping,Sports,Fitness,Card,Direct,2,258.35,0.108,Medium (11-25%),460.8964,Premium,3,Medium (3-5d),0
+O2025346,2025-07-04,C1104,Small Business,Returning,West,Göteborg,Fashion,Shoes,Invoice,Email,1,76.06,0.071,Low (1-10%),70.65974,Low,1,Fast (1-2d),0
+O2025347,2025-05-14,C1181,Consumer,New,West,Borås,Beauty,Fragrance,Card,Direct,1,61.18,0,No discount,61.18,Low,2,Fast (1-2d),0
+O2025348,2025-03-21,C1143,Corporate,VIP,South,Helsingborg,Fashion,Jackets,Paypal,Organic,1,174.56,0.112,Medium (11-25%),155.00928000000002,High,3,Medium (3-5d),1
+O2025349,2025-08-20,C1161,Small Business,Returning,West,Borås,Home,Kitchen,Card,Paid Search,1,123,0.058,Low (1-10%),115.866,Medium,5,Medium (3-5d),1
+O2025350,2025-03-13,C1221,Consumer,Returning,West,Halmstad,Electronics,Laptop,Invoice,Organic,1,725.28,0.003,Low (1-10%),723.10416,Premium,4,Medium (3-5d),0
+O2025351,2025-09-10,C1238,Small Business,Returning,West,Göteborg,Home,Lighting,Card,Organic,2,188.24,0.028,Low (1-10%),365.93856,High,6,Slow(6-9d),0
+O2025352,2025-06-19,C1028,Consumer,VIP,East,Norrköping,Electronics,Mobile,Card,Paid Search,1,463,0.138,Medium (11-25%),399.106,Premium,5,Medium (3-5d),0
+O2025353,2025-12-09,C1088,Consumer,New,South,Malmö,Home,Decor,Swish,Email,1,92.96,0.107,Medium (11-25%),83.01328,Medium,1,Fast (1-2d),1
+O2025354,2025-02-27,C1182,Small Business,Returning,East,Örebro,Beauty,Skincare,Gift Card,Social,1,53.15,0,No discount,53.15,Low,5,Medium (3-5d),0
+O2025355,2025-06-03,C1222,Consumer,Returning,East,Linköping,Fashion,Accessories,Swish,Email,2,56.41,0.109,Medium (11-25%),100.52261999999999,Medium,6,Slow(6-9d),0
+O2025356,2025-03-31,C1231,Corporate,New,North,Uppsala,Fashion,Sportswear,Card,Email,1,77.16,0.114,Medium (11-25%),68.36376,Low,2,Fast (1-2d),0
+O2025357,2025-06-21,C1206,Consumer,New,East,Örebro,Fashion,Jackets,Invoice,Email,1,229.03,0.103,Medium (11-25%),205.43991,High,4,Medium (3-5d),0
+O2025358,2025-11-25,C1048,Consumer,VIP,North,Uppsala,Fashion,Accessories,Card,Affiliate,1,27.9,0.22,Medium (11-25%),21.762,Low,2,Fast (1-2d),0
+O2025359,2025-05-28,C1238,Small Business,Returning,West,Göteborg,Home,Lighting,Card,Organic,2,189.54,0.043,Low (1-10%),362.77955999999995,High,5,Medium (3-5d),0
+O2025360,2025-11-28,C1118,Corporate,New,North,Uppsala,Electronics,Tablet,Paypal,Social,1,405.33,0.004,Low (1-10%),403.70867999999996,Premium,2,Fast (1-2d),0
+O2025361,2025-01-11,C1094,Consumer,Returning,North,Uppsala,Beauty,Skincare,Paypal,Organic,1,82.35,0.039,Low (1-10%),79.13834999999999,Low,3,Medium (3-5d),0
+O2025362,2025-07-18,C1215,Consumer,Returning,North,Stockholm,Home,Decor,Swish,Organic,1,61.38,0.022,Low (1-10%),60.02964,Low,4,Medium (3-5d),1
+O2025363,2025-01-07,C1116,Consumer,Returning,North,Uppsala,Electronics,Laptop,Gift Card,Email,1,1241.74,0.153,Medium (11-25%),1051.75378,Premium,5,Medium (3-5d),0
+O2025364,2025-12-13,C1225,Small Business,Returning,North,Stockholm,Sports,Outdoor,Card,Organic,2,229.08,0.093,Low (1-10%),415.55112,Premium,3,Medium (3-5d),0
+O2025365,2025-02-19,C1259,Consumer,Returning,North,Uppsala,Beauty,Skincare,Card,Organic,2,43.78,0.012,Low (1-10%),86.50928,Medium,1,Fast (1-2d),0
+O2025366,2025-01-30,C1106,Consumer,Returning,North,Stockholm,Fashion,Jackets,Gift Card,Paid Search,1,132.84,0.106,Medium (11-25%),118.75896,Medium,3,Medium (3-5d),0
+O2025367,2025-07-31,C1187,Consumer,Returning,North,Västerås,Fashion,Accessories,Swish,Social,2,49.03,0.057,Low (1-10%),92.47058,Medium,2,Fast (1-2d),0
+O2025368,2025-12-22,C1107,Consumer,VIP,South,Malmö,Beauty,Skincare,Card,Social,1,44.5,0.102,Medium (11-25%),39.961,Low,4,Medium (3-5d),1
+O2025369,2025-08-05,C1212,Corporate,New,South,Malmö,Beauty,Skincare,Card,Paid Search,1,59.45,0.017,Low (1-10%),58.439350000000005,Low,4,Medium (3-5d),0
+O2025370,2025-06-06,C1035,Consumer,New,South,Malmö,Electronics,Laptop,Gift Card,Organic,2,1099.08,0.073,Low (1-10%),2037.69432,Premium,4,Medium (3-5d),1
+O2025371,2025-09-24,C1143,Corporate,VIP,South,Helsingborg,Beauty,Makeup,Card,Social,1,51.79,0.067,Low (1-10%),48.32007,Low,1,Fast (1-2d),0
+O2025372,2025-12-02,C1165,Corporate,Returning,South,Lund,Home,Decor,Card,Paid Search,1,89.21,0.043,Low (1-10%),85.37396999999999,Medium,5,Medium (3-5d),0
+O2025373,2025-09-11,C1155,Corporate,New,South,Helsingborg,Fashion,Shoes,Card,Affiliate,1,75.38,0.196,Medium (11-25%),60.60552,Low,4,Medium (3-5d),0
+O2025374,2025-04-28,C1058,Consumer,New,North,Stockholm,Fashion,Accessories,Invoice,Organic,2,32.25,0.041,Low (1-10%),61.8555,Low,2,Fast (1-2d),0
+O2025375,2025-04-09,C1164,Corporate,Returning,East,Linköping,Beauty,Makeup,Card,Direct,2,28.21,0.063,Low (1-10%),52.86554,Low,2,Fast (1-2d),0
+O2025376,2025-03-21,C1121,Small Business,Returning,North,Stockholm,Beauty,Fragrance,Card,Direct,2,98.31,0.064,Low (1-10%),184.03632,High,4,Medium (3-5d),0
+O2025377,2025-04-29,C1171,Small Business,Returning,West,Halmstad,Electronics,Laptop,Swish,Email,1,948.84,0.104,Medium (11-25%),850.1606400000001,Premium,3,Medium (3-5d),0
+O2025378,2025-06-26,C1164,Corporate,Returning,East,Linköping,Home,Lighting,Card,Affiliate,1,189.03,0.06,Low (1-10%),177.6882,High,7,Slow(6-9d),0
+O2025379,2025-09-22,C1144,Consumer,Returning,North,Uppsala,Sports,Team Sports,Swish,Organic,2,133.52,0,No discount,267.04,High,1,Fast (1-2d),0
+O2025380,2025-12-09,C1061,Small Business,Returning,North,Västerås,Home,Furniture,Invoice,Organic,1,838.79,0,No discount,838.79,Premium,3,Medium (3-5d),1
+O2025381,2025-05-12,C1003,Corporate,Returning,East,Norrköping,Electronics,Laptop,Card,Organic,1,1106.14,0.121,Medium (11-25%),972.2970600000001,Premium,2,Fast (1-2d),0
+O2025382,2025-01-22,C1120,Small Business,New,North,Stockholm,Sports,Outdoor,Card,Email,2,78.28,0.131,Medium (11-25%),136.05064,Medium,2,Fast (1-2d),0
+O2025383,2025-11-30,C1144,Consumer,Returning,North,Uppsala,Electronics,Mobile,Card,Organic,1,277.5,0,No discount,277.5,High,2,Fast (1-2d),0
+O2025384,2025-12-17,C1122,Corporate,New,East,Örebro,Fashion,Jackets,Card,Organic,2,183.6,0.058,Low (1-10%),345.90239999999994,High,4,Medium (3-5d),0
+O2025385,2025-03-21,C1218,Consumer,VIP,North,Västerås,Home,Decor,Card,Social,1,48.32,0.077,Low (1-10%),44.599360000000004,Low,4,Medium (3-5d),0
+O2025386,2025-06-28,C1156,Consumer,New,West,Göteborg,Beauty,Makeup,Invoice,Social Media,2,48.39,0.09,Low (1-10%),88.0698,Medium,4,Medium (3-5d),0
+O2025387,2025-11-03,C1134,Consumer,Returning,East,Linköping,Electronics,Tablet,Card,Direct,1,717.55,0.038,Low (1-10%),690.2830999999999,Premium,5,Medium (3-5d),0
+O2025388,2025-07-11,C1056,Small Business,VIP,North,Stockholm,Home,Furniture,Swish,Organic,1,438.66,0.136,Medium (11-25%),379.00224000000003,Premium,6,Slow(6-9d),0
+O2025389,2025-11-22,C1109,Small Business,Returning,South,Helsingborg,Electronics,Headphones,Invoice,Paid Search,1,139.9,0.105,Medium (11-25%),125.21050000000001,Medium,3,Medium (3-5d),1
+O2025390,2025-10-26,C1235,Small Business,Returning,North,Stockholm,Beauty,Makeup,Card,Email,1,76.34,0.098,Low (1-10%),68.85868,Low,4,Medium (3-5d),0
+O2025391,2025-03-25,C1117,Small Business,Returning,North,Västerås,Beauty,Haircare,Swish,Email,1,35.96,0.046,Low (1-10%),34.305839999999996,Low,2,Fast (1-2d),0
+O2025392,2025-03-23,C1093,Small Business,Returning,West,Borås,Home,Furniture,Card,Direct,2,659.92,0.054,Low (1-10%),1248.56864,Premium,4,Medium (3-5d),0
+O2025393,2025-06-14,C1094,Consumer,Returning,North,Uppsala,Fashion,Shoes,Invoice,Direct,2,129.66,0.063,Low (1-10%),242.98284,High,3,Medium (3-5d),0
+O2025394,2025-09-09,C1193,Corporate,Returning,North,Uppsala,Electronics,Tablet,Card,Affiliate,1,588.59,0.006,Low (1-10%),585.0584600000001,Premium,3,Medium (3-5d),0
+O2025395,2025-01-31,C1030,Small Business,Returning,North,Stockholm,Fashion,Sportswear,Card,Social,1,91.39,0.028,Low (1-10%),88.83108,Medium,2,Fast (1-2d),0
+O2025396,2025-10-07,C1151,Consumer,Returning,West,Halmstad,Electronics,Mobile,Card,Email,2,322.17,0.024,Low (1-10%),628.87584,Premium,2,Fast (1-2d),0
+O2025397,2025-12-22,C1130,Consumer,VIP,North,Västerås,Beauty,Skincare,Paypal,Email,1,70.9,0.1,Low (1-10%),63.81000000000001,Low,1,Fast (1-2d),0
+O2025398,2025-10-10,C1125,Small Business,Returning,East,Norrköping,Home,Furniture,Card,Organic,1,1005.61,0.038,Low (1-10%),967.3968199999999,Premium,7,Slow(6-9d),0
+O2025399,2025-08-29,C1080,Consumer,New,North,Stockholm,Beauty,Makeup,Swish,Email,3,48.08,0,No discount,144.24,Medium,1,Fast (1-2d),0
+O2025400,2025-04-02,C1032,Consumer,Returning,North,Uppsala,Sports,Team Sports,Card,Organic,2,107.58,0.011,Low (1-10%),212.79324,High,3,Medium (3-5d),0
+O2025401,2025-08-17,C1252,Corporate,Returning,North,Uppsala,Home,Decor,Paypal,Organic,1,58.79,0.031,Low (1-10%),56.96751,Low,4,Medium (3-5d),0
+O2025402,2025-04-25,C1148,Consumer,Returning,East,Norrköping,Sports,Cycling,Card,Direct,2,670.23,0.09,Low (1-10%),1219.8186,Premium,4,Medium (3-5d),0
+O2025403,2025-02-14,C1258,Consumer,VIP,West,Halmstad,Electronics,Laptop,Card,Organic,1,940.36,0.156,Medium (11-25%),793.6638399999999,Premium,5,Medium (3-5d),1
+O2025404,2025-11-25,C1117,Small Business,Returning,North,Västerås,Beauty,Fragrance,Card,Email,1,45.83,0.085,Low (1-10%),41.93445,Low,4,Medium (3-5d),0
+O2025405,2025-11-29,C1089,Consumer,Returning,South,Lund,Electronics,Headphones,Card,Organic,1,242.54,0.007,Low (1-10%),240.84222,High,5,Medium (3-5d),0
+O2025406,2025-01-07,C1238,Small Business,Returning,West,Göteborg,Home,Lighting,Card,Organic,1,199.77,0.072,Low (1-10%),185.38656000000003,High,4,Medium (3-5d),0
+O2025407,2025-09-18,C1028,Consumer,VIP,East,Norrköping,Fashion,Jackets,Card,Organic,2,165.86,0.144,Medium (11-25%),283.95232000000004,High,6,Slow(6-9d),1
+O2025408,2025-05-23,C1067,Small Business,Returning,West,Halmstad,Sports,Cycling,Card,Paid Search,1,572.09,0.093,Low (1-10%),518.88563,Premium,2,Fast (1-2d),0
+O2025409,2025-11-16,C1227,Consumer,New,North,Stockholm,Electronics,Tablet,Invoice,Direct,1,314.55,0.01,Low (1-10%),311.4045,High,3,Medium (3-5d),0
+O2025410,2025-11-08,C1223,Corporate,Returning,West,Göteborg,Sports,Team Sports,Gift Card,Social,2,68.73,0.015,Low (1-10%),135.3981,Medium,1,Fast (1-2d),0
+O2025411,2025-07-30,C1246,Small Business,Returning,West,Borås,Sports,Fitness,Card,Social,1,184.11,0.081,Low (1-10%),169.19709000000003,High,6,Slow(6-9d),0
+O2025412,2025-12-10,C1198,Consumer,VIP,South,Helsingborg,Beauty,Haircare,Invoice,Paid Search,1,60.39,0.087,Low (1-10%),55.136070000000004,Low,4,Medium (3-5d),1
+O2025413,2025-03-30,C1093,Small Business,Returning,West,Borås,Home,Decor,Card,Paid Search,1,90.72,0.108,Medium (11-25%),80.92224,Low,5,Medium (3-5d),0
+O2025414,2025-02-18,C1102,Small Business,Returning,East,Linköping,Home,Kitchen,Card,Direct,1,122.85,0.031,Low (1-10%),119.04164999999999,Medium,6,Slow(6-9d),0
+O2025415,2025-04-03,C1239,Corporate,Returning,South,Helsingborg,Home,Decor,Card,Organic,2,59.99,0.055,Low (1-10%),113.3811,Medium,6,Slow(6-9d),0
+O2025416,2025-10-07,C1070,Corporate,Returning,South,Malmö,Home,Lighting,Card,Paid Search,1,219.82,0.116,Medium (11-25%),194.32088,High,2,Fast (1-2d),0
+O2025417,2025-02-16,C1173,Corporate,New,West,Halmstad,Beauty,Makeup,Paypal,Direct,2,53.51,0,No discount,107.02,Medium,2,Fast (1-2d),0
+O2025418,2025-10-02,C1074,Small Business,New,East,Linköping,Electronics,Tablet,Gift Card,Direct,1,446.92,0.012,Low (1-10%),441.55696,Premium,6,Slow(6-9d),0
+O2025419,2025-01-09,C1082,Consumer,Returning,North,Stockholm,Beauty,Fragrance,Card,Social,1,85.8,0.097,Low (1-10%),77.4774,Low,5,Medium (3-5d),0
+O2025420,2025-01-12,C1052,Consumer,Returning,West,Borås,Sports,Fitness,Card,Social,1,121,0.076,Low (1-10%),111.804,Medium,4,Medium (3-5d),0
+O2025421,2025-03-19,C1146,Corporate,New,North,Stockholm,Beauty,Skincare,Card,Email,1,41.44,0.063,Low (1-10%),38.82928,Low,4,Medium (3-5d),0
+O2025422,2025-06-19,C1067,Small Business,Returning,West,Halmstad,Electronics,Mobile,Card,Email,1,657.04,0.04,Low (1-10%),630.7583999999999,Premium,5,Medium (3-5d),0
+O2025423,2025-02-10,C1201,Consumer,Returning,West,Halmstad,Electronics,Headphones,Card,Direct,1,208.82,0.137,Medium (11-25%),180.21166,High,4,Medium (3-5d),0
+O2025424,2025-09-23,C1198,Consumer,VIP,East,Örebro,Fashion,Sportswear,Card,Social,2,117.67,0.21,Medium (11-25%),185.9186,High,4,Medium (3-5d),0
+O2025425,2025-12-13,C1095,Corporate,New,West,Halmstad,Beauty,Haircare,Card,Organic,1,40.9,0.083,Low (1-10%),37.5053,Low,4,Medium (3-5d),0
+O2025426,2025-04-14,C1249,Corporate,Returning,West,Göteborg,Beauty,Makeup,Invoice,Organic,1,35.39,0.121,Medium (11-25%),31.10781,Low,2,Fast (1-2d),0
+O2025427,2025-05-09,C1160,Consumer,New,East,Örebro,Fashion,Accessories,Card,Social,1,70.31,0.072,Low (1-10%),65.24768,Low,5,Medium (3-5d),1
+O2025428,2025-04-27,C1210,Small Business,New,North,Uppsala,Electronics,Tablet,Gift Card,Organic,1,538.74,0.097,Low (1-10%),486.48222000000004,Premium,4,Medium (3-5d),1
+O2025429,2025-07-09,C1239,Corporate,Returning,South,Helsingborg,Fashion,Shoes,Card,Organic,4,103.02,0,No discount,412.08,Premium,4,Medium (3-5d),0
+O2025430,2025-10-10,C1228,Small Business,Returning,West,Halmstad,Home,Decor,Card,Organic,1,92.29,0.113,Medium (11-25%),81.86123,Low,4,Medium (3-5d),0
+O2025431,2025-09-30,C1080,Consumer,New,North,Stockholm,Electronics,Headphones,Card,Direct,1,179.21,0.064,Low (1-10%),167.74056,High,3,Medium (3-5d),0
+O2025432,2025-07-04,C1041,Consumer,Returning,South,Lund,Fashion,Accessories,Gift Card,Organic,1,67.91,0.029,Low (1-10%),65.94060999999999,Low,2,Fast (1-2d),0
+O2025433,2025-08-14,C1148,Consumer,Returning,East,Norrköping,Home,Furniture,Card,Direct,1,813.21,0.087,Low (1-10%),742.46073,Premium,3,Medium (3-5d),0
+O2025434,2025-06-06,C1211,Consumer,New,North,Uppsala,Beauty,Haircare,Card,Social,2,37.84,0.041,Low (1-10%),72.57712000000001,Low,1,Fast (1-2d),0
+O2025435,2025-01-06,C1155,Corporate,New,South,Helsingborg,Fashion,Accessories,Card,Social,4,20.35,0.03,Low (1-10%),78.958,Low,2,Fast (1-2d),0
+O2025436,2025-04-16,C1160,Consumer,New,East,Örebro,Beauty,Skincare,Card,Social,1,43.72,0.08,Low (1-10%),40.2224,Low,7,Slow(6-9d),1
+O2025437,2025-04-08,C1045,Small Business,Returning,North,Uppsala,Home,Decor,Card,Direct,1,70.27,0.059,Low (1-10%),66.12407,Low,4,Medium (3-5d),0
+O2025438,2025-08-30,C1220,Consumer,Returning,West,Halmstad,Beauty,Makeup,Swish,Social,2,23.97,0.046,Low (1-10%),45.734759999999994,Low,3,Medium (3-5d),0
+O2025439,2025-09-27,C1186,Corporate,Returning,North,Uppsala,Fashion,Shoes,Swish,Paid Search,1,154.61,0.098,Low (1-10%),139.45822,Medium,3,Medium (3-5d),0
+O2025440,2025-04-18,C1062,Consumer,VIP,South,Helsingborg,Home,Decor,Card,Paid Search,1,121.92,0.105,Medium (11-25%),109.11840000000001,Medium,4,Medium (3-5d),0
+O2025441,2025-06-06,C1144,Consumer,Returning,West,Borås,Sports,Outdoor,Swish,Email,1,121,0.101,Medium (11-25%),108.779,Medium,5,Medium (3-5d),0
+O2025442,2025-01-31,C1217,Small Business,New,North,Uppsala,Electronics,Headphones,Card,Social,1,164.73,0.018,Low (1-10%),161.76486,High,4,Medium (3-5d),0
+O2025443,2025-06-11,C1021,Consumer,Returning,North,Stockholm,Fashion,Shoes,Card,Organic,1,92.74,0.01,Low (1-10%),91.81259999999999,Medium,3,Medium (3-5d),0
+O2025444,2025-06-28,C1012,Small Business,Returning,East,Norrköping,Home,Furniture,Card,Social,2,752.72,0,No discount,1505.44,Premium,4,Medium (3-5d),0
+O2025445,2025-10-18,C1072,Consumer,New,North,Västerås,Fashion,Shoes,Card,Email,1,75.44,0.052,Low (1-10%),71.51711999999999,Low,4,Medium (3-5d),1
+O2025446,2025-10-13,C1194,Consumer,New,North,Uppsala,Electronics,Laptop,Card,Social,1,920.23,0.047,Low (1-10%),876.97919,Premium,4,Medium (3-5d),0
+O2025447,2025-07-12,C1252,Corporate,Returning,North,Uppsala,Home,Decor,Card,Direct,1,88.31,0,No discount,88.31,Medium,4,Medium (3-5d),0
+O2025448,2025-11-03,C1225,Small Business,Returning,North,Stockholm,Electronics,Headphones,Card,Organic,1,170.52,0.033,Low (1-10%),164.89284,High,4,Medium (3-5d),0
+O2025449,2025-08-02,C1022,Small Business,Returning,West,Halmstad,Beauty,Skincare,Paypal,Organic,2,62.41,0,No discount,124.82,Medium,2,Fast (1-2d),0
+O2025450,2025-01-17,C1025,Consumer,Returning,West,Borås,Home,Decor,Invoice,Organic,2,45.9,0.037,Low (1-10%),88.40339999999999,Medium,5,Medium (3-5d),0
+O2025451,2025-12-18,C1178,Consumer,VIP,South,Malmö,Electronics,Headphones,Swish,Organic,3,116.71,0.092,Low (1-10%),317.91804,High,5,Medium (3-5d),0
+O2025452,2025-10-29,C1259,Consumer,Returning,North,Uppsala,Fashion,Sportswear,Card,Organic,1,101.01,0.089,Low (1-10%),92.02011,Medium,2,Fast (1-2d),0
+O2025453,2025-10-01,C1040,Consumer,Returning,East,Linköping,Fashion,Sportswear,Swish,Social,3,87.54,0.044,Low (1-10%),251.06472,High,4,Medium (3-5d),0
+O2025454,2025-09-01,C1131,Small Business,Returning,North,Västerås,Beauty,Skincare,Card,Organic,3,68.88,0.036,Low (1-10%),199.20095999999998,High,3,Medium (3-5d),0
+O2025455,2025-04-29,C1158,Corporate,New,North,Stockholm,Fashion,Jackets,Swish,Direct,1,231.44,0.079,Low (1-10%),213.15624,High,1,Fast (1-2d),0
+O2025456,2025-03-29,C1245,Consumer,Returning,West,Halmstad,Home,Kitchen,Card,Direct,2,157.52,0.058,Low (1-10%),296.76768,High,6,Slow(6-9d),1
+O2025457,2025-09-10,C1184,Small Business,Returning,North,Västerås,Sports,Team Sports,Paypal,Paid Search,4,128.89,0.028,Low (1-10%),501.12431999999995,Premium,1,Fast (1-2d),0
+O2025458,2025-02-01,C1252,Corporate,Returning,North,Uppsala,Fashion,Sportswear,Card,Organic,2,74.65,0.027,Low (1-10%),145.2689,Medium,3,Medium (3-5d),0
+O2025459,2025-08-10,C1235,Small Business,Returning,North,Stockholm,Home,Lighting,Invoice,Paid Search,1,155.23,0.038,Low (1-10%),149.33126,Medium,5,Medium (3-5d),0
+O2025460,2025-06-01,C1095,Corporate,New,West,Halmstad,Fashion,Shoes,Invoice,Social,1,92.22,0.049,Low (1-10%),87.70121999999999,Medium,4,Medium (3-5d),1
+O2025461,2025-05-02,C1091,Corporate,VIP,South,Malmö,Sports,Outdoor,Card,Organic,2,297.28,0.075,Low (1-10%),549.968,Premium,6,Slow(6-9d),0
+O2025462,2025-11-05,C1134,Consumer,Returning,South,Malmö,Home,Lighting,Card,Paid Search,1,172.44,0,No discount,172.44,High,4,Medium (3-5d),0
+O2025463,2025-01-28,C1051,Small Business,VIP,East,Örebro,Home,Decor,Gift Card,Direct,1,95.77,0.163,Medium (11-25%),80.15948999999999,Low,1,Fast (1-2d),0
+O2025464,2025-04-09,C1176,Small Business,Returning,North,Stockholm,Electronics,Tablet,Invoice,Affiliate,1,485.24,0.109,Medium (11-25%),432.34884,Premium,4,Medium (3-5d),0
+O2025465,2025-06-21,C1156,Consumer,New,West,Halmstad,Sports,Cycling,Card,Social,1,412.91,0.095,Low (1-10%),373.68355,Premium,3,Medium (3-5d),0
+O2025466,2025-07-30,C1031,Corporate,Returning,North,Stockholm,Electronics,Mobile,Card,Social,1,511.88,0.064,Low (1-10%),479.11967999999996,Premium,4,Medium (3-5d),0
+O2025467,2025-06-24,C1185,Small Business,New,South,Lund,Electronics,Tablet,Card,Affiliate,1,604.34,0.169,Medium (11-25%),502.20654,Premium,3,Medium (3-5d),0
+O2025468,2025-07-15,C1220,Consumer,Returning,West,Göteborg,Beauty,Skincare,Card,Affiliate,1,44.28,0.108,Medium (11-25%),39.49776,Low,3,Medium (3-5d),0
+O2025469,2025-04-08,C1229,Corporate,Returning,North,Stockholm,Fashion,Accessories,Invoice,Organic,1,61.66,0.045,Low (1-10%),58.885299999999994,Low,3,Medium (3-5d),0
+O2025470,2025-04-17,C1167,Small Business,New,South,Helsingborg,Beauty,Fragrance,Swish,Organic,1,65.57,0.061,Low (1-10%),61.570229999999995,Low,2,Fast (1-2d),0
+O2025471,2025-07-02,C1213,Consumer,Returning,West,Borås,Beauty,Skincare,Card,Email,4,37.12,0.085,Low (1-10%),135.8592,Medium,3,Medium (3-5d),0
+O2025472,2025-01-17,C1147,Consumer,Returning,West,Borås,Beauty,Makeup,Swish,Organic,2,64.77,0.002,Low (1-10%),129.28091999999998,Medium,3,Medium (3-5d),1
+O2025473,2025-07-16,C1173,Corporate,New,West,Halmstad,Fashion,Sportswear,Card,Organic,1,111.59,0.029,Low (1-10%),108.35389,Medium,4,Medium (3-5d),1
+O2025474,2025-05-07,C1109,Small Business,Returning,South,Helsingborg,Electronics,Headphones,Swish,Email,1,66.58,0.252,High (25%+),49.80184,Low,4,Medium (3-5d),0
+O2025475,2025-05-08,C1161,Small Business,Returning,West,Borås,Home,Kitchen,Card,Direct,1,40.85,0.039,Low (1-10%),39.25685,Low,3,Medium (3-5d),0
+O2025476,2025-01-18,C1003,Corporate,Returning,East,Norrköping,Fashion,Accessories,Card,Social,2,55.99,0.063,Low (1-10%),104.92526000000001,Medium,4,Medium (3-5d),0
+O2025477,2025-12-15,C1125,Small Business,Returning,East,Norrköping,Sports,Cycling,Invoice,Email,2,835.92,0.179,Medium (11-25%),1372.58064,Premium,6,Slow(6-9d),0
+O2025478,2025-12-18,C1132,Corporate,Returning,West,Borås,Fashion,Jackets,Swish,Paid Search,1,139.62,0.136,Medium (11-25%),120.63168,Medium,4,Medium (3-5d),0
+O2025479,2025-05-22,C1197,Consumer,VIP,North,Uppsala,Electronics,Mobile,Swish,Organic,1,553.27,0.184,Medium (11-25%),451.46832,Premium,5,Medium (3-5d),0
+O2025480,2025-08-17,C1134,Consumer,Returning,South,Malmö,Beauty,Fragrance,Card,Organic,2,115.29,0.076,Low (1-10%),213.05592000000001,High,3,Medium (3-5d),0
+O2025481,2025-01-18,C1118,Corporate,New,North,Uppsala,Electronics,Tablet,Card,Email,2,519.66,0.126,Medium (11-25%),908.36568,Premium,4,Medium (3-5d),1
+O2025482,2025-12-29,C1195,Consumer,Returning,South,Malmö,Fashion,Sportswear,Card,Organic,1,93.79,0.042,Low (1-10%),89.85082,Medium,2,Fast (1-2d),0
+O2025483,2025-01-20,C1220,Consumer,Returning,West,Halmstad,Electronics,Laptop,Paypal,Affiliate,1,1232,0.108,Medium (11-25%),1098.944,Premium,4,Medium (3-5d),1
+O2025484,2025-01-14,C1240,Consumer,Returning,South,Lund,Beauty,Makeup,Card,Email,1,29.11,0.154,Medium (11-25%),24.62706,Low,4,Medium (3-5d),1
+O2025485,2025-01-11,C1047,Consumer,Returning,East,Norrköping,Fashion,Accessories,Card,Affiliate,1,27.58,0.115,Medium (11-25%),24.408299999999997,Low,5,Medium (3-5d),1
+O2025486,2025-08-17,C1245,Consumer,Returning,West,Halmstad,Fashion,Shoes,Card,Social,1,46.18,0.082,Low (1-10%),42.39324,Low,7,Slow(6-9d),0
+O2025487,2025-03-06,C1252,Corporate,Returning,North,Uppsala,Electronics,Mobile,Card,Paid Search,1,435.57,0,No discount,435.57,Premium,5,Medium (3-5d),0
+O2025488,2025-07-16,C1229,Corporate,Returning,North,Stockholm,Electronics,Tablet,Card,Organic,1,720.99,0.045,Low (1-10%),688.54545,Premium,5,Medium (3-5d),0
+O2025489,2025-01-27,C1198,Consumer,VIP,South,Helsingborg,Electronics,Headphones,Swish,Email,1,156.3,0.05,Low (1-10%),148.485,Medium,3,Medium (3-5d),0
+O2025490,2025-11-12,C1132,Corporate,Returning,South,Malmö,Electronics,Mobile,Card,Email,1,362.23,0,No discount,362.23,High,5,Medium (3-5d),0
+O2025491,2025-04-15,C1225,Small Business,Returning,North,Stockholm,Electronics,Mobile,Invoice,Social,1,613.61,0.049,Low (1-10%),583.54311,Premium,3,Medium (3-5d),0
+O2025492,2025-09-25,C1238,Small Business,Returning,West,Göteborg,Sports,Outdoor,Card,Paid Search,1,176.81,0.105,Medium (11-25%),158.24495000000002,High,4,Medium (3-5d),1
+O2025493,2025-09-21,C1078,Small Business,Returning,South,Helsingborg,Fashion,Sportswear,Swish,Direct,1,119.81,0,No discount,119.81,Medium,3,Medium (3-5d),0
+O2025494,2025-08-30,C1255,Consumer,Returning,East,Linköping,Home,Lighting,Card,Social,1,49.89,0.098,Low (1-10%),45.00078,Low,6,Slow(6-9d),1
+O2025495,2025-06-06,C1253,Consumer,New,North,Uppsala,Sports,Cycling,Card,Social,1,831.48,0,No discount,831.48,Premium,1,Fast (1-2d),0
+O2025496,2025-03-20,C1035,Consumer,New,South,Malmö,Fashion,Sportswear,Card,Organic,1,69.49,0.12,Medium (11-25%),61.151199999999996,Low,3,Medium (3-5d),0
+O2025497,2025-01-17,C1080,Consumer,New,North,Stockholm,Electronics,Headphones,Card,Email,1,165.97,0.048,Low (1-10%),158.00343999999998,High,4,Medium (3-5d),0
+O2025498,2025-05-06,C1099,Consumer,Returning,North,Västerås,Home,Kitchen,Card,Organic,1,148.77,0,No discount,148.77,Medium,2,Fast (1-2d),0
+O2025499,2025-02-26,C1012,Small Business,Returning,East,Norrköping,Electronics,Mobile,Card,Paid Search,1,312.69,0.064,Low (1-10%),292.67784,High,2,Fast (1-2d),0
+O2025500,2025-10-27,C1058,Consumer,New,North,Stockholm,Electronics,Headphones,Swish,Paid Search,1,288.72,0.006,Low (1-10%),286.98768,High,3,Medium (3-5d),0
+O2025501,2025-06-03,C1037,Consumer,VIP,West,Borås,Beauty,Skincare,Swish,Email,3,72.97,0.085,Low (1-10%),200.30265,High,2,Fast (1-2d),0
+O2025502,2025-04-18,C1237,Small Business,Returning,South,Malmö,Fashion,Sportswear,Card,Direct,1,69.81,0.046,Low (1-10%),66.59873999999999,Low,3,Medium (3-5d),0
+O2025503,2025-02-10,C1096,Consumer,Returning,East,Stockholm,Electronics,Mobile,Card,Paid Search,1,540.21,0.056,Low (1-10%),509.95824,Premium,3,Medium (3-5d),0
+O2025504,2025-01-11,C1170,Consumer,Returning,West,Halmstad,Electronics,Headphones,Card,Email,1,171.49,0.012,Low (1-10%),169.43212,High,5,Medium (3-5d),0
+O2025505,2025-03-18,C1251,Small Business,Returning,West,Borås,Beauty,Haircare,Card,Direct,3,39.26,0.078,Low (1-10%),108.59316000000001,Medium,3,Medium (3-5d),0
+O2025506,2025-09-20,C1198,Consumer,VIP,South,Helsingborg,Electronics,Laptop,Swish,Organic,1,1025.26,0.061,Low (1-10%),962.71914,Premium,4,Medium (3-5d),0
+O2025507,2025-01-25,C1090,Consumer,Returning,West,Göteborg,Electronics,Laptop,Invoice,Social,2,1171.65,0.021,Low (1-10%),2294.0907,Premium,6,Slow(6-9d),0
+O2025508,2025-11-05,C1166,Consumer,New,South,Helsingborg,Home,Decor,Card,Paid Search,2,118.15,0.01,Low (1-10%),233.937,High,7,Slow(6-9d),0
+O2025509,2025-01-25,C1064,Consumer,VIP,North,Uppsala,Beauty,Makeup,Card,Email,1,31.73,0.023,Low (1-10%),31.00021,Low,2,Fast (1-2d),0
+O2025510,2025-07-05,C1137,Consumer,New,West,Borås,Beauty,Fragrance,Gift Card,Social,1,72.48,0,No discount,72.48,Low,3,Medium (3-5d),0
+O2025511,2025-02-07,C1198,Consumer,VIP,South,Helsingborg,Home,Lighting,Invoice,Paid Search,1,122.57,0.078,Low (1-10%),113.00954,Medium,5,Medium (3-5d),0
+O2025512,2025-07-02,C1112,Small Business,Returning,North,Stockholm,Home,Furniture,Swish,Paid Search,1,975.74,0.064,Low (1-10%),913.29264,Premium,3,Medium (3-5d),0
+O2025513,2025-04-28,C1182,Small Business,Returning,East,Örebro,Electronics,Laptop,Card,Paid Search,2,934.59,0.144,Medium (11-25%),1600.01808,Premium,4,Medium (3-5d),0
+O2025514,2025-04-19,C1159,Consumer,Returning,South,Malmö,Home,Furniture,Card,Organic,1,946.64,0.04,Low (1-10%),908.7743999999999,Premium,6,Slow(6-9d),1
+O2025515,2025-05-18,C1156,Consumer,New,West,Göteborg,Sports,Outdoor,Card,Organic,1,117.43,0.039,Low (1-10%),112.85023,Medium,3,Medium (3-5d),0
+O2025516,2025-02-26,C1030,Small Business,Returning,North,Stockholm,Electronics,Headphones,Swish,Organic,1,288.82,0.069,Low (1-10%),268.89142,High,5,Medium (3-5d),0
+O2025517,2025-12-06,C1040,Consumer,Returning,East,Linköping,Electronics,Mobile,Swish,Paid Search,1,301.97,0.054,Low (1-10%),285.66362000000004,High,4,Medium (3-5d),1
+O2025518,2025-11-17,C1073,Small Business,New,North,Västerås,Fashion,Shoes,Card,Paid Search,1,102.91,0.097,Low (1-10%),92.92773,Medium,7,Slow(6-9d),0
+O2025519,2025-02-14,C1131,Small Business,Returning,North,Västerås,Beauty,Skincare,Swish,Affiliate,1,65.14,0.031,Low (1-10%),63.12066,Low,3,Medium (3-5d),0
+O2025520,2025-07-29,C1132,Corporate,Returning,West,Borås,Sports,Outdoor,Card,Paid Search,1,151.75,0.042,Low (1-10%),145.3765,Medium,2,Fast (1-2d),0
+O2025521,2025-02-06,C1188,Small Business,Returning,North,Uppsala,Sports,Team Sports,Invoice,Email,2,73.47,0.159,Medium (11-25%),123.57654,Medium,6,Slow(6-9d),0
+O2025522,2025-03-24,C1207,Consumer,New,North,Stockholm,Beauty,Makeup,Swish,Organic,1,66.32,0.062,Low (1-10%),62.20815999999999,Low,5,Medium (3-5d),0
+O2025523,2025-09-11,C1196,Consumer,VIP,West,Borås,Beauty,Fragrance,Swish,Organic,4,71.94,0.134,Medium (11-25%),249.20015999999998,High,7,Slow(6-9d),0
+O2025524,2025-09-26,C1170,Consumer,Returning,West,Halmstad,Electronics,Headphones,Invoice,Paid Search,2,189.88,0,No discount,379.76,Premium,1,Fast (1-2d),0
+O2025525,2025-01-25,C1085,Small Business,Returning,West,Halmstad,Beauty,Fragrance,Invoice,Organic,1,92.93,0.088,Low (1-10%),84.75216,Medium,4,Medium (3-5d),0
+O2025526,2025-10-10,C1202,Small Business,Returning,South,Helsingborg,Electronics,Mobile,Card,Social,1,668.45,0.032,Low (1-10%),647.0596,Premium,5,Medium (3-5d),0
+O2025527,2025-05-11,C1011,Small Business,Returning,East,Linköping,Home,Furniture,Card,Paid Search,1,693.09,0.053,Low (1-10%),656.35623,Premium,8,Slow(6-9d),0
+O2025528,2025-12-31,C1199,Small Business,Returning,North,Västerås,Electronics,Mobile,Swish,Paid Search,1,365.95,0.077,Low (1-10%),337.77185000000003,High,1,Fast (1-2d),0
+O2025529,2025-09-19,C1134,Consumer,Returning,South,Malmö,Beauty,Fragrance,Paypal,Email,1,49.89,0.189,Medium (11-25%),40.460789999999996,Low,2,Fast (1-2d),1
+O2025530,2025-01-13,C1208,Consumer,Returning,North,Stockholm,Beauty,Skincare,Card,Organic,1,54.82,0.087,Low (1-10%),50.05066,Low,1,Fast (1-2d),0
+O2025531,2025-08-07,C1113,Small Business,Returning,South,Lund,Fashion,Sportswear,Invoice,Social,1,84.93,0.03,Low (1-10%),82.38210000000001,Medium,2,Fast (1-2d),0
+O2025532,2025-07-03,C1059,Small Business,New,South,Malmö,Sports,Cycling,Invoice,Affiliate,3,617.05,0.182,Medium (11-25%),1514.2407,Premium,3,Medium (3-5d),0
+O2025533,2025-09-29,C1066,Consumer,VIP,East,Örebro,Fashion,Sportswear,Swish,Paid Search,1,131.61,0.182,Medium (11-25%),107.65698000000002,Medium,4,Medium (3-5d),1
+O2025534,2025-01-30,C1102,Small Business,Returning,North,Västerås,Electronics,Laptop,Card,Direct,1,1373.22,0.064,Low (1-10%),1285.33392,Premium,4,Medium (3-5d),0
+O2025535,2025-05-31,C1066,Consumer,VIP,West,Göteborg,Electronics,Mobile,Card,Affiliate,1,365.57,0.136,Medium (11-25%),315.85248,High,3,Medium (3-5d),0
+O2025536,2025-12-26,C1064,Consumer,VIP,North,Uppsala,Electronics,Mobile,Card,Paid Search,2,374.95,0.168,Medium (11-25%),623.9168,Premium,3,Medium (3-5d),1
+O2025537,2025-08-17,C1229,Corporate,Returning,North,Stockholm,Sports,Outdoor,Card,Organic,1,292.01,0.11,Medium (11-25%),259.8889,High,1,Fast (1-2d),0
+O2025538,2025-04-06,C1194,Consumer,New,North,Uppsala,Electronics,Laptop,Card,Direct,1,1038.1,0.026,Low (1-10%),1011.1093999999999,Premium,6,Slow(6-9d),0
+O2025539,2025-07-03,C1136,Consumer,Returning,West,Halmstad,Home,Furniture,Card,Paid Search,2,972.32,0.068,Low (1-10%),1812.40448,Premium,5,Medium (3-5d),0
+O2025540,2025-08-07,C1243,Consumer,Returning,East,Linköping,Sports,Outdoor,Card,Affiliate,1,277.58,0.145,Medium (11-25%),237.33089999999999,High,4,Medium (3-5d),0
+O2025541,2025-08-23,C1177,Small Business,Returning,East,Linköping,Fashion,Sportswear,Paypal,Organic,1,70.77,0,No discount,70.77,Low,2,Fast (1-2d),0
+O2025542,2025-11-22,C1082,Consumer,Returning,North,Stockholm,Beauty,Makeup,Card,Paid Search,1,59.29,0.08,Low (1-10%),54.546800000000005,Low,4,Medium (3-5d),0
+O2025543,2025-01-10,C1072,Consumer,New,North,Västerås,Electronics,Laptop,Gift Card,Social,1,1388.17,0.096,Low (1-10%),1254.90568,Premium,2,Fast (1-2d),0
+O2025544,2025-09-21,C1113,Small Business,Returning,South,Lund,Fashion,Shoes,Card,Affiliate,1,133.78,0.098,Low (1-10%),120.66956,Medium,4,Medium (3-5d),0
+O2025545,2025-08-17,C1192,Corporate,Returning,West,Göteborg,Fashion,Jackets,Card,Email,1,163.7,0.138,Medium (11-25%),141.1094,Medium,3,Medium (3-5d),1
+O2025546,2025-06-14,C1065,Small Business,New,North,Uppsala,Fashion,Jackets,Swish,Affiliate,2,147.45,0.17,Medium (11-25%),244.76699999999997,High,1,Fast (1-2d),1
+O2025547,2025-12-01,C1155,Corporate,New,South,Helsingborg,Home,Kitchen,Card,Organic,1,101.67,0,No discount,101.67,Medium,3,Medium (3-5d),0
+O2025548,2025-08-07,C1200,Consumer,Returning,North,Uppsala,Electronics,Laptop,Card,Direct,1,1064.57,0.051,Low (1-10%),1010.2769299999999,Premium,2,Fast (1-2d),0
+O2025549,2025-04-14,C1107,Consumer,VIP,South,Malmö,Electronics,Laptop,Swish,Email,2,968.95,0.07,Low (1-10%),1802.247,Premium,6,Slow(6-9d),0
+O2025550,2025-08-04,C1069,Consumer,Returning,West,Halmstad,Fashion,Jackets,Card,Paid Search,1,102.78,0.101,Medium (11-25%),92.39922,Medium,2,Fast (1-2d),0
+O2025551,2025-07-03,C1187,Consumer,Returning,North,Västerås,Home,Decor,Card,Paid Search,1,87.04,0.04,Low (1-10%),83.5584,Medium,4,Medium (3-5d),0
+O2025552,2025-08-14,C1090,Consumer,Returning,West,Göteborg,Sports,Outdoor,Swish,Paid Search,1,181.99,0.043,Low (1-10%),174.16443,High,2,Fast (1-2d),0
+O2025553,2025-06-27,C1105,Consumer,VIP,West,Halmstad,Fashion,Sportswear,Gift Card,Paid Search,2,80.99,0.155,Medium (11-25%),136.8731,Medium,4,Medium (3-5d),1
+O2025554,2025-05-19,C1164,Corporate,Returning,East,Linköping,Electronics,Laptop,Card,Social,1,903.43,0,No discount,903.43,Premium,6,Slow(6-9d),0
+O2025555,2025-12-25,C1243,Consumer,Returning,East,Linköping,Electronics,Tablet,Invoice,Organic,1,519.82,0.119,Medium (11-25%),457.96142000000003,Premium,8,Slow(6-9d),0
+O2025556,2025-07-29,C1031,Corporate,Returning,North,Stockholm,Home,Kitchen,Gift Card,Organic,1,152.47,0.033,Low (1-10%),147.43849,Medium,5,Medium (3-5d),0
+O2025557,2025-02-04,C1187,Consumer,Returning,North,Västerås,Fashion,Sportswear,Gift Card,Organic,1,78.86,0.063,Low (1-10%),73.89182000000001,Low,1,Fast (1-2d),0
+O2025558,2025-01-30,C1120,Small Business,New,North,Stockholm,Home,Kitchen,Card,Organic,1,76.55,0.03,Low (1-10%),74.25349999999999,Low,5,Medium (3-5d),1
+O2025559,2025-02-01,C1084,Corporate,VIP,East,Linköping,Home,Kitchen,Swish,Paid Search,1,106.99,0.207,Medium (11-25%),84.84307,Medium,4,Medium (3-5d),0
+O2025560,2025-07-08,C1036,Consumer,New,North,Stockholm,Electronics,Mobile,Card,Organic,1,516.16,0.024,Low (1-10%),503.77216,Premium,4,Medium (3-5d),0
+O2025561,2025-09-23,C1243,Consumer,Returning,East,Linköping,Fashion,Accessories,Card,Social,1,44.3,0.017,Low (1-10%),43.546899999999994,Low,2,Fast (1-2d),0
+O2025562,2025-04-07,C1026,Small Business,Returning,South,Malmö,Electronics,Mobile,Invoice,Email,1,212.76,0.08,Low (1-10%),195.7392,High,2,Fast (1-2d),0
+O2025563,2025-08-25,C1212,Corporate,New,South,Malmö,Sports,Team Sports,Swish,Social,1,53.95,0.099,Low (1-10%),48.60895000000001,Low,4,Medium (3-5d),0
+O2025564,2025-12-27,C1023,Consumer,Returning,North,Uppsala,Sports,Outdoor,Card,Paid Search,2,238.72,0.1,Low (1-10%),429.696,Premium,3,Medium (3-5d),0
+O2025565,2025-02-09,C1080,Consumer,New,North,Stockholm,Home,Kitchen,Swish,Social,1,104.49,0.026,Low (1-10%),101.77326,Medium,3,Medium (3-5d),1
+O2025566,2025-09-21,C1227,Consumer,New,North,Stockholm,Fashion,Jackets,Swish,Email,1,273.55,0.03,Low (1-10%),265.3435,High,4,Medium (3-5d),0
+O2025567,2025-11-02,C1231,Corporate,New,North,Uppsala,Beauty,Makeup,Card,Paid Search,1,30.69,0.015,Low (1-10%),30.22965,Low,1,Fast (1-2d),0
+O2025568,2025-02-13,C1075,Consumer,VIP,North,Stockholm,Fashion,Jackets,Invoice,Paid Search,1,187.78,0.095,Low (1-10%),169.9409,High,5,Medium (3-5d),0
+O2025569,2025-09-26,C1201,Consumer,Returning,West,Halmstad,Home,Lighting,Card,Affiliate,1,153.84,0.073,Low (1-10%),142.60968,Medium,6,Slow(6-9d),0
+O2025570,2025-12-14,C1011,Small Business,Returning,East,Linköping,Sports,Team Sports,Card,Paid Search,1,96.5,0.072,Low (1-10%),89.552,Medium,3,Medium (3-5d),0
+O2025571,2025-01-27,C1066,Consumer,VIP,West,Göteborg,Fashion,Sportswear,Paypal,Email,2,119.66,0.021,Low (1-10%),234.29428,High,1,Fast (1-2d),0
+O2025572,2025-10-18,C1134,Consumer,Returning,South,Malmö,Beauty,Haircare,Card,Organic,1,21.34,0.054,Low (1-10%),20.18764,Low,3,Medium (3-5d),0
+O2025573,2025-08-04,C1001,Consumer,VIP,West,Halmstad,Home,Lighting,Invoice,Organic,1,143.61,0,No discount,143.61,Medium,1,Fast (1-2d),0
+O2025574,2025-12-20,C1240,Consumer,Returning,South,Lund,Fashion,Jackets,Paypal,Social,1,169.12,0.04,Low (1-10%),162.3552,High,2,Fast (1-2d),0
+O2025575,2025-06-16,C1032,Consumer,Returning,North,Uppsala,Fashion,Shoes,Swish,Direct,2,112.67,0.017,Low (1-10%),221.50922,High,3,Medium (3-5d),0
+O2025576,2025-02-07,C1255,Consumer,Returning,East,Linköping,Home,Lighting,Card,Direct,1,153.19,0.005,Low (1-10%),152.42405,High,5,Medium (3-5d),0
+O2025577,2025-01-28,C1099,Consumer,Returning,North,Västerås,Electronics,Tablet,Card,Organic,1,518.54,0,No discount,518.54,Premium,3,Medium (3-5d),0
+O2025578,2025-08-02,C1229,Corporate,Returning,North,Stockholm,Fashion,Accessories,Card,Organic,2,43.61,0.025,Low (1-10%),85.0395,Medium,1,Fast (1-2d),0
+O2025579,2025-10-25,C1059,Small Business,New,South,Malmö,Electronics,Laptop,Card,Affiliate,2,890.92,0.102,Medium (11-25%),1600.09232,Premium,4,Medium (3-5d),0
+O2025580,2025-12-15,C1055,Corporate,New,North,Stockholm,Home,Kitchen,Swish,Affiliate,1,54.81,0.075,Low (1-10%),50.699250000000006,Low,4,Medium (3-5d),0
+O2025581,2025-04-14,C1087,Consumer,Returning,West,Halmstad,Electronics,Tablet,Card,Organic,1,412.88,0.01,Low (1-10%),408.7512,Premium,4,Medium (3-5d),0
+O2025582,2025-05-04,C1041,Consumer,Returning,South,Lund,Beauty,Makeup,Swish,Paid Search,1,41.43,0.06,Low (1-10%),38.944199999999995,Low,3,Medium (3-5d),0
+O2025583,2025-11-20,C1059,Small Business,New,South,Malmö,Home,Decor,Gift Card,Email,2,133.89,0.146,Medium (11-25%),228.68411999999998,High,7,Slow(6-9d),0
+O2025584,2025-01-03,C1113,Small Business,Returning,South,Lund,Sports,Outdoor,Swish,Email,1,166.35,0.089,Low (1-10%),151.54485,Medium,1,Fast (1-2d),0
+O2025585,2025-10-21,C1040,Consumer,Returning,East,Linköping,Sports,Fitness,Card,Social,1,140.66,0.048,Low (1-10%),133.90832,Medium,6,Slow(6-9d),0
+O2025586,2025-10-07,C1054,Consumer,VIP,North,Stockholm,Beauty,Haircare,Paypal,Social,1,41.39,0.2,Medium (11-25%),33.112,Low,2,Fast (1-2d),0
+O2025587,2025-12-29,C1152,Consumer,Returning,North,Västerås,Fashion,Jackets,Card,Social,3,136.85,0.053,Low (1-10%),388.7908499999999,Premium,2,Fast (1-2d),0
+O2025588,2025-10-19,C1067,Small Business,Returning,West,Halmstad,Fashion,Accessories,Gift Card,Organic,1,46.14,0.004,Low (1-10%),45.95544,Low,2,Fast (1-2d),0
+O2025589,2025-11-03,C1113,Small Business,Returning,South,Lund,Home,Furniture,Card,Email,1,711.36,0.076,Low (1-10%),657.29664,Premium,4,Medium (3-5d),0
+O2025590,2025-01-25,C1179,Consumer,Returning,East,Örebro,Sports,Cycling,Swish,Direct,3,698.9,0.016,Low (1-10%),2063.1528,Premium,5,Medium (3-5d),1
+O2025591,2025-07-16,C1255,Consumer,Returning,East,Linköping,Home,Decor,Invoice,Social,1,80.49,0.024,Low (1-10%),78.55824,Low,5,Medium (3-5d),0
+O2025592,2025-07-18,C1140,Small Business,Returning,West,Halmstad,Sports,Team Sports,Invoice,Organic,1,30.43,0.046,Low (1-10%),29.03022,Low,4,Medium (3-5d),1
+O2025593,2025-04-11,C1190,Small Business,Returning,East,Norrköping,Electronics,Mobile,Card,Organic,3,482.68,0,No discount,1448.04,Premium,8,Slow(6-9d),0
+O2025594,2025-12-15,C1094,Consumer,Returning,North,Uppsala,Fashion,Jackets,Swish,Organic,1,157.34,0.077,Low (1-10%),145.22482000000002,Medium,1,Fast (1-2d),0
+O2025595,2025-11-05,C1002,Small Business,New,South,Lund,Fashion,Shoes,Invoice,Affiliate,1,111.71,0.135,Medium (11-25%),96.62915,Medium,3,Medium (3-5d),0
+O2025596,2025-05-24,C1236,Small Business,New,East,Örebro,Electronics,Tablet,Invoice,Organic,2,671.53,0.015,Low (1-10%),1322.9141,Premium,6,Slow(6-9d),0
+O2025597,2025-11-19,C1094,Consumer,Returning,North,Uppsala,Beauty,Fragrance,Swish,Organic,3,85.93,0.038,Low (1-10%),247.99398000000002,High,3,Medium (3-5d),0
+O2025598,2025-07-15,C1159,Consumer,Returning,South,Malmö,Sports,Fitness,Paypal,Direct,1,229,0.063,Low (1-10%),214.573,High,4,Medium (3-5d),0
+O2025599,2025-02-01,C1225,Small Business,Returning,North,Stockholm,Home,Furniture,Gift Card,Social,2,724.76,0.026,Low (1-10%),1411.83248,Premium,2,Fast (1-2d),0
+O2025600,2025-05-26,C1167,Small Business,New,South,Helsingborg,Fashion,Shoes,Card,Paid Search,1,96.3,0.043,Low (1-10%),92.1591,Medium,4,Medium (3-5d),0
+O2025601,2025-11-17,C1060,Small Business,Returning,North,Västerås,Home,Kitchen,Paypal,Organic,1,89.17,0.057,Low (1-10%),84.08731,Medium,2,Fast (1-2d),0
+O2025602,2025-03-16,C1012,Small Business,Returning,South,Helsingborg,Sports,Team Sports,Card,Paid Search,1,124.19,0.101,Medium (11-25%),111.64681,Medium,5,Medium (3-5d),0
+O2025603,2025-06-07,C1093,Small Business,Returning,West,Borås,Home,Lighting,Paypal,Organic,1,97.44,0.023,Low (1-10%),95.19888,Medium,5,Medium (3-5d),0
+O2025604,2025-11-26,C1062,Consumer,VIP,South,Helsingborg,Fashion,Shoes,Card,Email,1,172.68,0.103,Medium (11-25%),154.89396000000002,High,3,Medium (3-5d),0
+O2025605,2025-09-12,C1149,Consumer,Returning,North,Uppsala,Home,Lighting,Invoice,Social,1,150.49,0.05,Low (1-10%),142.9655,Medium,4,Medium (3-5d),0
+O2025606,2025-09-16,C1109,Small Business,Returning,South,Helsingborg,Electronics,Mobile,Card,Direct,1,356.53,0.001,Low (1-10%),356.17346999999995,High,3,Medium (3-5d),0
+O2025607,2025-04-19,C1142,Small Business,Returning,South,Helsingborg,Electronics,Tablet,Card,Email,1,653.45,0.069,Low (1-10%),608.3619500000001,Premium,3,Medium (3-5d),0
+O2025608,2025-12-16,C1060,Small Business,Returning,North,Västerås,Electronics,Tablet,Card,Email,1,392.05,0.043,Low (1-10%),375.19185,Premium,1,Fast (1-2d),0
+O2025609,2025-12-16,C1233,Corporate,Returning,West,Halmstad,Home,Decor,Card,Organic,2,101.27,0.033,Low (1-10%),195.85618,High,4,Medium (3-5d),1
+O2025610,2025-12-31,C1005,Small Business,Returning,West,Göteborg,Fashion,Sportswear,Card,Social,1,80.52,0.013,Low (1-10%),79.47323999999999,Low,4,Medium (3-5d),0
+O2025611,2025-06-12,C1053,Consumer,New,West,Borås,Fashion,Shoes,Invoice,Email,1,77.02,0.033,Low (1-10%),74.47833999999999,Low,4,Medium (3-5d),0
+O2025612,2025-02-05,C1140,Small Business,Returning,West,Borås,Beauty,Skincare,Card,Social,2,46.46,0.044,Low (1-10%),88.83152,Medium,3,Medium (3-5d),0
+O2025613,2025-06-23,C1093,Small Business,Returning,West,Borås,Beauty,Makeup,Card,Organic,2,64.97,0.057,Low (1-10%),122.53341999999999,Medium,2,Fast (1-2d),0
+O2025614,2025-11-18,C1154,Corporate,VIP,West,Göteborg,Home,Kitchen,Gift Card,Social,1,142.65,0.064,Low (1-10%),133.5204,Medium,3,Medium (3-5d),0
+O2025615,2025-11-07,C1029,Consumer,VIP,West,Halmstad,Fashion,Shoes,Card,Direct,1,94.34,0.042,Low (1-10%),90.37772,Medium,4,Medium (3-5d),0
+O2025616,2025-07-28,C1071,Consumer,Returning,East,Norrköping,Sports,Cycling,Invoice,Email,1,509.81,0.049,Low (1-10%),484.82930999999996,Premium,4,Medium (3-5d),0
+O2025617,2025-05-14,C1236,Small Business,New,East,Örebro,Beauty,Skincare,Card,Affiliate,2,44.22,0.097,Low (1-10%),79.86132,Low,4,Medium (3-5d),1
+O2025618,2025-07-20,C1048,Consumer,VIP,North,Uppsala,Sports,Team Sports,Card,Social,1,86.6,0.121,Medium (11-25%),76.1214,Low,3,Medium (3-5d),1
+O2025619,2025-01-28,C1130,Consumer,VIP,South,Lund,Electronics,Laptop,Paypal,Direct,1,460.02,0.162,Medium (11-25%),385.49676,Premium,6,Slow(6-9d),0
+O2025620,2025-06-11,C1182,Small Business,Returning,West,Borås,Sports,Team Sports,Card,Email,2,84.05,0.18,Medium (11-25%),137.842,Medium,5,Medium (3-5d),0
+O2025621,2025-07-07,C1243,Consumer,Returning,East,Linköping,Home,Furniture,Card,Email,2,706.74,0,No discount,1413.48,Premium,7,Slow(6-9d),0
+O2025622,2025-09-11,C1011,Small Business,Returning,East,Linköping,Beauty,Haircare,Card,Email,2,35.69,0.109,Medium (11-25%),63.599579999999996,Low,4,Medium (3-5d),0
+O2025623,2025-07-05,C1124,Consumer,New,North,Västerås,Fashion,Accessories,Paypal,Organic,1,63.53,0.022,Low (1-10%),62.13234,Low,3,Medium (3-5d),0
+O2025624,2025-08-20,C1177,Small Business,Returning,East,Linköping,Home,Decor,Card,Direct,2,79.88,0,No discount,159.76,High,4,Medium (3-5d),0
+O2025625,2025-04-28,C1255,Consumer,Returning,West,Halmstad,Beauty,Makeup,Card,Organic,2,58.44,0.036,Low (1-10%),112.67231999999998,Medium,2,Fast (1-2d),0
+O2025626,2025-12-23,C1170,Consumer,Returning,South,Malmö,Home,Decor,Card,Paid Search,1,107.69,0.079,Low (1-10%),99.18249,Medium,7,Slow(6-9d),0
+O2025627,2025-11-06,C1083,Consumer,VIP,North,Västerås,Beauty,Makeup,Paypal,Social,2,39.26,0.16,Medium (11-25%),65.9568,Low,2,Fast (1-2d),0
+O2025628,2025-05-28,C1155,Corporate,New,South,Helsingborg,Beauty,Skincare,Swish,Direct,1,49.71,0.034,Low (1-10%),48.01986,Low,4,Medium (3-5d),0
+O2025629,2025-07-07,C1111,Corporate,Returning,North,Stockholm,Sports,Team Sports,Card,Affiliate,1,90,0.181,Medium (11-25%),73.71,Low,5,Medium (3-5d),0
+O2025630,2025-07-20,C1083,Consumer,VIP,North,Västerås,Electronics,Headphones,Paypal,Direct,1,250.41,0.146,Medium (11-25%),213.85013999999998,High,2,Fast (1-2d),0
+O2025631,2025-02-20,C1148,Consumer,Returning,East,Norrköping,Fashion,Accessories,Gift Card,Paid Search,1,45.12,0.108,Medium (11-25%),40.24704,Low,2,Fast (1-2d),1
+O2025632,2025-09-21,C1237,Small Business,Returning,South,Malmö,Sports,Cycling,Card,Email,1,750.18,0.052,Low (1-10%),711.1706399999999,Premium,4,Medium (3-5d),0
+O2025633,2025-09-11,C1253,Consumer,New,North,Uppsala,Sports,Fitness,Invoice,Organic,2,255.53,0.015,Low (1-10%),503.3941,Premium,4,Medium (3-5d),0
+O2025634,2025-09-11,C1243,Consumer,Returning,East,Linköping,Fashion,Sportswear,Gift Card,Paid Search,1,86.5,0.05,Low (1-10%),82.175,Medium,5,Medium (3-5d),0
+O2025635,2025-10-09,C1090,Consumer,Returning,West,Stockholm,Home,Kitchen,Card,Direct,2,111.82,0,No discount,223.64,High,6,Slow(6-9d),0
+O2025636,2025-10-17,C1006,Consumer,VIP,East,Örebro,Fashion,Jackets,Card,Organic,1,142.26,0.132,Medium (11-25%),123.48168,Medium,3,Medium (3-5d),0
+O2025637,2025-09-03,C1077,Consumer,New,North,Stockholm,Beauty,Haircare,Invoice,Organic,1,20.44,0.078,Low (1-10%),18.84568,Low,3,Medium (3-5d),0
+O2025638,2025-10-09,C1132,Corporate,Returning,West,Borås,Fashion,Accessories,Card,Social,2,51.47,0.1,Low (1-10%),92.646,Medium,3,Medium (3-5d),1
+O2025639,2025-05-17,C1006,Consumer,VIP,East,Örebro,Sports,Cycling,Card,Direct,1,380.37,0.143,Medium (11-25%),325.97709,High,4,Medium (3-5d),0
+O2025640,2025-11-26,C1030,Small Business,Returning,North,Stockholm,Fashion,Jackets,Card,Email,2,140.65,0.118,Medium (11-25%),248.10660000000001,High,3,Medium (3-5d),0
+O2025641,2025-02-25,C1000,Small Business,Returning,East,Linköping,Fashion,Jackets,Paypal,Affiliate,1,203.51,0.087,Low (1-10%),185.80463,High,6,Slow(6-9d),0
+O2025642,2025-11-10,C1167,Small Business,New,South,Helsingborg,Sports,Outdoor,Card,Affiliate,1,155.54,0.116,Medium (11-25%),137.49736,Medium,5,Medium (3-5d),1
+O2025643,2025-11-09,C1075,Consumer,VIP,North,Stockholm,Home,Kitchen,Invoice,Email,2,119.43,0.119,Medium (11-25%),210.43566,High,6,Slow(6-9d),0
+O2025644,2025-04-06,C1254,Small Business,Returning,East,Örebro,Electronics,Mobile,Card,Social,1,365.05,0,No discount,365.05,High,7,Slow(6-9d),0
+O2025645,2025-02-03,C1136,Consumer,Returning,West,Halmstad,Home,Decor,Gift Card,Email,1,52.47,0.076,Low (1-10%),48.48228,Low,6,Slow(6-9d),0
+O2025646,2025-12-26,C1062,Consumer,VIP,South,Helsingborg,Fashion,Sportswear,Card,Social,1,85.32,0.119,Medium (11-25%),75.16691999999999,Low,3,Medium (3-5d),0
+O2025647,2025-03-06,C1251,Small Business,Returning,West,Borås,Home,Furniture,Swish,Organic,1,1041.89,0.095,Low (1-10%),942.9104500000001,Premium,5,Medium (3-5d),1
+O2025648,2025-10-16,C1034,Small Business,Returning,West,Borås,Sports,Cycling,Swish,Paid Search,1,342.61,0.121,Medium (11-25%),301.15419,High,1,Fast (1-2d),0
+O2025649,2025-04-02,C1161,Small Business,Returning,West,Borås,Home,Decor,Card,Affiliate,3,101.56,0.079,Low (1-10%),280.61028000000005,High,6,Slow(6-9d),0
+O2025650,2025-06-13,C1178,Consumer,VIP,South,Malmö,Sports,Outdoor,Swish,Social,1,180.19,0.044,Low (1-10%),172.26164,High,4,Medium (3-5d),0
+O2025651,2025-08-09,C1186,Corporate,Returning,North,Uppsala,Electronics,Mobile,Card,Organic,1,424.03,0.154,Medium (11-25%),358.72938,High,2,Fast (1-2d),0
+O2025652,2025-03-09,C1151,Consumer,Returning,West,Halmstad,Home,Lighting,Card,Affiliate,1,267.14,0.162,Medium (11-25%),223.86332,High,4,Medium (3-5d),1
+O2025653,2025-10-17,C1233,Corporate,Returning,West,Halmstad,Fashion,Jackets,Swish,Paid Search,1,138.69,0.056,Low (1-10%),130.92336,Medium,4,Medium (3-5d),0
+O2025654,2025-11-05,C1021,Consumer,Returning,North,Stockholm,Electronics,Mobile,Card,Direct,1,450.79,0.021,Low (1-10%),441.32341,Premium,2,Fast (1-2d),0
+O2025655,2025-08-25,C1022,Small Business,Returning,West,Halmstad,Home,Furniture,Invoice,Social,1,641.41,0.031,Low (1-10%),621.5262899999999,Premium,1,Fast (1-2d),0
+O2025656,2025-11-28,C1099,Consumer,Returning,North,Västerås,Fashion,Shoes,Invoice,Email,3,78.33,0.189,Medium (11-25%),190.57689,High,2,Fast (1-2d),0
+O2025657,2025-01-28,C1092,Consumer,Returning,East,Norrköping,Beauty,Skincare,Card,Direct,1,29.87,0.062,Low (1-10%),28.01806,Low,1,Fast (1-2d),0
+O2025658,2025-10-13,C1254,Small Business,Returning,East,Örebro,Electronics,Tablet,Swish,Email,1,509.03,0.042,Low (1-10%),487.6507399999999,Premium,7,Slow(6-9d),0
+O2025659,2025-12-06,C1074,Small Business,New,East,Linköping,Electronics,Mobile,Card,Paid Search,1,348.17,0.092,Low (1-10%),316.13836000000003,High,1,Fast (1-2d),0
+O2025660,2025-02-20,C1055,Corporate,New,North,Stockholm,Electronics,Mobile,Card,Paid Search,1,442.35,0.086,Low (1-10%),404.3079,Premium,3,Medium (3-5d),0
+O2025661,2025-08-16,C1116,Consumer,Returning,North,Uppsala,Fashion,Sportswear,Swish,Affiliate,2,63.31,0.064,Low (1-10%),118.51632,Medium,3,Medium (3-5d),1
+O2025662,2025-04-27,C1244,Consumer,Returning,West,Stockholm,Home,Kitchen,Invoice,Affiliate,1,110.33,0.033,Low (1-10%),106.68911,Medium,8,Slow(6-9d),1
+O2025663,2025-09-10,C1100,Small Business,New,West,Göteborg,Fashion,Accessories,Swish,Direct,1,42.23,0.126,Medium (11-25%),36.90902,Low,3,Medium (3-5d),0
+O2025664,2025-09-08,C1103,Consumer,New,North,Västerås,Beauty,Makeup,Gift Card,Direct,2,41.89,0.064,Low (1-10%),78.41808,Low,2,Fast (1-2d),1
+O2025665,2025-12-22,C1086,Consumer,Returning,South,Helsingborg,Electronics,Laptop,Paypal,Paid Search,1,1314.94,0.076,Low (1-10%),1215.00456,Premium,5,Medium (3-5d),0
+O2025666,2025-06-24,C1005,Small Business,Returning,West,Stockholm,Sports,Cycling,Swish,Direct,2,129.97,0.059,Low (1-10%),244.60354,High,5,Medium (3-5d),1
+O2025667,2025-08-02,C1062,Consumer,VIP,South,Helsingborg,Sports,Outdoor,Gift Card,Email,1,237.12,0.098,Low (1-10%),213.88224,High,6,Slow(6-9d),0
+O2025668,2025-05-01,C1187,Consumer,Returning,North,Västerås,Beauty,Makeup,Invoice,Email,1,28.32,0.086,Low (1-10%),25.88448,Low,3,Medium (3-5d),0
+O2025669,2025-10-11,C1111,Corporate,Returning,North,Stockholm,Electronics,Mobile,Card,Affiliate,1,467.46,0.138,Medium (11-25%),402.95052,Premium,5,Medium (3-5d),0
+O2025670,2025-11-02,C1060,Small Business,Returning,North,Västerås,Sports,Team Sports,Swish,Direct,1,95.4,0,No discount,95.4,Medium,1,Fast (1-2d),0
+O2025671,2025-05-25,C1079,Consumer,VIP,East,Linköping,Beauty,Skincare,Paypal,Social,1,70.73,0.11,Medium (11-25%),62.94970000000001,Low,4,Medium (3-5d),0
+O2025672,2025-08-24,C1222,Consumer,Returning,East,Linköping,Fashion,Shoes,Gift Card,Paid Search,1,81.55,0.113,Medium (11-25%),72.33485,Low,4,Medium (3-5d),0
+O2025673,2025-07-09,C1254,Small Business,Returning,East,Örebro,Electronics,Headphones,Swish,Organic,1,217.29,0.025,Low (1-10%),211.85774999999998,High,4,Medium (3-5d),0
+O2025674,2025-08-13,C1060,Small Business,Returning,North,Västerås,Electronics,Mobile,Paypal,Organic,1,664.65,0.083,Low (1-10%),609.48405,Premium,3,Medium (3-5d),0
+O2025675,2025-03-24,C1242,Small Business,New,East,Linköping,Electronics,Laptop,Card,Organic,1,1248.85,0,No discount,1248.85,Premium,3,Medium (3-5d),0
+O2025676,2025-10-01,C1144,Consumer,Returning,North,Uppsala,Beauty,Makeup,Invoice,Direct,2,47.7,0,No discount,95.4,Medium,2,Fast (1-2d),0
+O2025677,2025-05-16,C1097,Consumer,VIP,East,Örebro,Sports,Team Sports,Swish,Organic,3,45.87,0.175,Medium (11-25%),113.52824999999999,Medium,3,Medium (3-5d),0
+O2025678,2025-03-13,C1240,Consumer,Returning,South,Lund,Beauty,Fragrance,Card,Paid Search,1,90.69,0.063,Low (1-10%),84.97653,Medium,2,Fast (1-2d),0
+O2025679,2025-04-20,C1067,Small Business,Returning,West,Stockholm,Home,Lighting,Swish,Organic,1,158.89,0,No discount,158.89,High,4,Medium (3-5d),0
+O2025680,2025-08-09,C1178,Consumer,VIP,South,Malmö,Fashion,Accessories,Card,Organic,4,75.78,0.073,Low (1-10%),280.99224000000004,High,3,Medium (3-5d),0
+O2025681,2025-03-13,C1060,Small Business,Returning,North,Västerås,Home,Kitchen,Card,Organic,1,146.35,0.109,Medium (11-25%),130.39785,Medium,3,Medium (3-5d),0
+O2025682,2025-09-03,C1047,Consumer,Returning,East,Norrköping,Fashion,Shoes,Swish,Organic,1,115.12,0.036,Low (1-10%),110.97568,Medium,4,Medium (3-5d),0
+O2025683,2025-07-28,C1029,Consumer,VIP,West,Halmstad,Home,Lighting,Paypal,Social,1,130.76,0.054,Low (1-10%),123.69895999999999,Medium,5,Medium (3-5d),0
+O2025684,2025-02-24,C1134,Consumer,Returning,South,Malmö,Electronics,Laptop,Card,Direct,1,1148.5,0.008,Low (1-10%),1139.312,Premium,4,Medium (3-5d),0
+O2025685,2025-06-13,C1186,Corporate,Returning,North,Uppsala,Fashion,Jackets,Swish,Direct,3,127.52,0.086,Low (1-10%),349.65984000000003,High,5,Medium (3-5d),1
+O2025686,2025-09-23,C1221,Consumer,Returning,West,Halmstad,Home,Lighting,Paypal,Email,1,190.72,0.113,Medium (11-25%),169.16864,High,5,Medium (3-5d),0
+O2025687,2025-10-24,C1040,Consumer,Returning,East,Linköping,Fashion,Shoes,Invoice,Direct,1,53.05,0.051,Low (1-10%),50.344449999999995,Low,6,Slow(6-9d),0
+O2025688,2025-04-28,C1135,Consumer,Returning,North,Stockholm,Home,Lighting,Gift Card,Email,2,15.15,0.16,Medium (11-25%),25.451999999999998,Low,4,Medium (3-5d),1
+O2025689,2025-01-22,C1129,Small Business,New,South,Lund,Electronics,Tablet,Swish,Organic,2,763.02,0.002,Low (1-10%),1522.98792,Premium,6,Slow(6-9d),1
+O2025690,2025-09-24,C1195,Consumer,Returning,South,Stockholm,Sports,Team Sports,Swish,Organic,3,114.02,0.068,Low (1-10%),318.79992,High,2,Fast (1-2d),0
+O2025691,2025-04-28,C1253,Consumer,New,North,Uppsala,Home,Decor,Card,Direct,1,147,0.089,Low (1-10%),133.917,Medium,2,Fast (1-2d),0
+O2025692,2025-05-16,C1028,Consumer,VIP,East,Norrköping,Electronics,Headphones,Card,Email,1,155.85,0.172,Medium (11-25%),129.0438,Medium,5,Medium (3-5d),0
+O2025693,2025-09-29,C1002,Small Business,New,South,Lund,Home,Lighting,Swish,Email,1,159.2,0.09,Low (1-10%),144.87199999999999,Medium,3,Medium (3-5d),0
+O2025694,2025-09-03,C1197,Consumer,VIP,North,Uppsala,Sports,Team Sports,Paypal,Direct,2,22.22,0.157,Medium (11-25%),37.46292,Low,2,Fast (1-2d),0
+O2025695,2025-12-27,C1053,Consumer,New,West,Borås,Beauty,Skincare,Invoice,Organic,1,68.59,0.019,Low (1-10%),67.28679,Low,2,Fast (1-2d),0
+O2025696,2025-11-14,C1196,Consumer,VIP,West,Borås,Fashion,Shoes,Invoice,Organic,2,85.93,0.055,Low (1-10%),162.4077,High,2,Fast (1-2d),0
+O2025697,2025-04-14,C1178,Consumer,VIP,South,Malmö,Electronics,Mobile,Swish,Paid Search,1,488.3,0.169,Medium (11-25%),405.77729999999997,Premium,2,Fast (1-2d),0
+O2025698,2025-05-27,C1079,Consumer,VIP,East,Linköping,Electronics,Headphones,Swish,Direct,1,203.54,0.175,Medium (11-25%),167.92049999999998,High,5,Medium (3-5d),0
+O2025699,2025-02-11,C1175,Corporate,Returning,West,Halmstad,Beauty,Skincare,Card,Paid Search,1,44.66,0.105,Medium (11-25%),39.9707,Low,6,Slow(6-9d),1
+O2025700,2025-02-28,C1079,Consumer,VIP,East,Linköping,Electronics,Tablet,Card,Organic,1,453.82,0.115,Medium (11-25%),401.6307,Premium,5,Medium (3-5d),0
+O2025701,2025-03-12,C1217,Small Business,New,North,Uppsala,Fashion,Accessories,Card,Email,1,20.8,0.092,Low (1-10%),18.886400000000002,Low,1,Fast (1-2d),0
+O2025702,2025-07-01,C1147,Consumer,Returning,West,Borås,Sports,Outdoor,Card,Social,1,309.48,0.084,Low (1-10%),283.48368000000005,High,2,Fast (1-2d),0
+O2025703,2025-11-15,C1255,Consumer,Returning,East,Linköping,Fashion,Accessories,Swish,Direct,1,52.46,0.026,Low (1-10%),51.09604,Low,3,Medium (3-5d),0
+O2025704,2025-03-03,C1177,Small Business,Returning,East,Linköping,Fashion,Accessories,Swish,Organic,1,53.88,0.056,Low (1-10%),50.86272,Low,3,Medium (3-5d),0
+O2025705,2025-01-21,C1024,Consumer,New,West,Halmstad,Beauty,Haircare,Swish,Paid Search,3,56.32,0.099,Low (1-10%),152.23296000000002,Medium,1,Fast (1-2d),0
+O2025706,2025-08-28,C1045,Small Business,Returning,East,Linköping,Fashion,Sportswear,Paypal,Affiliate,2,81.71,0.125,Medium (11-25%),142.99249999999998,Medium,4,Medium (3-5d),0
+O2025707,2025-10-06,C1002,Small Business,New,South,Lund,Beauty,Makeup,Card,Social,1,41.82,0.002,Low (1-10%),41.73636,Low,2,Fast (1-2d),1
+O2025708,2025-12-20,C1039,Consumer,Returning,North,Västerås,Electronics,Headphones,Invoice,Organic,2,167.87,0.01,Low (1-10%),332.3826,High,4,Medium (3-5d),0
+O2025709,2025-01-29,C1092,Consumer,Returning,East,Norrköping,Fashion,Sportswear,Card,Paid Search,1,91,0.011,Low (1-10%),89.999,Medium,4,Medium (3-5d),0
+O2025710,2025-10-17,C1006,Consumer,VIP,East,Örebro,Home,Decor,Card,Affiliate,1,77.32,0.156,Medium (11-25%),65.25807999999999,Low,6,Slow(6-9d),0
+O2025711,2025-10-17,C1097,Consumer,VIP,East,Örebro,Beauty,Fragrance,Card,Social,1,98.18,0.087,Low (1-10%),89.63834000000001,Medium,5,Medium (3-5d),0
+O2025712,2025-11-24,C1157,Consumer,New,North,Uppsala,Electronics,Mobile,Swish,Organic,1,411.26,0.022,Low (1-10%),402.21227999999996,Premium,5,Medium (3-5d),0
+O2025713,2025-11-30,C1088,Consumer,New,South,Malmö,Home,Kitchen,Invoice,Email,2,63.46,0.101,Medium (11-25%),114.10108000000001,Medium,3,Medium (3-5d),0
+O2025714,2025-01-04,C1146,Corporate,New,North,Uppsala,Electronics,Tablet,Gift Card,Email,1,209.21,0.142,Medium (11-25%),179.50218,High,3,Medium (3-5d),0
+O2025715,2025-07-20,C1009,Consumer,Returning,South,Helsingborg,Sports,Team Sports,Card,Organic,1,88.44,0.075,Low (1-10%),81.807,Low,2,Fast (1-2d),0
+O2025716,2025-10-24,C1028,Consumer,VIP,East,Norrköping,Electronics,Mobile,Gift Card,Email,1,408.46,0.176,Medium (11-25%),336.57104,High,5,Medium (3-5d),0
+O2025717,2025-04-04,C1235,Small Business,Returning,North,Stockholm,Sports,Cycling,Swish,Organic,1,737.37,0.114,Medium (11-25%),653.3098200000001,Premium,2,Fast (1-2d),0
+O2025718,2025-11-15,C1191,Consumer,New,West,Göteborg,Beauty,Fragrance,Card,Organic,1,121.16,0.007,Low (1-10%),120.31188,Medium,3,Medium (3-5d),0
+O2025719,2025-04-22,C1215,Consumer,Returning,North,Stockholm,Fashion,Accessories,Gift Card,Email,3,37.11,0.127,Medium (11-25%),97.19109,Medium,2,Fast (1-2d),0
+O2025720,2025-04-13,C1161,Small Business,Returning,West,Borås,Fashion,Shoes,Card,Affiliate,1,110.97,0.094,Low (1-10%),100.53882,Medium,5,Medium (3-5d),0
+O2025721,2025-05-12,C1250,Corporate,Returning,North,Uppsala,Electronics,Headphones,Swish,Organic,2,206.91,0.01,Low (1-10%),409.6818,Premium,3,Medium (3-5d),0
+O2025722,2025-01-23,C1106,Consumer,Returning,North,Stockholm,Electronics,Mobile,Card,Email,3,512.46,0.076,Low (1-10%),1420.5391200000001,Premium,4,Medium (3-5d),0
+O2025723,2025-04-20,C1048,Consumer,VIP,North,Uppsala,Electronics,Headphones,Swish,Paid Search,1,174.74,0.081,Low (1-10%),160.58606,High,2,Fast (1-2d),0
+O2025724,2025-03-07,C1156,Consumer,New,West,Göteborg,Sports,Cycling,Card,Direct,1,737.59,0.088,Low (1-10%),672.68208,Premium,3,Medium (3-5d),0
+O2025725,2025-05-06,C1098,Small Business,Returning,West,Halmstad,Electronics,Mobile,Invoice,Email,1,429.53,0.09,Low (1-10%),390.8723,Premium,4,Medium (3-5d),0
+O2025726,2025-03-21,C1014,Consumer,New,North,Västerås,Home,Lighting,Swish,Paid Search,1,226.82,0.105,Medium (11-25%),203.0039,High,5,Medium (3-5d),0
+O2025727,2025-05-19,C1107,Consumer,VIP,South,Malmö,Electronics,Mobile,Card,Paid Search,1,358.86,0.106,Medium (11-25%),320.82084000000003,High,5,Medium (3-5d),0
+O2025728,2025-05-06,C1240,Consumer,Returning,West,Borås,Sports,Outdoor,Card,Organic,1,172.35,0.064,Low (1-10%),161.31959999999998,High,2,Fast (1-2d),0
+O2025729,2025-06-22,C1189,Consumer,New,South,Helsingborg,Sports,Team Sports,Swish,Social,2,101.15,0.122,Medium (11-25%),177.6194,High,2,Fast (1-2d),1
+O2025730,2025-10-11,C1105,Consumer,VIP,West,Halmstad,Electronics,Tablet,Card,Email,2,561.87,0.102,Medium (11-25%),1009.11852,Premium,3,Medium (3-5d),0
+O2025731,2025-03-21,C1038,Consumer,Returning,North,Stockholm,Electronics,Mobile,Card,Organic,1,390.68,0.064,Low (1-10%),365.67647999999997,High,4,Medium (3-5d),1
+O2025732,2025-02-11,C1146,Corporate,New,South,Malmö,Sports,Outdoor,Card,Organic,2,87.14,0,No discount,174.28,High,3,Medium (3-5d),0
+O2025733,2025-02-17,C1258,Consumer,VIP,West,Halmstad,Fashion,Shoes,Paypal,Paid Search,2,110.12,0.093,Low (1-10%),199.75768000000002,High,2,Fast (1-2d),0
+O2025734,2025-12-14,C1094,Consumer,Returning,North,Uppsala,Fashion,Accessories,Invoice,Email,1,42.08,0.144,Medium (11-25%),36.02048,Low,3,Medium (3-5d),0
+O2025735,2025-05-19,C1105,Consumer,VIP,West,Halmstad,Electronics,Mobile,Swish,Email,1,565.28,0.077,Low (1-10%),521.75344,Premium,3,Medium (3-5d),0
+O2025736,2025-07-09,C1187,Consumer,Returning,North,Västerås,Sports,Fitness,Card,Email,1,385.87,0.082,Low (1-10%),354.22866,High,4,Medium (3-5d),0
+O2025737,2025-10-30,C1003,Corporate,Returning,East,Norrköping,Sports,Fitness,Gift Card,Affiliate,1,200.53,0.073,Low (1-10%),185.89131,High,4,Medium (3-5d),1
+O2025738,2025-04-09,C1251,Small Business,Returning,West,Borås,Sports,Fitness,Paypal,Affiliate,1,154.8,0.039,Low (1-10%),148.7628,Medium,1,Fast (1-2d),0
+O2025739,2025-09-04,C1148,Consumer,Returning,East,Norrköping,Sports,Team Sports,Card,Social,1,40.82,0,No discount,40.82,Low,4,Medium (3-5d),0
+O2025740,2025-03-06,C1086,Consumer,Returning,South,Stockholm,Fashion,Jackets,Card,Organic,1,128.81,0.034,Low (1-10%),124.43046,Medium,3,Medium (3-5d),1
+O2025741,2025-08-05,C1252,Corporate,Returning,North,Uppsala,Fashion,Shoes,Paypal,Direct,1,138.91,0.086,Low (1-10%),126.96374,Medium,1,Fast (1-2d),0
+O2025742,2025-01-03,C1250,Corporate,Returning,North,Uppsala,Home,Decor,Card,Direct,2,72.48,0.027,Low (1-10%),141.04608000000002,Medium,4,Medium (3-5d),0
+O2025743,2025-11-12,C1257,Consumer,Returning,North,Uppsala,Sports,Team Sports,Card,Direct,3,89.37,0.071,Low (1-10%),249.07419000000002,High,2,Fast (1-2d),0
+O2025744,2025-11-06,C1101,Consumer,Returning,West,Borås,Fashion,Jackets,Card,Organic,1,222.39,0.049,Low (1-10%),211.49289,High,4,Medium (3-5d),0
+O2025745,2025-09-24,C1004,Consumer,New,West,Stockholm,Fashion,Accessories,Card,Email,2,17.47,0.092,Low (1-10%),31.72552,Low,4,Medium (3-5d),0
+O2025746,2025-08-09,C1047,Consumer,Returning,East,Norrköping,Beauty,Fragrance,Card,Email,1,49.3,0.006,Low (1-10%),49.0042,Low,5,Medium (3-5d),0
+O2025747,2025-04-03,C1103,Consumer,New,North,Västerås,Home,Furniture,Card,Direct,1,883.04,0.03,Low (1-10%),856.5487999999999,Premium,5,Medium (3-5d),0
+O2025748,2025-12-23,C1228,Small Business,Returning,West,Halmstad,Electronics,Laptop,Card,Social,1,1381.75,0,No discount,1381.75,Premium,3,Medium (3-5d),0
+O2025749,2025-06-29,C1215,Consumer,Returning,West,Halmstad,Sports,Cycling,Card,Organic,1,726.49,0.025,Low (1-10%),708.32775,Premium,4,Medium (3-5d),0
+O2025750,2025-10-02,C1022,Small Business,Returning,West,Halmstad,Sports,Fitness,Card,Organic,1,291.31,0.088,Low (1-10%),265.67472000000004,High,1,Fast (1-2d),0
+O2025751,2025-11-07,C1095,Corporate,New,West,Halmstad,Fashion,Accessories,Card,Paid Search,1,41.76,0.043,Low (1-10%),39.964319999999994,Low,1,Fast (1-2d),0
+O2025752,2025-05-29,C1173,Corporate,New,South,Helsingborg,Fashion,Accessories,Card,Email,2,66.05,0.064,Low (1-10%),123.64559999999999,Medium,4,Medium (3-5d),1
+O2025753,2025-06-21,C1138,Consumer,New,South,Lund,Beauty,Fragrance,Paypal,Paid Search,1,85.64,0.069,Low (1-10%),79.73084,Low,4,Medium (3-5d),0
+O2025754,2025-11-15,C1204,Small Business,New,West,Göteborg,Electronics,Tablet,Invoice,Email,1,627.5,0.008,Low (1-10%),622.48,Premium,2,Fast (1-2d),0
+O2025755,2025-09-22,C1187,Consumer,Returning,North,Västerås,Fashion,Jackets,Card,Organic,1,60.49,0.119,Medium (11-25%),53.29169,Low,2,Fast (1-2d),0
+O2025756,2025-02-25,C1043,Corporate,New,West,Halmstad,Home,Decor,Swish,Email,1,120.45,0.059,Low (1-10%),113.34345,Medium,6,Slow(6-9d),1
+O2025757,2025-11-30,C1021,Consumer,Returning,North,Stockholm,Sports,Fitness,Invoice,Organic,1,204.59,0,No discount,204.59,High,1,Fast (1-2d),0
+O2025758,2025-07-03,C1073,Small Business,New,North,Västerås,Electronics,Mobile,Card,Organic,2,472.61,0.027,Low (1-10%),919.69906,Premium,4,Medium (3-5d),0
+O2025759,2025-05-22,C1076,Consumer,New,North,Uppsala,Fashion,Jackets,Card,Paid Search,2,245.99,0.078,Low (1-10%),453.60556,Premium,5,Medium (3-5d),1
+O2025760,2025-11-14,C1142,Small Business,Returning,South,Helsingborg,Electronics,Headphones,Gift Card,Email,1,168.56,0.2,Medium (11-25%),134.848,Medium,3,Medium (3-5d),0
+O2025761,2025-06-13,C1162,Consumer,Returning,South,Helsingborg,Home,Decor,Swish,Paid Search,3,95.55,0.048,Low (1-10%),272.89079999999996,High,5,Medium (3-5d),0
+O2025762,2025-12-06,C1006,Consumer,VIP,South,Lund,Home,Lighting,Paypal,Email,2,198.07,0.155,Medium (11-25%),334.7383,High,2,Fast (1-2d),1
+O2025763,2025-11-28,C1028,Consumer,VIP,East,Norrköping,Home,Decor,Card,Email,1,43.75,0.045,Low (1-10%),41.78125,Low,6,Slow(6-9d),1
+O2025764,2025-08-10,C1100,Small Business,New,West,Göteborg,Sports,Cycling,Gift Card,Social,2,900.56,0.056,Low (1-10%),1700.2572799999998,Premium,5,Medium (3-5d),0
+O2025765,2025-07-21,C1238,Small Business,Returning,West,Göteborg,Sports,Outdoor,Swish,Paid Search,1,109.65,0.011,Low (1-10%),108.44385,Medium,5,Medium (3-5d),0
+O2025766,2025-03-13,C1176,Small Business,Returning,North,Stockholm,Sports,Cycling,Card,Organic,1,959.47,0.019,Low (1-10%),941.2400700000001,Premium,5,Medium (3-5d),0
+O2025767,2025-11-08,C1030,Small Business,Returning,North,Stockholm,Electronics,Mobile,Card,Paid Search,1,258.05,0.045,Low (1-10%),246.43775,High,3,Medium (3-5d),0
+O2025768,2025-02-03,C1021,Consumer,Returning,North,Stockholm,Fashion,Shoes,Card,Direct,1,90.79,0.033,Low (1-10%),87.79393,Medium,4,Medium (3-5d),0
+O2025769,2025-07-29,C1189,Consumer,New,South,Helsingborg,Electronics,Headphones,Card,Direct,2,173.37,0,No discount,346.74,High,2,Fast (1-2d),0
+O2025770,2025-06-13,C1105,Consumer,VIP,West,Halmstad,Fashion,Sportswear,Gift Card,Social,1,76.01,0.043,Low (1-10%),72.74157,Low,2,Fast (1-2d),0
+O2025771,2025-06-22,C1249,Corporate,Returning,West,Göteborg,Fashion,Jackets,Card,Social,2,115.26,0.076,Low (1-10%),213.00048,High,4,Medium (3-5d),0
+O2025772,2025-04-13,C1028,Consumer,VIP,East,Norrköping,Home,Kitchen,Card,Direct,1,92.39,0.07,Low (1-10%),85.92269999999999,Medium,5,Medium (3-5d),0
+O2025773,2025-06-18,C1061,Small Business,Returning,North,Västerås,Home,Furniture,Gift Card,Paid Search,1,195.28,0.15,Medium (11-25%),165.988,High,3,Medium (3-5d),0
+O2025774,2025-02-11,C1042,Consumer,Returning,North,Uppsala,Home,Furniture,Invoice,Social,1,1035.63,0.075,Low (1-10%),957.9577500000001,Premium,5,Medium (3-5d),0
+O2025775,2025-06-07,C1032,Consumer,Returning,North,Uppsala,Home,Kitchen,Paypal,Organic,1,111.67,0,No discount,111.67,Medium,6,Slow(6-9d),0
+O2025776,2025-03-04,C1149,Consumer,Returning,South,Helsingborg,Electronics,Headphones,Swish,Direct,3,175.77,0.106,Medium (11-25%),471.41514000000006,Premium,4,Medium (3-5d),0
+O2025777,2025-05-27,C1159,Consumer,Returning,South,Malmö,Fashion,Jackets,Invoice,Organic,1,62.3,0.091,Low (1-10%),56.6307,Low,3,Medium (3-5d),0
+O2025778,2025-06-21,C1042,Consumer,Returning,North,Uppsala,Fashion,Jackets,Card,Social,1,241.29,0,No discount,241.29,High,1,Fast (1-2d),0
+O2025779,2025-05-09,C1201,Consumer,Returning,West,Halmstad,Electronics,Laptop,Gift Card,Organic,1,813.52,0.059,Low (1-10%),765.52232,Premium,3,Medium (3-5d),0
+O2025780,2025-11-19,C1085,Small Business,Returning,West,Halmstad,Sports,Outdoor,Swish,Social,2,293.76,0.043,Low (1-10%),562.25664,Premium,2,Fast (1-2d),0
+O2025781,2025-01-18,C1207,Consumer,New,North,Stockholm,Electronics,Headphones,Swish,Social,1,249.07,0.011,Low (1-10%),246.33023,High,4,Medium (3-5d),0
+O2025782,2025-07-24,C1007,Consumer,Returning,North,Västerås,Home,Furniture,Swish,Social,1,918.14,0.095,Low (1-10%),830.9167,Premium,3,Medium (3-5d),0
+O2025783,2025-08-05,C1233,Corporate,Returning,West,Halmstad,Electronics,Tablet,Card,Email,1,563.65,0.306,High (25%+),391.1731,Premium,4,Medium (3-5d),0
+O2025784,2025-03-21,C1221,Consumer,Returning,West,Halmstad,Sports,Fitness,Card,Direct,2,202.95,0.035,Low (1-10%),391.6935,Premium,4,Medium (3-5d),0
+O2025785,2025-06-21,C1183,Small Business,New,East,Norrköping,Electronics,Laptop,Invoice,Direct,2,1478.22,0.073,Low (1-10%),2740.61988,Premium,1,Fast (1-2d),1
+O2025786,2025-04-25,C1157,Consumer,New,North,Uppsala,Home,Lighting,Swish,Direct,1,133.92,0.01,Low (1-10%),132.58079999999998,Medium,4,Medium (3-5d),0
+O2025787,2025-10-07,C1026,Small Business,Returning,South,Malmö,Fashion,Accessories,Invoice,Organic,2,19.43,0.047,Low (1-10%),37.03358,Low,5,Medium (3-5d),0
+O2025788,2025-02-04,C1146,Corporate,New,North,Uppsala,Fashion,Sportswear,Invoice,Organic,1,77.49,0.058,Low (1-10%),72.99557999999999,Low,2,Fast (1-2d),0
+O2025789,2025-10-23,C1087,Consumer,Returning,West,Halmstad,Electronics,Mobile,Invoice,Social,1,405.89,0.059,Low (1-10%),381.94249,Premium,3,Medium (3-5d),1
+O2025790,2025-09-28,C1133,Small Business,VIP,North,Västerås,Fashion,Shoes,Swish,Social,1,107.55,0.021,Low (1-10%),105.29145,Medium,2,Fast (1-2d),0
+O2025791,2025-01-01,C1150,Consumer,VIP,East,Norrköping,Electronics,Tablet,Invoice,Social,2,683.39,0.097,Low (1-10%),1234.20234,Premium,5,Medium (3-5d),0
+O2025792,2025-01-02,C1190,Small Business,Returning,East,Stockholm,Fashion,Shoes,Card,Social,1,45.18,0,No discount,45.18,Low,5,Medium (3-5d),0
+O2025793,2025-10-15,C1018,Small Business,Returning,West,Göteborg,Fashion,Shoes,Swish,Email,1,113.35,0.125,Medium (11-25%),99.18124999999999,Medium,4,Medium (3-5d),0
+O2025794,2025-08-19,C1053,Consumer,New,West,Borås,Sports,Team Sports,Gift Card,Organic,3,72.98,0.028,Low (1-10%),212.80968,High,5,Medium (3-5d),0
+O2025795,2025-11-08,C1120,Small Business,New,North,Stockholm,Fashion,Jackets,Swish,Direct,1,163.04,0.134,Medium (11-25%),141.19263999999998,Medium,3,Medium (3-5d),0
+O2025796,2025-12-05,C1107,Consumer,VIP,South,Malmö,Electronics,Tablet,Paypal,Paid Search,1,486.49,0.081,Low (1-10%),447.08431,Premium,3,Medium (3-5d),0
+O2025797,2025-08-21,C1172,Corporate,Returning,East,Norrköping,Fashion,Sportswear,Swish,Organic,1,53.57,0.028,Low (1-10%),52.07004,Low,2,Fast (1-2d),0
+O2025798,2025-09-17,C1013,Consumer,Returning,West,Halmstad,Beauty,Skincare,Invoice,Social,1,59.62,0.112,Medium (11-25%),52.94256,Low,3,Medium (3-5d),1
+O2025799,2025-05-05,C1147,Consumer,Returning,West,Borås,Fashion,Sportswear,Swish,Social Media,1,71.49,0,No discount,71.49,Low,6,Slow(6-9d),0
+O2025800,2025-10-13,C1168,Consumer,New,East,Örebro,Fashion,Jackets,Card,Paid Search,1,168.32,0.058,Low (1-10%),158.55743999999999,High,3,Medium (3-5d),0
+O2025801,2025-05-25,C1077,Consumer,New,North,Stockholm,Home,Furniture,Gift Card,Email,1,1184.36,0.1,Low (1-10%),1065.924,Premium,5,Medium (3-5d),0
+O2025802,2025-07-18,C1024,Consumer,New,West,Halmstad,Electronics,Headphones,Paypal,Direct,1,67.27,0.021,Low (1-10%),65.85732999999999,Low,3,Medium (3-5d),1
+O2025803,2025-05-20,C1253,Consumer,New,North,Uppsala,Electronics,Tablet,Card,Social,1,644.27,0.037,Low (1-10%),620.43201,Premium,4,Medium (3-5d),0
+O2025804,2025-08-15,C1074,Small Business,New,East,Linköping,Sports,Team Sports,Card,Direct,1,52.66,0,No discount,52.66,Low,4,Medium (3-5d),0
+O2025805,2025-12-23,C1065,Small Business,New,North,Uppsala,Fashion,Shoes,Paypal,Direct,3,98.89,0.001,Low (1-10%),296.37333,High,1,Fast (1-2d),1
+O2025806,2025-12-16,C1202,Small Business,Returning,South,Helsingborg,Beauty,Skincare,Invoice,Social,1,80.42,0,No discount,80.42,Low,5,Medium (3-5d),0
+O2025807,2025-06-16,C1148,Consumer,Returning,East,Norrköping,Sports,Fitness,Card,Organic,1,267.96,0.003,Low (1-10%),267.15612,High,5,Medium (3-5d),0
+O2025808,2025-01-27,C1105,Consumer,VIP,West,Stockholm,Electronics,Laptop,Invoice,Organic,2,1110.5,0.099,Low (1-10%),2001.121,Premium,2,Fast (1-2d),0
+O2025809,2025-01-14,C1021,Consumer,Returning,North,Stockholm,Home,Kitchen,Paypal,Paid Search,1,98.75,0,No discount,98.75,Medium,5,Medium (3-5d),0
+O2025810,2025-07-17,C1062,Consumer,VIP,South,Helsingborg,Beauty,Haircare,Invoice,Paid Search,3,43.48,0.128,Medium (11-25%),113.74368,Medium,3,Medium (3-5d),0
+O2025811,2025-06-08,C1136,Consumer,Returning,West,Halmstad,Beauty,Skincare,Card,Organic,1,39.18,0,No discount,39.18,Low,3,Medium (3-5d),0
+O2025812,2025-02-11,C1125,Small Business,Returning,East,Norrköping,Electronics,Headphones,Invoice,Social,1,180.43,0.104,Medium (11-25%),161.66528,High,5,Medium (3-5d),1
+O2025813,2025-01-04,C1164,Corporate,Returning,East,Linköping,Fashion,Jackets,Card,Paid Search,2,189.37,0.042,Low (1-10%),362.83292,High,8,Slow(6-9d),1
+O2025814,2025-06-02,C1059,Small Business,New,North,Västerås,Beauty,Fragrance,Swish,Paid Search,2,95.8,0.079,Low (1-10%),176.4636,High,4,Medium (3-5d),1
+O2025815,2025-10-23,C1027,Small Business,Returning,North,Stockholm,Fashion,Sportswear,Swish,Email,1,56.46,0.064,Low (1-10%),52.84656,Low,3,Medium (3-5d),0
+O2025816,2025-03-26,C1179,Consumer,Returning,East,Örebro,Electronics,Headphones,Card,Direct,1,161.5,0.078,Low (1-10%),148.90300000000002,Medium,3,Medium (3-5d),0
+O2025817,2025-12-11,C1110,Corporate,Returning,South,Malmö,Electronics,Headphones,Swish,Organic,1,233.04,0,No discount,233.04,High,2,Fast (1-2d),0
+O2025818,2025-01-26,C1038,Consumer,Returning,North,Stockholm,Home,Decor,Gift Card,Affiliate,2,95.34,0.222,Medium (11-25%),148.34904,Medium,3,Medium (3-5d),0
+O2025819,2025-04-26,C1006,Consumer,VIP,East,Örebro,Sports,Cycling,Paypal,Organic,1,514.64,0.064,Low (1-10%),481.70303999999993,Premium,3,Medium (3-5d),0
+O2025820,2025-08-11,C1132,Corporate,Returning,West,Borås,Electronics,Laptop,Card,Affiliate,1,881.39,0.041,Low (1-10%),845.2530099999999,Premium,5,Medium (3-5d),1
+O2025821,2025-09-16,C1242,Small Business,New,East,Linköping,Home,Kitchen,Swish,Organic,1,62.68,0.092,Low (1-10%),56.91344,Low,6,Slow(6-9d),0
+O2025822,2025-10-05,C1142,Small Business,Returning,South,Helsingborg,Beauty,Makeup,Invoice,Organic,1,43.69,0.092,Low (1-10%),39.670519999999996,Low,4,Medium (3-5d),0
+O2025823,2025-07-17,C1149,Consumer,Returning,East,Örebro,Electronics,Laptop,Card,Direct,1,1535.07,0.033,Low (1-10%),1484.4126899999999,Premium,3,Medium (3-5d),0
+O2025824,2025-06-03,C1191,Consumer,New,South,Lund,Fashion,Jackets,Card,Organic,1,156.59,0.143,Medium (11-25%),134.19763,Medium,5,Medium (3-5d),0
+O2025825,2025-07-02,C1079,Consumer,VIP,East,Linköping,Sports,Cycling,Card,Affiliate,2,489.31,0.062,Low (1-10%),917.94556,Premium,5,Medium (3-5d),1
+O2025826,2025-12-04,C1169,Consumer,Returning,North,Uppsala,Electronics,Laptop,Gift Card,Social,2,1037.82,0,No discount,2075.64,Premium,1,Fast (1-2d),0
+O2025827,2025-11-28,C1209,Consumer,Returning,North,Stockholm,Home,Kitchen,Gift Card,Email,2,112.81,0.119,Medium (11-25%),198.77122,High,3,Medium (3-5d),0
+O2025828,2025-08-10,C1167,Small Business,New,South,Helsingborg,Fashion,Shoes,Invoice,Email,2,113.54,0.065,Low (1-10%),212.31980000000001,High,3,Medium (3-5d),0
+O2025829,2025-03-30,C1172,Corporate,Returning,East,Norrköping,Beauty,Haircare,Card,Email,3,37.38,0.007,Low (1-10%),111.35502000000001,Medium,3,Medium (3-5d),0
+O2025830,2025-02-18,C1013,Consumer,Returning,North,Uppsala,Beauty,Makeup,Invoice,Paid Search,2,54.06,0.07,Low (1-10%),100.5516,Medium,2,Fast (1-2d),0
+O2025831,2025-01-14,C1104,Small Business,Returning,West,Göteborg,Sports,Fitness,Card,Social,2,202.88,0.148,Medium (11-25%),345.70752,High,3,Medium (3-5d),0
+O2025832,2025-04-26,C1211,Consumer,New,North,Uppsala,Fashion,Jackets,Card,Social,1,176.16,0.04,Low (1-10%),169.1136,High,1,Fast (1-2d),0
+O2025833,2025-08-30,C1160,Consumer,New,East,Örebro,Electronics,Mobile,Card,Social,1,530.7,0.021,Low (1-10%),519.5553,Premium,6,Slow(6-9d),0
+O2025834,2025-04-29,C1012,Small Business,Returning,East,Norrköping,Sports,Fitness,Card,Social,1,153.53,0.063,Low (1-10%),143.85761000000002,Medium,4,Medium (3-5d),0
+O2025835,2025-09-24,C1112,Small Business,Returning,North,Stockholm,Electronics,Laptop,Card,Organic,2,923.45,0.024,Low (1-10%),1802.5744,Premium,3,Medium (3-5d),0
+O2025836,2025-12-08,C1237,Small Business,Returning,South,Malmö,Fashion,Shoes,Card,Paid Search,1,139.27,0.075,Low (1-10%),128.82475000000002,Medium,5,Medium (3-5d),0
+O2025837,2025-05-21,C1179,Consumer,Returning,East,Örebro,Beauty,Haircare,Paypal,Paid Search,1,19.08,0.148,Medium (11-25%),16.256159999999998,Low,6,Slow(6-9d),0
+O2025838,2025-11-28,C1047,Consumer,Returning,East,Norrköping,Electronics,Headphones,Card,Email,2,192.69,0.094,Low (1-10%),349.15428000000003,High,6,Slow(6-9d),0
+O2025839,2025-07-21,C1195,Consumer,Returning,South,Malmö,Electronics,Mobile,Invoice,Paid Search,1,622.19,0.096,Low (1-10%),562.4597600000001,Premium,4,Medium (3-5d),1
+O2025840,2025-06-04,C1240,Consumer,Returning,South,Lund,Sports,Fitness,Swish,Organic,1,195.24,0.071,Low (1-10%),181.37796000000003,High,2,Fast (1-2d),0
+O2025841,2025-02-24,C1215,Consumer,Returning,North,Stockholm,Electronics,Laptop,Paypal,Organic,1,1284.47,0,No discount,1284.47,Premium,3,Medium (3-5d),1
+O2025842,2025-05-10,C1005,Small Business,Returning,West,Göteborg,Fashion,Sportswear,Swish,Paid Search,1,82.31,0.084,Low (1-10%),75.39596,Low,2,Fast (1-2d),0
+O2025843,2025-05-01,C1239,Corporate,Returning,South,Helsingborg,Electronics,Headphones,Invoice,Social,1,353.93,0.057,Low (1-10%),333.75599,High,5,Medium (3-5d),0
+O2025844,2025-09-18,C1095,Corporate,New,West,Halmstad,Beauty,Skincare,Invoice,Email,1,75.6,0.119,Medium (11-25%),66.6036,Low,1,Fast (1-2d),0
+O2025845,2025-06-29,C1053,Consumer,New,West,Borås,Fashion,Accessories,Card,Social,1,36.18,0.078,Low (1-10%),33.35796,Low,3,Medium (3-5d),1
+O2025846,2025-01-15,C1207,Consumer,New,North,Stockholm,Electronics,Headphones,Card,Email,2,212.55,0.088,Low (1-10%),387.69120000000004,Premium,2,Fast (1-2d),0
+O2025847,2025-10-21,C1059,Small Business,New,South,Malmö,Fashion,Jackets,Invoice,Organic,1,211.97,0.058,Low (1-10%),199.67574,High,4,Medium (3-5d),0
+O2025848,2025-04-23,C1086,Consumer,Returning,South,Helsingborg,Sports,Team Sports,Card,Organic,1,42.24,0,No discount,42.24,Low,7,Slow(6-9d),0
+O2025849,2025-07-23,C1037,Consumer,VIP,West,Borås,Electronics,Headphones,Invoice,Organic,1,349.55,0.168,Medium (11-25%),290.8256,High,6,Slow(6-9d),0
+O2025850,2025-01-04,C1151,Consumer,Returning,West,Halmstad,Electronics,Laptop,Card,Organic,1,691.2,0.058,Low (1-10%),651.1104,Premium,3,Medium (3-5d),0
+O2025851,2025-05-15,C1155,Corporate,New,South,Helsingborg,Beauty,Haircare,Card,Email,2,55.85,0.162,Medium (11-25%),93.6046,Medium,1,Fast (1-2d),1
+O2025852,2025-10-31,C1100,Small Business,New,West,Göteborg,Home,Kitchen,Swish,Paid Search,1,18.55,0.127,Medium (11-25%),16.19415,Low,6,Slow(6-9d),1
+O2025853,2025-09-14,C1078,Small Business,Returning,South,Helsingborg,Home,Furniture,Invoice,Social,1,388.94,0.032,Low (1-10%),376.49392,Premium,5,Medium (3-5d),0
+O2025854,2025-12-24,C1235,Small Business,Returning,North,Stockholm,Sports,Fitness,Card,Organic,1,320.23,0.069,Low (1-10%),298.13413,High,1,Fast (1-2d),0
+O2025855,2025-01-01,C1033,Small Business,Returning,South,Helsingborg,Electronics,Tablet,Swish,Social,1,375.62,0.055,Low (1-10%),354.9609,High,2,Fast (1-2d),0
+O2025856,2025-11-17,C1244,Consumer,Returning,West,Borås,Fashion,Accessories,Card,Social,1,20.32,0,No discount,20.32,Low,3,Medium (3-5d),0
+O2025857,2025-12-19,C1250,Corporate,Returning,North,Uppsala,Electronics,Headphones,Card,Affiliate,1,153.6,0.105,Medium (11-25%),137.472,Medium,3,Medium (3-5d),0
+O2025858,2025-01-09,C1122,Corporate,New,East,Örebro,Fashion,Sportswear,Paypal,Paid Search,2,80.28,0.06,Low (1-10%),150.9264,Medium,4,Medium (3-5d),0
+O2025859,2025-04-19,C1027,Small Business,Returning,North,Stockholm,Beauty,Makeup,Invoice,Social,2,44.22,0.012,Low (1-10%),87.37872,Medium,4,Medium (3-5d),0
+O2025860,2025-04-24,C1098,Small Business,Returning,West,Halmstad,Electronics,Headphones,Swish,Affiliate,2,161.07,0.13,Medium (11-25%),280.2618,High,3,Medium (3-5d),0
+O2025861,2025-08-29,C1173,Corporate,New,West,Halmstad,Electronics,Headphones,Gift Card,Organic,2,184.86,0.045,Low (1-10%),353.0826,High,1,Fast (1-2d),0
+O2025862,2025-08-20,C1198,Consumer,VIP,South,Helsingborg,Sports,Team Sports,Gift Card,Email,2,115.39,0.03,Low (1-10%),223.8566,High,2,Fast (1-2d),0
+O2025863,2025-06-09,C1077,Consumer,New,North,Stockholm,Beauty,Makeup,Card,Paid Search,1,44.68,0.041,Low (1-10%),42.84812,Low,5,Medium (3-5d),0
+O2025864,2025-01-04,C1085,Small Business,Returning,West,Halmstad,Electronics,Mobile,Card,Direct,1,429.24,0.035,Low (1-10%),414.21659999999997,Premium,4,Medium (3-5d),1
+O2025865,2025-06-29,C1125,Small Business,Returning,East,Norrköping,Fashion,Jackets,Card,Organic,2,165.15,0.089,Low (1-10%),300.9033,High,2,Fast (1-2d),1
+O2025866,2025-03-18,C1174,Consumer,Returning,West,Borås,Electronics,Headphones,Invoice,Social,1,205.97,0.05,Low (1-10%),195.67149999999998,High,3,Medium (3-5d),0
+O2025867,2025-06-11,C1091,Corporate,VIP,South,Malmö,Fashion,Shoes,Card,Organic,1,136.54,0.12,Medium (11-25%),120.1552,Medium,4,Medium (3-5d),1
+O2025868,2025-10-16,C1205,Small Business,VIP,South,Malmö,Beauty,Fragrance,Card,Paid Search,2,82.34,0.11,Medium (11-25%),146.5652,Medium,2,Fast (1-2d),0
+O2025869,2025-09-26,C1178,Consumer,VIP,South,Malmö,Sports,Outdoor,Card,Social,2,40.71,0.097,Low (1-10%),73.52226,Low,3,Medium (3-5d),0
+O2025870,2025-04-08,C1180,Corporate,Returning,North,Stockholm,Home,Decor,Card,Organic,1,100.91,0,No discount,100.91,Medium,4,Medium (3-5d),0
+O2025871,2025-05-24,C1025,Consumer,Returning,North,Uppsala,Fashion,Shoes,Invoice,Paid Search,2,101.03,0.133,Medium (11-25%),175.18602,High,4,Medium (3-5d),0
+O2025872,2025-10-23,C1109,Small Business,Returning,South,Helsingborg,Home,Furniture,Invoice,Organic,1,602.36,0,No discount,602.36,Premium,6,Slow(6-9d),0
+O2025873,2025-07-09,C1000,Small Business,Returning,West,Borås,Sports,Team Sports,Swish,Social,2,136.19,0.019,Low (1-10%),267.20477999999997,High,4,Medium (3-5d),1
+O2025874,2025-02-07,C1093,Small Business,Returning,West,Borås,Sports,Outdoor,Swish,Organic,1,202.34,0.076,Low (1-10%),186.96216,High,1,Fast (1-2d),0
+O2025875,2025-05-03,C1259,Consumer,Returning,North,Stockholm,Home,Furniture,Card,Email,2,940.48,0.145,Medium (11-25%),1608.2208,Premium,3,Medium (3-5d),0
+O2025876,2025-04-25,C1193,Corporate,Returning,North,Uppsala,Sports,Team Sports,Card,Email,1,87.67,0.067,Low (1-10%),81.79611000000001,Low,4,Medium (3-5d),0
+O2025877,2025-02-12,C1017,Small Business,Returning,West,Göteborg,Home,Lighting,Card,Affiliate,1,189.98,0.055,Low (1-10%),179.53109999999998,High,2,Fast (1-2d),0
+O2025878,2025-06-04,C1076,Consumer,New,North,Uppsala,Electronics,Laptop,Gift Card,Organic,1,1484.91,0.026,Low (1-10%),1446.30234,Premium,1,Fast (1-2d),0
+O2025879,2025-09-15,C1248,Consumer,New,West,Borås,Electronics,Laptop,Card,Organic,2,804.8,0.041,Low (1-10%),1543.6064,Premium,3,Medium (3-5d),0
+O2025880,2025-11-21,C1212,Corporate,New,South,Malmö,Sports,Fitness,Card,Direct,1,175.96,0,No discount,175.96,High,2,Fast (1-2d),0
+O2025881,2025-05-10,C1225,Small Business,Returning,North,Stockholm,Fashion,Jackets,Invoice,Organic,2,176.81,0,No discount,353.62,High,1,Fast (1-2d),0
+O2025882,2025-02-14,C1020,Consumer,Returning,East,Linköping,Fashion,Sportswear,Invoice,Affiliate,4,83.86,0.066,Low (1-10%),313.30096,High,2,Fast (1-2d),0
+O2025883,2025-07-10,C1000,Small Business,Returning,East,Linköping,Electronics,Laptop,Invoice,Affiliate,2,1151.83,0.105,Medium (11-25%),2061.7756999999997,Premium,6,Slow(6-9d),0
+O2025884,2025-05-16,C1138,Consumer,New,South,Lund,Home,Decor,Card,Direct,1,79.73,0,No discount,79.73,Low,5,Medium (3-5d),0
+O2025885,2025-06-20,C1141,Small Business,Returning,South,Malmö,Home,Kitchen,Swish,Paid Search,1,91.05,0.111,Medium (11-25%),80.94345,Low,4,Medium (3-5d),0
+O2025886,2025-10-30,C1081,Consumer,Returning,North,Stockholm,Sports,Cycling,Swish,Organic,2,606.66,0,No discount,1213.32,Premium,1,Fast (1-2d),0
+O2025887,2025-05-13,C1113,Small Business,Returning,South,Lund,Beauty,Haircare,Swish,Organic,1,44.54,0.057,Low (1-10%),42.001219999999996,Low,2,Fast (1-2d),0
+O2025888,2025-03-27,C1245,Consumer,Returning,West,Borås,Fashion,Sportswear,Invoice,Email,2,93.02,0.257,High (25%+),138.22772,Medium,3,Medium (3-5d),1
+O2025889,2025-01-08,C1136,Consumer,Returning,West,Halmstad,Fashion,Accessories,Card,Paid Search,1,48.22,0.084,Low (1-10%),44.16952,Low,3,Medium (3-5d),0
+O2025890,2025-07-31,C1241,Consumer,VIP,South,Lund,Fashion,Sportswear,Card,Social,1,63.04,0.122,Medium (11-25%),55.34912,Low,3,Medium (3-5d),1
+O2025891,2025-08-02,C1177,Small Business,Returning,East,Linköping,Beauty,Haircare,Swish,Organic,1,9.75,0.057,Low (1-10%),9.19425,Low,2,Fast (1-2d),0
+O2025892,2025-07-30,C1068,Consumer,New,East,Linköping,Fashion,Jackets,Card,Social,2,214.3,0.04,Low (1-10%),411.456,Premium,4,Medium (3-5d),0
+O2025893,2025-02-10,C1197,Consumer,VIP,North,Uppsala,Home,Kitchen,Card,Paid Search,2,141.11,0.117,Medium (11-25%),249.20026000000001,High,3,Medium (3-5d),0
+O2025894,2025-12-12,C1141,Small Business,Returning,East,Örebro,Electronics,Mobile,Swish,Direct,1,616.91,0,No discount,616.91,Premium,2,Fast (1-2d),0
+O2025895,2025-11-06,C1137,Consumer,New,West,Borås,Home,Lighting,Swish,Organic,3,183.01,0.04,Low (1-10%),527.0688,Premium,3,Medium (3-5d),0
+O2025896,2025-08-17,C1245,Consumer,Returning,West,Halmstad,Home,Furniture,Swish,Social,1,390.14,0.043,Low (1-10%),373.36397999999997,Premium,5,Medium (3-5d),0
+O2025897,2025-06-13,C1112,Small Business,Returning,North,Stockholm,Beauty,Skincare,Card,Social,1,68.47,0.035,Low (1-10%),66.07355,Low,3,Medium (3-5d),1
+O2025898,2025-12-22,C1073,Small Business,New,North,Västerås,Home,Lighting,Paypal,Paid Search,1,193.59,0.162,Medium (11-25%),162.22842,High,5,Medium (3-5d),0
+O2025899,2025-10-21,C1171,Small Business,Returning,West,Halmstad,Home,Decor,Swish,Social,1,50,0,No discount,50,Low,5,Medium (3-5d),1
+O2025900,2025-01-20,C1138,Consumer,New,South,Lund,Sports,Team Sports,Card,Direct,1,80.06,0.085,Low (1-10%),73.2549,Low,3,Medium (3-5d),0
+O2025901,2025-06-15,C1247,Corporate,Returning,West,Göteborg,Sports,Fitness,Gift Card,Paid Search,1,212.64,0.049,Low (1-10%),202.22063999999997,High,5,Medium (3-5d),0
+O2025902,2025-01-07,C1034,Small Business,Returning,South,Helsingborg,Sports,Fitness,Invoice,Social,1,319.74,0.063,Low (1-10%),299.59638,High,3,Medium (3-5d),0
+O2025903,2025-02-27,C1211,Consumer,New,North,Uppsala,Home,Furniture,Invoice,Email,2,451.67,0.148,Medium (11-25%),769.64568,Premium,3,Medium (3-5d),0
+O2025904,2025-03-20,C1241,Consumer,VIP,West,Borås,Home,Lighting,Card,Affiliate,1,109.76,0.124,Medium (11-25%),96.14976,Medium,5,Medium (3-5d),0
+O2025905,2025-09-05,C1163,Corporate,Returning,West,Borås,Electronics,Headphones,Invoice,Paid Search,1,108.87,0.032,Low (1-10%),105.38616,Medium,3,Medium (3-5d),0
+O2025906,2025-10-31,C1144,Consumer,Returning,North,Uppsala,Fashion,Accessories,Card,Social,1,36.41,0.037,Low (1-10%),35.06283,Low,1,Fast (1-2d),0
+O2025907,2025-04-03,C1177,Small Business,Returning,East,Linköping,Beauty,Haircare,Invoice,Affiliate,1,23.29,0.109,Medium (11-25%),20.75139,Low,3,Medium (3-5d),0
+O2025908,2025-02-20,C1222,Consumer,Returning,East,Linköping,Electronics,Mobile,Paypal,Social,2,147.34,0.023,Low (1-10%),287.90236,High,6,Slow(6-9d),1
+O2025909,2025-07-01,C1097,Consumer,VIP,East,Örebro,Beauty,Fragrance,Card,Direct,1,118.37,0.2,Medium (11-25%),94.69600000000001,Medium,4,Medium (3-5d),0
+O2025910,2025-10-08,C1047,Consumer,Returning,East,Norrköping,Sports,Cycling,Invoice,Direct,1,806.6,0.076,Low (1-10%),745.2984,Premium,2,Fast (1-2d),0
+O2025911,2025-09-23,C1016,Consumer,Returning,North,Stockholm,Fashion,Accessories,Invoice,Social,1,20.39,0.072,Low (1-10%),18.92192,Low,4,Medium (3-5d),0
+O2025912,2025-03-02,C1219,Consumer,New,West,Göteborg,Sports,Cycling,Invoice,Direct,2,771.89,0.072,Low (1-10%),1432.62784,Premium,1,Fast (1-2d),0
+O2025913,2025-04-30,C1068,Consumer,New,East,Stockholm,Sports,Outdoor,Card,Email,2,199.98,0.068,Low (1-10%),372.76271999999994,Premium,4,Medium (3-5d),0
+O2025914,2025-06-12,C1041,Consumer,Returning,South,Lund,Sports,Outdoor,Invoice,Organic,4,167.15,0.064,Low (1-10%),625.8095999999999,Premium,3,Medium (3-5d),0
+O2025915,2025-08-27,C1026,Small Business,Returning,South,Malmö,Sports,Team Sports,Invoice,Paid Search,2,113.62,0.07,Low (1-10%),211.3332,High,5,Medium (3-5d),0
+O2025916,2025-04-17,C1175,Corporate,Returning,West,Halmstad,Sports,Outdoor,Swish,Paid Search,2,122.84,0.156,Medium (11-25%),207.35392,High,1,Fast (1-2d),0
+O2025917,2025-09-25,C1227,Consumer,New,North,Stockholm,Electronics,Headphones,Invoice,Paid Search,1,136.55,0.069,Low (1-10%),127.12805000000002,Medium,2,Fast (1-2d),0
+O2025918,2025-03-23,C1203,Small Business,Returning,East,Örebro,Sports,Outdoor,Invoice,Direct,1,207.49,0.058,Low (1-10%),195.45558,High,3,Medium (3-5d),0
+O2025919,2025-11-11,C1113,Small Business,Returning,South,Lund,Electronics,Laptop,Card,Social,1,1075.23,0.061,Low (1-10%),1009.64097,Premium,6,Slow(6-9d),0
+O2025920,2025-08-13,C1184,Small Business,Returning,North,Västerås,Beauty,Skincare,Swish,Social,4,45.26,0.052,Low (1-10%),171.62591999999998,High,3,Medium (3-5d),1
+O2025921,2025-04-24,C1184,Small Business,Returning,North,Västerås,Home,Kitchen,Card,Social,1,103.57,0,No discount,103.57,Medium,4,Medium (3-5d),1
+O2025922,2025-06-19,C1133,Small Business,VIP,North,Västerås,Fashion,Sportswear,Card,Paid Search,1,38.65,0.088,Low (1-10%),35.2488,Low,2,Fast (1-2d),0
+O2025923,2025-07-21,C1046,Corporate,New,North,Stockholm,Fashion,Accessories,Card,Direct,1,36.81,0.007,Low (1-10%),36.552330000000005,Low,1,Fast (1-2d),0
+O2025924,2025-11-03,C1011,Small Business,Returning,East,Linköping,Home,Decor,Card,Affiliate,1,88.81,0.036,Low (1-10%),85.61284,Medium,6,Slow(6-9d),0
+O2025925,2025-09-23,C1038,Consumer,Returning,North,Stockholm,Beauty,Skincare,Invoice,Paid Search,2,47.67,0.077,Low (1-10%),87.99882000000001,Medium,5,Medium (3-5d),0
+O2025926,2025-06-23,C1017,Small Business,Returning,North,Stockholm,Beauty,Makeup,Invoice,Organic,1,55.74,0.081,Low (1-10%),51.225060000000006,Low,4,Medium (3-5d),0
+O2025927,2025-10-25,C1102,Small Business,Returning,West,Göteborg,Home,Lighting,Invoice,Paid Search,1,187.26,0.054,Low (1-10%),177.14795999999998,High,3,Medium (3-5d),0
+O2025928,2025-08-19,C1243,Consumer,Returning,East,Linköping,Fashion,Accessories,Swish,Organic,2,34.26,0.018,Low (1-10%),67.28663999999999,Low,4,Medium (3-5d),0
+O2025929,2025-04-21,C1254,Small Business,Returning,East,Örebro,Electronics,Tablet,Swish,Social,1,497.71,0.022,Low (1-10%),486.76038,Premium,6,Slow(6-9d),0
+O2025930,2025-01-17,C1197,Consumer,VIP,North,Stockholm,Home,Decor,Card,Social,1,117.91,0.069,Low (1-10%),109.77421,Medium,4,Medium (3-5d),0
+O2025931,2025-02-16,C1063,Consumer,Returning,East,Linköping,Electronics,Headphones,Invoice,Affiliate,1,132.34,0.127,Medium (11-25%),115.53282,Medium,5,Medium (3-5d),0
+O2025932,2025-11-27,C1064,Consumer,VIP,North,Uppsala,Home,Decor,Invoice,Social,1,106.61,0.141,Medium (11-25%),91.57799,Medium,4,Medium (3-5d),0
+O2025933,2025-05-01,C1054,Consumer,VIP,North,Stockholm,Home,Furniture,Card,Direct,1,476.03,0.135,Medium (11-25%),411.76595,Premium,3,Medium (3-5d),0
+O2025934,2025-01-13,C1161,Small Business,Returning,West,Borås,Home,Lighting,Card,Social,1,208.31,0.082,Low (1-10%),191.22858000000002,High,5,Medium (3-5d),0
+O2025935,2025-01-27,C1135,Consumer,Returning,North,Stockholm,Home,Lighting,Invoice,Direct,1,248.6,0.05,Low (1-10%),236.17,High,6,Slow(6-9d),0
+O2025936,2025-01-23,C1080,Consumer,New,North,Västerås,Electronics,Headphones,Card,Organic,1,79.42,0.025,Low (1-10%),77.4345,Low,3,Medium (3-5d),0
+O2025937,2025-04-25,C1245,Consumer,Returning,West,Halmstad,Fashion,Sportswear,Gift Card,Direct,2,98.46,0.078,Low (1-10%),181.56024,High,1,Fast (1-2d),0
+O2025938,2025-02-07,C1000,Small Business,Returning,East,Linköping,Fashion,Shoes,Invoice,Organic,1,86,0.068,Low (1-10%),80.152,Low,4,Medium (3-5d),0
+O2025939,2025-09-19,C1036,Consumer,New,North,Stockholm,Sports,Outdoor,Swish,Organic,1,163.91,0.119,Medium (11-25%),144.40471,Medium,3,Medium (3-5d),0
+O2025940,2025-02-07,C1171,Small Business,Returning,West,Halmstad,Fashion,Accessories,Swish,Direct,3,35.93,0.069,Low (1-10%),100.35249,Medium,5,Medium (3-5d),0
+O2025941,2025-06-15,C1256,Consumer,New,North,Uppsala,Sports,Team Sports,Invoice,Direct,3,150.2,0,No discount,450.59999999999997,Premium,4,Medium (3-5d),0
+O2025942,2025-12-12,C1048,Consumer,VIP,North,Uppsala,Sports,Team Sports,Invoice,Direct,1,100.41,0.137,Medium (11-25%),86.65383,Medium,4,Medium (3-5d),0
+O2025943,2025-07-15,C1201,Consumer,Returning,West,Halmstad,Fashion,Sportswear,Invoice,Organic,1,112.16,0.001,Low (1-10%),112.04784,Medium,2,Fast (1-2d),0
+O2025944,2025-05-05,C1039,Consumer,Returning,North,Västerås,Sports,Team Sports,Invoice,Direct,1,8,0.112,Medium (11-25%),7.104,Low,2,Fast (1-2d),0
+O2025945,2025-03-22,C1107,Consumer,VIP,South,Malmö,Home,Lighting,Card,Direct,2,150.88,0.103,Medium (11-25%),270.67872,High,5,Medium (3-5d),0
+O2025946,2025-10-19,C1192,Corporate,Returning,West,Göteborg,Sports,Cycling,Paypal,Paid Search,1,667.38,0.041,Low (1-10%),640.01742,Premium,4,Medium (3-5d),0
+O2025947,2025-08-25,C1061,Small Business,Returning,North,Västerås,Home,Decor,Paypal,Paid Search,1,94.03,0.046,Low (1-10%),89.70461999999999,Medium,4,Medium (3-5d),0
+O2025948,2025-08-27,C1186,Corporate,Returning,East,Norrköping,Beauty,Makeup,Invoice,Direct,1,50.46,0,No discount,50.46,Low,5,Medium (3-5d),0
+O2025949,2025-06-09,C1118,Corporate,New,North,Uppsala,Beauty,Makeup,Invoice,Email,1,9.94,0.08,Low (1-10%),9.1448,Low,3,Medium (3-5d),0
+O2025950,2025-12-19,C1033,Small Business,Returning,South,Helsingborg,Electronics,Laptop,Card,Email,1,791.06,0.038,Low (1-10%),760.9997199999999,Premium,6,Slow(6-9d),0
+O2025951,2025-08-28,C1243,Consumer,Returning,East,Linköping,Home,Kitchen,Card,Organic,1,109.65,0.046,Low (1-10%),104.6061,Medium,6,Slow(6-9d),0
+O2025952,2025-07-30,C1158,Corporate,New,North,Stockholm,Electronics,Laptop,Card,Direct,2,871.39,0.024,Low (1-10%),1700.95328,Premium,4,Medium (3-5d),0
+O2025953,2025-09-05,C1195,Consumer,Returning,South,Malmö,Sports,Cycling,Swish,Direct,2,510.06,0.021,Low (1-10%),998.69748,Premium,2,Fast (1-2d),0
+O2025954,2025-03-12,C1174,Consumer,Returning,West,Stockholm,Sports,Cycling,Card,Affiliate,1,811.17,0.058,Low (1-10%),764.12214,Premium,3,Medium (3-5d),0
+O2025955,2025-09-22,C1223,Corporate,Returning,West,Göteborg,Sports,Team Sports,Card,Affiliate,2,104.21,0.162,Medium (11-25%),174.65596,High,4,Medium (3-5d),0
+O2025956,2025-08-12,C1191,Consumer,New,West,Göteborg,Fashion,Accessories,Card,Organic,2,54.77,0.112,Medium (11-25%),97.27152000000001,Medium,3,Medium (3-5d),0
+O2025957,2025-04-28,C1175,Corporate,Returning,East,Norrköping,Home,Kitchen,Card,Affiliate,1,45.19,0.087,Low (1-10%),41.25847,Low,6,Slow(6-9d),0
+O2025958,2025-05-09,C1203,Small Business,Returning,East,Örebro,Beauty,Haircare,Card,Email,1,29.34,0.045,Low (1-10%),28.0197,Low,4,Medium (3-5d),0
+O2025959,2025-11-27,C1109,Small Business,Returning,South,Helsingborg,Electronics,Headphones,Card,Organic,1,157.13,0.129,Medium (11-25%),136.86023,Medium,4,Medium (3-5d),0
+O2025960,2025-01-05,C1009,Consumer,Returning,South,Helsingborg,Beauty,Haircare,Card,Social,1,45.66,0.068,Low (1-10%),42.555119999999995,Low,3,Medium (3-5d),0
+O2025961,2025-03-09,C1215,Consumer,Returning,North,Stockholm,Sports,Fitness,Swish,Social,2,269.73,0.085,Low (1-10%),493.6059000000001,Premium,1,Fast (1-2d),0
+O2025962,2025-10-18,C1110,Corporate,Returning,East,Norrköping,Beauty,Fragrance,Paypal,Social,1,70.11,0.065,Low (1-10%),65.55285,Low,5,Medium (3-5d),0
+O2025963,2025-08-07,C1093,Small Business,Returning,West,Borås,Home,Decor,Invoice,Social,1,103.36,0.043,Low (1-10%),98.91552,Medium,2,Fast (1-2d),1
+O2025964,2025-04-03,C1045,Small Business,Returning,North,Uppsala,Electronics,Tablet,Card,Organic,1,517.37,0.08,Low (1-10%),475.98040000000003,Premium,3,Medium (3-5d),0
+O2025965,2025-09-26,C1196,Consumer,VIP,West,Borås,Fashion,Sportswear,Card,Organic,2,122.88,0.064,Low (1-10%),230.03135999999998,High,3,Medium (3-5d),0
+O2025966,2025-06-19,C1136,Consumer,Returning,West,Halmstad,Home,Kitchen,Card,Organic,1,185.05,0.03,Low (1-10%),179.4985,High,3,Medium (3-5d),0
+O2025967,2025-08-25,C1117,Small Business,Returning,East,Örebro,Electronics,Tablet,Swish,Paid Search,1,695.37,0,No discount,695.37,Premium,5,Medium (3-5d),0
+O2025968,2025-10-29,C1222,Consumer,Returning,East,Linköping,Fashion,Shoes,Invoice,Organic,2,74.94,0.04,Low (1-10%),143.88479999999998,Medium,4,Medium (3-5d),0
+O2025969,2025-02-02,C1202,Small Business,Returning,South,Helsingborg,Electronics,Headphones,Invoice,Email,1,211.66,0.086,Low (1-10%),193.45724,High,5,Medium (3-5d),0
+O2025970,2025-06-23,C1121,Small Business,Returning,North,Stockholm,Electronics,Headphones,Card,Social,1,127.13,0.006,Low (1-10%),126.36721999999999,Medium,4,Medium (3-5d),0
+O2025971,2025-02-25,C1249,Corporate,Returning,West,Göteborg,Electronics,Tablet,Card,Email,1,554.22,0.17,Medium (11-25%),460.0026,Premium,5,Medium (3-5d),0
+O2025972,2025-05-09,C1176,Small Business,Returning,North,Stockholm,Home,Furniture,Card,Paid Search,2,1063.24,0.144,Medium (11-25%),1820.26688,Premium,3,Medium (3-5d),0
+O2025973,2025-08-31,C1143,Corporate,VIP,South,Stockholm,Beauty,Fragrance,Invoice,Social,2,48.21,0.067,Low (1-10%),89.95986,Medium,4,Medium (3-5d),0
+O2025974,2025-09-24,C1044,Consumer,Returning,North,Stockholm,Home,Lighting,Card,Organic,2,170.87,0,No discount,341.74,High,3,Medium (3-5d),0
+O2025975,2025-11-17,C1027,Small Business,Returning,North,Stockholm,Home,Furniture,Card,Email,1,430.02,0.096,Low (1-10%),388.73807999999997,Premium,8,Slow(6-9d),1
+O2025976,2025-01-06,C1049,Consumer,VIP,North,Uppsala,Electronics,Laptop,Gift Card,Social,2,1625.78,0.1,Low (1-10%),2926.404,Premium,3,Medium (3-5d),1
+O2025977,2025-07-27,C1009,Consumer,Returning,South,Helsingborg,Fashion,Accessories,Card,Organic,1,61.3,0.023,Low (1-10%),59.8901,Low,2,Fast (1-2d),0
+O2025978,2025-07-05,C1017,Small Business,Returning,South,Helsingborg,Beauty,Skincare,Invoice,Organic,1,48.28,0.018,Low (1-10%),47.41096,Low,4,Medium (3-5d),0
+O2025979,2025-01-20,C1085,Small Business,Returning,West,Halmstad,Beauty,Skincare,Invoice,Email,1,52.32,0.135,Medium (11-25%),45.2568,Low,4,Medium (3-5d),0
+O2025980,2025-06-18,C1164,Corporate,Returning,East,Linköping,Electronics,Headphones,Card,Organic,1,129.97,0.05,Low (1-10%),123.47149999999999,Medium,5,Medium (3-5d),0
+O2025981,2025-06-08,C1014,Consumer,New,North,Västerås,Electronics,Laptop,Card,Email,1,1023.14,0.124,Medium (11-25%),896.27064,Premium,2,Fast (1-2d),1
+O2025982,2025-06-14,C1075,Consumer,VIP,North,Stockholm,Fashion,Sportswear,Swish,Social,1,53.08,0.051,Low (1-10%),50.37291999999999,Low,2,Fast (1-2d),0
+O2025983,2025-09-14,C1249,Corporate,Returning,West,Göteborg,Electronics,Tablet,Swish,Email,1,787.41,0.017,Low (1-10%),774.0240299999999,Premium,4,Medium (3-5d),0
+O2025984,2025-01-16,C1040,Consumer,Returning,East,Linköping,Beauty,Haircare,Swish,Paid Search,2,35.79,0.049,Low (1-10%),68.07258,Low,7,Slow(6-9d),1
+O2025985,2025-07-17,C1169,Consumer,Returning,North,Uppsala,Electronics,Laptop,Paypal,Organic,2,1039.02,0.042,Low (1-10%),1990.7623199999998,Premium,3,Medium (3-5d),0
+O2025986,2025-09-10,C1039,Consumer,Returning,North,Västerås,Fashion,Sportswear,Paypal,Social,1,69.04,0.097,Low (1-10%),62.343120000000006,Low,3,Medium (3-5d),0
+O2025987,2025-09-25,C1013,Consumer,Returning,West,Halmstad,Electronics,Laptop,Swish,Paid Search,1,1237.91,0.064,Low (1-10%),1158.68376,Premium,1,Fast (1-2d),1
+O2025988,2025-10-15,C1161,Small Business,Returning,North,Västerås,Electronics,Mobile,Swish,Paid Search,1,348.56,0.049,Low (1-10%),331.48055999999997,High,3,Medium (3-5d),0
+O2025989,2025-11-24,C1050,Consumer,Returning,East,Linköping,Home,Lighting,Card,Organic,1,198,0.052,Low (1-10%),187.70399999999998,High,6,Slow(6-9d),0
+O2025990,2025-09-11,C1207,Consumer,New,North,Stockholm,Fashion,Jackets,Invoice,Email,1,123.77,0.173,Medium (11-25%),102.35779,Medium,1,Fast (1-2d),1
+O2025991,2025-08-16,C1002,Small Business,New,South,Lund,Electronics,Headphones,Card,Social,1,207.95,0.044,Low (1-10%),198.8002,High,1,Fast (1-2d),0
+O2025992,2025-06-12,C1102,Small Business,Returning,West,Göteborg,Fashion,Sportswear,Invoice,Email,1,94.05,0.104,Medium (11-25%),84.2688,Medium,3,Medium (3-5d),0
+O2025993,2025-06-21,C1079,Consumer,VIP,East,Linköping,Electronics,Tablet,Card,Direct,1,436.84,0.147,Medium (11-25%),372.62451999999996,Premium,6,Slow(6-9d),0
+O2025994,2025-08-24,C1014,Consumer,New,North,Västerås,Electronics,Headphones,Swish,Social,1,149.63,0.086,Low (1-10%),136.76182,Medium,3,Medium (3-5d),1
+O2025995,2025-11-24,C1207,Consumer,New,North,Stockholm,Home,Decor,Swish,Affiliate,1,74.55,0.059,Low (1-10%),70.15155,Low,3,Medium (3-5d),0
+O2025996,2025-09-18,C1220,Consumer,Returning,West,Halmstad,Sports,Team Sports,Card,Social,1,87.32,0.001,Low (1-10%),87.23267999999999,Medium,3,Medium (3-5d),0
+O2025997,2025-08-04,C1243,Consumer,Returning,East,Linköping,Electronics,Headphones,Paypal,Paid Search,2,294.1,0.039,Low (1-10%),565.2602,Premium,6,Slow(6-9d),0
+O2025998,2025-05-27,C1039,Consumer,Returning,North,Västerås,Fashion,Accessories,Gift Card,Affiliate,1,65.29,0.025,Low (1-10%),63.65775000000001,Low,3,Medium (3-5d),0
+O2025999,2025-09-25,C1216,Consumer,VIP,North,Uppsala,Electronics,Mobile,Swish,Paid Search,1,480.14,0.064,Low (1-10%),449.41103999999996,Premium,3,Medium (3-5d),0
+O2026000,2025-03-02,C1252,Corporate,Returning,North,Uppsala,Electronics,Tablet,Paypal,Organic,1,580.35,0.068,Low (1-10%),540.8862,Premium,3,Medium (3-5d),0
