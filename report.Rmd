@@ -89,3 +89,61 @@ Fyra nya variabler skapades för att berika analysen:
 
 Dessa variabler gör det enklare att se mönster och jämföra grupper i
 analysen.
+
+## **3. Statistiska sammanfattningar**
+
+Datasetet innehåller 1 000 ordrar från 255 unika kunder fördelade över 5
+produktkategorier.
+
+**Numeriska nyckeltal:**
+
+Medelvärdet för ordervärde `order_value` var 314 kr, medan medianen låg
+på 152 kr. Den stora skillnaden tyder på att ett antal höga ordrar drar
+upp medelvärdet.
+
+Genomsnittligt antal produkter per order `quantity` var 1,36 med en
+median på 1.
+
+**Andelar:** - *Kundsegment:* `Consumer` utgjorde den största gruppen
+(52,9%), följt av `Small Business` (30,2%) och slutligen `Corporate`
+(16,9%).
+
+-   *Kundtyp:* `Returning` klart största typ med (61,3%), följt av `New`
+    (24,5%) och `VIP` (14,2%).
+
+-   *Produktkategori:* `Electronics` (24,3%) och `Fashion` (23,5%) var
+    de största kategorierna, följt av `Home` (20,7%), `Beauty` (15,9%)
+    och `Sports` (15,6%).
+
+-   *Leveranstid:* Den vanligaste leveranstiden för kunder är
+    `Medium (3-5d)` (66,2%), följt utav `Fast (1-2d)` (23,2%) och till
+    sist `Slow(6-9d)` med (10.6%).
+
+**Returgrad och gruppjämförelser:** Den totala returgraden var 14,4%.
+
+-   *Per produktkategori:* `Fashion` hade högst returgrad (16,2%), följt
+    av `Home` (15,9%) och `Beauty` (15,1%). `Sports` hade lägst
+    returgrad (10,9%).
+
+-   *Per region:* `West` hade klart högst returgrad (18,8%), medan
+    `North` hade lägst (11,3%).
+
+-   *Per kundtyp:* Nya kunder (`New`) returnerade oftast (18,0%),
+    jämfört med `VIP` (13,4%) och `Returning` (13,2%).
+
+-   *Per leveransgrupp:* Långsammare leverans hänger ihop med fler
+    returer — `Slow (6–9 dagar)` hade (20,8%) returgrad,
+    `Medium   (3–5 dagar)` (15,0%) och `Fast (1–2 dagar)` (9,9%).
+
+-   *Per ordervärde:* Baserat på tiering `order_value_tier` så är det
+    lite vanligare att mindre ordrar oftare returneras. `Low` (16,4%)
+    och `Medium` (15.6%) ligger något högre jämfört med `Premium`
+    (13,6%) och `High` (12%)
+
+**Ordervärde per kundsegment:** `Small Business` hade högst
+genomsnittligt ordervärde (346 kr), följt av `Consumer` (322 kr) och
+`Corporate` (235 kr).
+
+**Leveranstid per region:** `East` hade längst genomsnittlig leveranstid
+(4,5 dagar), medan `North` hade kortast (3,1 dagar). `South` och `West`
+låg däremellan (3,8 respektive 3,6 dagar).
