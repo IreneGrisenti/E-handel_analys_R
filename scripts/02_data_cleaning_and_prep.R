@@ -133,6 +133,3 @@ df_clean <- df_clean %>%
   )
 
 glimpse(df_clean)
-
-# savig the cleaned df into a ready to use file
-write_csv(df_clean, "data/df_clean.csv", col_names = TRUE)
