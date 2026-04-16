@@ -140,6 +140,17 @@ Tolkning: Diagrammet visar returfrekvensen för olika ordervärdesnivåer. Lågp
 p12
 ```
 
+Tolkning:
+Diagrammet visar returfrekvensen uppdelat efter både kundsegment och kundtyp.
+Det ger en mer detaljerad bild av kundbeteendet.
+Bland New customers har Small Business den högsta returgraden (21.7%), följt av Corporate (18.0%) och Consumer (16.3%).
+Detta indikerar att nya kunder inom Small Business-segmentet är särskilt benägna att returnera produkter.
+För Returning customers är returgraderna generellt lägre och mer stabila, där Corporate (14.3%), Consumer (13.3%) och Small Business (12.7%) ligger nära varandra.
+
+VIP-kunder visar en varierande returgrad, där Corporate (14.3%) och Consumer (13.9%) ligger på liknande nivåer, medan Small Business har en betydligt lägre returgrad (7.7%).
+
+Detta tyder på att kundtyp har en stark påverkan på returbenägenhet, särskilt för nya kunder, medan mer etablerade kunder (Returning och VIP) uppvisar mer stabilt beteende.
+Slutsatsen är att kombinationen av kundsegment och kundtyp ger viktiga insikter, där fokus bör ligga på att minska returer bland nya kunder, särskilt inom Small Business-segmentet.
 
 
 # Fråga 2 - Finns det tecken på att längre leveranstid hänger ihop med fler returer?
