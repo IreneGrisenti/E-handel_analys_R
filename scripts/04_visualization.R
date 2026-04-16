@@ -552,10 +552,6 @@ print(p13)
 
 
 
-
-
-
-
 save_plot <- function(plot, filename) {
   ggsave(
     filename = paste0("figures/", filename),
