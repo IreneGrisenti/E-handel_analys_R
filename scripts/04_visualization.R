@@ -1,9 +1,10 @@
+install.packages("viridis")
+install.packages("ggrepel")
+
 
 library(tidyverse)
 library(scales)
-install.packages("viridis")
 library(viridis)
-install.packages("ggrepel")
 library(ggrepel)
 
 
@@ -510,7 +511,6 @@ print(p12)
 # Slutsatsen är att kombinationen av kundsegment och kundtyp ger viktiga
 # insikter, där fokus bör ligga på att minska returer bland nya kunder,
 # särskilt inom Small Business-segmentet.
-
 
 
 
