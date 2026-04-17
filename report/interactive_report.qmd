@@ -140,6 +140,7 @@ Tolkning: Diagrammet visar returfrekvensen för olika ordervärdesnivåer. Lågp
 p12
 ```
 
+
 Tolkning:
 Diagrammet visar returfrekvensen uppdelat efter både kundsegment och kundtyp.
 Det ger en mer detaljerad bild av kundbeteendet.
