@@ -128,8 +128,6 @@ shipping_by_region <- df_clean %>%
   arrange(desc(mean_shipping_days))
 print(shipping_by_region)
 
-
-### Suggested addition
 # Combination of segment and cm type to see what 
 returns_by_segment_type <- df_clean %>%
   group_by(customer_segment, customer_type) %>%
@@ -140,9 +138,10 @@ returns_by_segment_type <- df_clean %>%
     .groups = "drop"
   ) %>%
   arrange(customer_type, desc(return_rate))
+print(returns_by_segment_type)
 
 # Checking the avg time for returned and not returned orders
-shipping_vs_return <- df %>%
+shipping_vs_return <- df_clean %>%
   group_by(returned) %>%
   summarise(
     count = n(),
@@ -150,3 +149,15 @@ shipping_vs_return <- df %>%
     median_shipping_days = median(shipping_days, na.rm = TRUE),
     .groups = "drop"
   )
+print(shipping_vs_return)
+
+# Return rate by discount
+return_by_discount <- df_clean %>%
+  group_by(discount_tier) %>%
+  summarise(
+    antal     = n(),
+    returer   = sum(returned, na.rm = TRUE),
+    returgrad = mean(returned, na.rm = TRUE),
+    .groups   = "drop"
+  )
+print(return_by_discount)
