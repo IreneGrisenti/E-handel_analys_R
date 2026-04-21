@@ -4,6 +4,7 @@ format: html
 ---
 
 ```{r}
+#| include: false
 library(tidyverse)
 df <- read_csv("../data/ecommerce_orders.csv")
 source("../scripts/02_data_cleaning_and_prep.R")
@@ -11,77 +12,21 @@ source("../scripts/03_stat_summary.R")
 source("../scripts/04_visualization.R")
 ```
 
-## Introduktion
+# Introduktion
 
-Detta projekt analyserar orderdata från ett e-handelsföretag i syfte att ge ledningen ett bättre beslutsunderlag. Analysen fokuserar på två huvudfrågor: hur returgraden varierar mellan produktkategorier, regioner och kundtyper, samt om längre leveranstid hänger ihop med högre returbenägenhet.
+Detta projekt analyserar orderdata från ett e-handelsföretag i syfte att ge ledningen ett bättre beslutsunderlag. Analysen fokuserar på två huvudfrågor:
 
-Utöver detta undersöker vi även \[...\].
+-   **Hur skiljer sig returgrad mellan olika kategorier, regioner eller kundtyper?**
+
+-   **Finns det tecken på att längre leveranstid hänger ihop med fler returer?**
+
+-   **Hur påverkar rabatter returgraden?**
 
 Målet är att identifiera konkreta mönster i datan som företaget kan använda för att minska returer och förbättra kundupplevelsen.
 
-#### Share by customer segment
+# Fråga 1 - Hur skiljer sig returgrad mellan olika kategorier, regioner eller kundtyper?
 
-```{r}
-share_segment
-```
-
-```{r}
-p1
-```
-
-Tolkning: Diagrammet visar fördelningen av kunder mellan olika kundsegment. Resultatet visar att segmentet Consumer är det största (52,9%) Detta följs av Small Business (30,2%) och Corporate (16,9%). Detta indikerar att företaget främst har en konsumentdriven kundbas.
-
-#### Share by customer type
-
-```{r}
-share_customer_type
-```
-
-```{r}
-p2
-```
-
-Tolkning: Detta diagram visar fördelningen av kundtyper i datasetet. Returning customers utgör den största andelen (61.3%), följt av New customers (24.5%) och VIP customers (14.2%). Detta indikerar att återkommande kunder dominerar kundbasen.
-
-#### Share by product category
-
-```{r}
-share_category
-```
-
-```{r}
-p3
-```
-
-Tolkning: Diagrammet visar fördelningen av försäljning mellan olika produktkategorier. Electronics är den största kategorin (24.3%), följt av Fashion (23.5%), Home (20.7%), Beauty (15.9%) och Sports (15.6%). Detta visar att försäljningen är relativt jämnt fördelad mellan kategorierna men Electronics och Fashion dominerar något.
-
-#### Share by delivery group
-
-```{r}
-share_delivery_group
-```
-
-```{r}
-p4
-```
-
-Tolkning: Diagrammet visar fördelningen av ordrar baserat på leveranstid. Majoriteten av beställningarna tillhör kategorin Medium (3–5 dagar) med 66.2%. Därefter följer Fast (1–2 dagar) med 23.2%. Slow (6–9 dagar) utgör den minsta andelen med 10.6%.
-
-#### Average Order value by customer segment
-
-```{r}
- value_by_segment
-```
-
-```{r}
-p10
-```
-
-Tolkning: Diagrammet visar genomsnittligt och median ordervärde för olika kundsegment. Small Business har det högsta genomsnittliga ordervärdet (346), följt av Consumer (322).Corporate har det lägsta genomsnittliga ordervärdet (235). Medianvärdena är relativt lika mellan segmenten (cirka 135–162), vilket indikerar att skillnader i medelvärde kan påverkas av vissa höga ordervärden (outliers). Detta tyder på att Small Business-kunder tenderar att göra större köp,medan Corporate-kunder i genomsnitt handlar mindre per order. Slutsatsen är att olika kundsegment har olika köpbeteenden,vilket kan användas för att anpassa marknadsföring och erbjudanden.
-
-## Fråga 1 - Hur skiljer sig returgrad mellan olika kategorier, regioner eller kundtyper?
-
-#### Return rate by product category
+## Returgrad mellan olika kategorier
 
 ```{r}
 returns_by_category
@@ -91,9 +36,10 @@ returns_by_category
 p5
 ```
 
-Tolkning Diagrammet visar returfrekvensen för olika produktkategorier. Fashion har den högsta returgraden (16.2%), följt av Home (15.9%) och Beauty (15.1%). Electronics har en något lägre returgrad (13.2%), medan Sports har den lägsta returgraden (10.9%).
+**Tolkning** \
+Diagrammet visar returfrekvensen för olika produktkategorier. Fashion har den högsta returgraden (16.2%), följt av Home (15.9%) och Beauty (15.1%). Electronics har en något lägre returgrad (13.2%), medan Sports har den lägsta returgraden (10.9%).
 
-#### Return rate by region
+## Returgrad mellan olika regioner
 
 ```{r}
 returns_by_region
@@ -103,9 +49,10 @@ returns_by_region
 p6
 ```
 
-Tolkning: Diagrammet visar returfrekvensen för olika regioner. Regionen West har den högsta returgraden (18.8%), följt av South (15.6%) och East (13.0%). North har den lägsta returgraden (11.3%), vilket tyder på färre returer i denna region jämfört med övriga.
+**Tolkning**\
+Diagrammet visar returfrekvensen för olika regioner. Regionen West har den högsta returgraden (18.8%), följt av South (15.6%) och East (13.0%). North har den lägsta returgraden (11.3%), vilket tyder på färre returer i denna region jämfört med övriga.
 
-#### Return rate by customer type
+## Returgrad mellan olika kundtyper
 
 ```{r}
 returns_by_customer_type
@@ -115,66 +62,12 @@ returns_by_customer_type
 p7
 ```
 
-Tolkning: Diagrammet visar returfrekvensen för olika kundtyper. New customers har den högsta returgraden (18.0%), följt av VIP-kunder (13.4%) och Returning customers (13.2%). Detta indikerar att nya kunder tenderar att returnera produkter oftare än mer etablerade kunder. En möjlig förklaring kan vara att nya kunder har mindre erfarenhet av produkter eller att deras förväntningar inte alltid matchar verkligheten.
-
-#### Return rate by order value tier
-
-```{r}
-returns_by_order_value_tier
-```
-
-```{r}
-p9
-```
-
-Tolkning: Diagrammet visar returfrekvensen för olika ordervärdesnivåer. Lågprisordrar (Low) har den högsta returgraden (16.4%), följt av Medium (15.6%). Premium har en något lägre returgrad (13.6%), medan High har den lägsta returgraden (12.0%). Detta tyder på att kunder som köper billigare produkter tenderar att returnera varor oftare än kunder som köper dyrare produkter.
-
-#### Combination of segment and customer type with return rate
-
-
-```{r}
- returns_by_segment_type
-```
-
-```{r}
-p12
-```
-
-
-Tolkning:
-Diagrammet visar returfrekvensen uppdelat efter både kundsegment och kundtyp.
-Det ger en mer detaljerad bild av kundbeteendet.
-Bland New customers har Small Business den högsta returgraden (21.7%), följt av Corporate (18.0%) och Consumer (16.3%).
-Detta indikerar att nya kunder inom Small Business-segmentet är särskilt benägna att returnera produkter.
-För Returning customers är returgraderna generellt lägre och mer stabila, där Corporate (14.3%), Consumer (13.3%) och Small Business (12.7%) ligger nära varandra.
-
-VIP-kunder visar en varierande returgrad, där Corporate (14.3%) och Consumer (13.9%) ligger på liknande nivåer, medan Small Business har en betydligt lägre returgrad (7.7%).
-
-Detta tyder på att kundtyp har en stark påverkan på returbenägenhet, särskilt för nya kunder, medan mer etablerade kunder (Returning och VIP) uppvisar mer stabilt beteende.
-Slutsatsen är att kombinationen av kundsegment och kundtyp ger viktiga insikter, där fokus bör ligga på att minska returer bland nya kunder, särskilt inom Small Business-segmentet.
-
+**Tolkning**\
+Diagrammet visar returfrekvensen för olika kundtyper. New customers har den högsta returgraden (18.0%), följt av VIP-kunder (13.4%) och Returning customers (13.2%). Detta indikerar att nya kunder tenderar att returnera produkter oftare än mer etablerade kunder. En möjlig förklaring kan vara att nya kunder har mindre erfarenhet av produkter eller att deras förväntningar inte alltid matchar verkligheten.
 
 # Fråga 2 - Finns det tecken på att längre leveranstid hänger ihop med fler returer?
 
-#### Shipping days by region
-
-```{r}
-shipping_by_region
-```
-
-```{r}
-p11
-```
-
-#### Return rate by region
-
-```{r}
-p6
-```
-
-Tolkning: Diagrammet visar genomsnittlig leveranstid för olika regioner. East har den längsta genomsnittliga leveranstiden (4.47 dagar), följt av South (3.75 dagar) och West (3.59 dagar). North har den kortaste leveranstiden (3.10 dagar), vilket indikerar mer effektiva leveranser i denna region. Slutsatsen är att förbättring av leveransprocesser i vissa regioner, särskilt East, kan bidra till bättre kundupplevelse och potentiellt minska returer.
-
-#### Return rate by delivery group
+## Returfrekvensen baserat på olika leveransgrupper
 
 ```{r}
 returns_by_delivery
@@ -184,9 +77,10 @@ returns_by_delivery
 p8
 ```
 
-Tolkning: Diagrammet visar returfrekvensen baserat på olika leveransgrupper. Slow (6–9 dagar) har den högsta returgraden (20.8%), följt av Medium (3–5 dagar) med 15.0%. Fast (1–2 dagar) har den lägsta returgraden (9.9%), vilket tyder på att snabbare leveranser är kopplade till färre returer. Detta indikerar att längre leveranstider kan påverka kundnöjdheten negativt och öka sannolikheten för returer. Kunder kan bli mer otåliga eller ändra sin uppfattning om produkten när leveransen tar längre tid. Slutsatsen är att leveranstid verkar vara en viktig faktor för returbenägenhet och kundupplevelse.
+**Tolkning**\
+Diagrammet visar returfrekvensen baserat på olika leveransgrupper. Slow (6–9 dagar) har den högsta returgraden (20.8%), följt av Medium (3–5 dagar) med 15.0%. Fast (1–2 dagar) har den lägsta returgraden (9.9%), vilket tyder på att snabbare leveranser är kopplade till färre returer. Detta indikerar att längre leveranstider kan påverka kundnöjdheten negativt och öka sannolikheten för returer. Kunder kan bli mer otåliga eller ändra sin uppfattning om produkten när leveransen tar längre tid. Slutsatsen är att leveranstid verkar vara en viktig faktor för returbenägenhet och kundupplevelse.
 
-#### Checking the avg time for returned and not returned orders
+## Kontroll av genomsnittlig leveranstid för returnerade och ej returnerade ordrar
 
 ```{r}
 shipping_vs_return
@@ -196,21 +90,12 @@ shipping_vs_return
 p13
 ```
 
-Tolkning Diagrammet visar genomsnittlig leveranstid för ordrar som returnerats jämfört med de som inte har returnerats. Ordrar som har returnerats (Yes) har en högre genomsnittlig leveranstid på 3.98 dagar, jämfört med 3.55 dagar för ordrar som inte returnerats (No). Medianvärdet är högre för returnerade ordrar (4 dagar) jämfört med icke returnerade ordrar (3 dagar). Detta tyder på att längre leveranstider kan vara kopplade till en högre sannolikhet för returer. En möjlig förklaring är att längre väntetid kan påverka kundnöjdheten negativt. Slutsatsen är att snabbare leveranser kan bidra till att minska returer och förbättra kundupplevelsen.
+**Tolkning**\
+Diagrammet visar genomsnittlig leveranstid för ordrar som returnerats jämfört med de som inte har returnerats. Ordrar som har returnerats (Yes) har en högre genomsnittlig leveranstid på 3.98 dagar, jämfört med 3.55 dagar för ordrar som inte returnerats (No). Medianvärdet är högre för returnerade ordrar (4 dagar) jämfört med icke returnerade ordrar (3 dagar). Detta tyder på att längre leveranstider kan vara kopplade till en högre sannolikhet för returer. En möjlig förklaring är att längre väntetid kan påverka kundnöjdheten negativt. Slutsatsen är att snabbare leveranser kan bidra till att minska returer och förbättra kundupplevelsen.
 
+# Fråga 3 - Hur påverkar rabatter returgraden?
 
-# Egen frågeställning 
-
-Förslag på frågestellningar som vi kan välja:
-
-Hur påverkar rabatter returgraden?\
-Skiljer sig ordervärdet mellan kunder som returnerar och de som inte gör det?\
-Vilka faktorer verkar hänga ihop med returgraden?\
-Skiljer sig leveranstiden mellan regioner och påverkar det kundbeteende?
-
-# Fråga 3(Egen frågeställning ): - Hur påverkar rabatter returgraden?
-
-#### Return rate by discount
+## Returgrad per rabattnivå
 
 ```{r}
 return_by_discount
@@ -220,26 +105,142 @@ return_by_discount
 p14
 ```
 
-Tolkning:
-Diagrammet visar hur returgraden varierar beroende på rabattnivå.
-Resultatet visar ett tydligt mönster där returgraden ökar med högre rabatter.
-Kunden utan rabatt (No discount) har den lägsta returgraden (9.4%),
-Låg rabatt (1–10%) visar en något högre returgrad (13.4%),
-Medium rabatt (11–25%) har en ännu högre returgrad (18.2%).
-Hög rabatt (25%+) har den högsta returgraden (50%),men detta resultat bör tolkas försiktigt eftersom antalet observationer i denna kategori är mycket litet (endast 4 ordrar).
+**Tolkning**\
+Diagrammet visar hur returgraden varierar beroende på rabattnivå. Resultatet visar ett tydligt mönster där returgraden ökar med högre rabatter. Kunden utan rabatt (No discount) har den lägsta returgraden (9.4%), Låg rabatt (1–10%) visar en något högre returgrad (13.4%), Medium rabatt (11–25%) har en ännu högre returgrad (18.2%). Hög rabatt (25%+) har den högsta returgraden (50%), men detta resultat bör tolkas försiktigt eftersom antalet observationer i denna kategori är mycket litet (endast 4 ordrar).
 
-Slutsatsen är att högre rabatter kan vara kopplade till ökad returbenägenhet.
-En möjlig förklaring är att större rabatter kan locka mer impulsköp
-Samtidigt kan små urval i högsta rabattgruppen påverka resultatets tillförlitlighet.
+Slutsatsen är att högre rabatter kan vara kopplade till ökad returbenägenhet. En möjlig förklaring är att större rabatter kan locka mer impulsköp Samtidigt kan små urval i högsta rabattgruppen påverka resultatets tillförlitlighet.
 
+# Slutsatser och begränsningar
 
-## Slutsatser och begränsningar
+Analysen visar flera tydliga mönster i returdata som kan ge företaget ett bättre beslutsunderlag. Den mest användbara insikten är sambandet mellan leveranstid och returgrad: ordrar med längre leveranstid returneras i betydligt högre utsträckning (20,8% för Slow jämfört med 9,9% för Fast), vilket tyder på att förbättrad leveranseffektivitet direkt kan minska antalet returer.
 
-\[...\]
+Även kundtyp visade sig vara en viktig faktor, där nya kunder returnerar varor oftare (18,0%) än återkommande och VIP-kunder. En begränsning här är att vi inte vet varför de returnerar, och att ett tillägg av returorsaker i datasetet skulle kunna berika kvaliteten på returanalysen.
 
-## Metod
+Gällande produktkategorier hade Fashion och Home högst returgrad, medan Sports hade lägst, vilket kan användas för att rikta förbättringsåtgärder mot specifika kategorier. Här vore det intressant att undersöka om leveranstiden påverkar returgraden inom respektive kategori.
 
-### 1. Dataförståelse
+Rabattanalysen visade en tydlig ökning av returgrad med högre rabatter, men resultatet bör tolkas med försiktighet på grund av den kraftiga snedfördelningen i den högsta rabattgruppen, som endast representerades av 4 ordrar. Här skulle det vara värdefullt att samla in mer data eller se över indelningen av rabattnivåerna.
+
+Datasetet består av endast 1000 ordrar, vilket begränsar möjligheten att dra generella slutsatser, särskilt för mindre grupper som High-rabatt och VIP-kunder. Analysen tar inte heller hänsyn till om returmönster förändrats över tid, exempelvis till följd av säsongsvariationer kring jul eller reor. Slutligen kan de saknade värden som fylldes i med median eller typvärde ha påverkat resultaten något, även om påverkan bedöms vara begränsad.
+
+# Kompletterande analys
+
+## Andel per kundsegment
+
+```{r}
+share_segment
+```
+
+```{r}
+p1
+```
+
+**Tolkning**\
+Diagrammet visar fördelningen av kunder mellan olika kundsegment. Resultatet visar att segmentet Consumer är det största (52,9%) Detta följs av Small Business (30,2%) och Corporate (16,9%). Detta indikerar att företaget främst har en konsumentdriven kundbas.
+
+## Andel per kundtyp
+
+```{r}
+share_customer_type
+```
+
+```{r}
+p2
+```
+
+**Tolkning**\
+Detta diagram visar fördelningen av kundtyper i datasetet. Returning customers utgör den största andelen (61.3%), följt av New customers (24.5%) och VIP customers (14.2%). Detta indikerar att återkommande kunder dominerar kundbasen.
+
+## Andel per produktkategori
+
+```{r}
+share_category
+```
+
+```{r}
+p3
+```
+
+**Tolkning**\
+Diagrammet visar fördelningen av försäljning mellan olika produktkategorier. Electronics är den största kategorin (24.3%), följt av Fashion (23.5%), Home (20.7%), Beauty (15.9%) och Sports (15.6%). Detta visar att försäljningen är relativt jämnt fördelad mellan kategorierna men Electronics och Fashion dominerar något.
+
+## Andel per leveransgrupp
+
+```{r}
+share_delivery_group
+```
+
+```{r}
+p4
+```
+
+**Tolkning**\
+Diagrammet visar fördelningen av ordrar baserat på leveranstid. Majoriteten av beställningarna tillhör kategorin Medium (3–5 dagar) med 66.2%. Därefter följer Fast (1–2 dagar) med 23.2%. Slow (6–9 dagar) utgör den minsta andelen med 10.6%.
+
+## Genomsnittligt ordervärde per kundsegment
+
+```{r}
+ value_by_segment
+```
+
+```{r}
+p10
+```
+
+**Tolkning**\
+Diagrammet visar genomsnittligt och median ordervärde för olika kundsegment. Small Business har det högsta genomsnittliga ordervärdet (346), följt av Consumer (322).Corporate har det lägsta genomsnittliga ordervärdet (235). Medianvärdena är relativt lika mellan segmenten (cirka 135–162), vilket indikerar att skillnader i medelvärde kan påverkas av vissa höga ordervärden (outliers). Detta tyder på att Small Business-kunder tenderar att göra större köp,medan Corporate-kunder i genomsnitt handlar mindre per order. Slutsatsen är att olika kundsegment har olika köpbeteenden,vilket kan användas för att anpassa marknadsföring och erbjudanden.
+
+## Returgrad per ordervärdesnivå
+
+```{r}
+returns_by_order_value_tier
+```
+
+```{r}
+p9
+```
+
+**Tolkning**\
+Diagrammet visar returfrekvensen för olika ordervärdesnivåer. Lågprisordrar (Low) har den högsta returgraden (16.4%), följt av Medium (15.6%). Premium har en något lägre returgrad (13.6%), medan High har den lägsta returgraden (12.0%). Detta tyder på att kunder som köper billigare produkter tenderar att returnera varor oftare än kunder som köper dyrare produkter.
+
+## Kombination av segment och kundtyp med returgrad
+
+```{r}
+ returns_by_segment_type
+```
+
+```{r}
+p12
+```
+
+**Tolkning**\
+Diagrammet visar returfrekvensen uppdelat efter både kundsegment och kundtyp. Det ger en mer detaljerad bild av kundbeteendet. Bland New customers har Small Business den högsta returgraden (21.7%), följt av Corporate (18.0%) och Consumer (16.3%). Detta indikerar att nya kunder inom Small Business-segmentet är särskilt benägna att returnera produkter. För Returning customers är returgraderna generellt lägre och mer stabila, där Corporate (14.3%), Consumer (13.3%) och Small Business (12.7%) ligger nära varandra.
+
+VIP-kunder visar en varierande returgrad, där Corporate (14.3%) och Consumer (13.9%) ligger på liknande nivåer, medan Small Business har en betydligt lägre returgrad (7.7%).
+
+Detta tyder på att kundtyp har en stark påverkan på returbenägenhet, särskilt för nya kunder, medan mer etablerade kunder (Returning och VIP) uppvisar mer stabilt beteende. Slutsatsen är att kombinationen av kundsegment och kundtyp ger viktiga insikter, där fokus bör ligga på att minska returer bland nya kunder, särskilt inom Small Business-segmentet.
+
+## **Leveransdagar per region**
+
+```{r}
+shipping_by_region
+```
+
+```{r}
+p11
+```
+
+## Returgrad per region
+
+```{r}
+p6
+```
+
+**Tolkning**\
+Diagrammet visar genomsnittlig leveranstid för olika regioner. East har den längsta genomsnittliga leveranstiden (4.47 dagar), följt av South (3.75 dagar) och West (3.59 dagar). North har den kortaste leveranstiden (3.10 dagar), vilket indikerar mer effektiva leveranser i denna region. Slutsatsen är att förbättring av leveransprocesser i vissa regioner, särskilt East, kan bidra till bättre kundupplevelse och potentiellt minska returer.
+
+# Metod
+
+## 1. Dataförståelse
 
 Datasetet innehåller orderdata och består av 1000 rader och 16 kolumner.
 
@@ -263,7 +264,7 @@ Det finns även en datumvariabel: `order_date`.
 
 Används för att analysera returgrad och samband med leveranstid.
 
-### 2. Datastädning och förberedelse
+## 2. Datastädning och förberedelse
 
 Datarensningen och förberedelsen av data gick igenom tre steg: standardisering och korrigering av data, hantering av saknade värden samt skapande av nya variabler.
 
@@ -298,7 +299,7 @@ Fyra nya variabler skapades för att berika analysen:
 
 Dessa variabler gör det enklare att se mönster och jämföra grupper i analysen.
 
-### **3. Statistiska sammanfattningar**
+## **3. Statistiska sammanfattningar**
 
 Datasetet innehåller 1 000 ordrar från 255 unika kunder fördelade över 5 produktkategorier.
 
@@ -308,7 +309,9 @@ Medelvärdet för ordervärde `order_value` var 314 kr, medan medianen låg på 
 
 Genomsnittligt antal produkter per order `quantity` var 1,36 med en median på 1.
 
-**Andelar:** - *Kundsegment:* `Consumer` utgjorde den största gruppen (52,9%), följt av `Small Business` (30,2%) och slutligen `Corporate` (16,9%).
+**Andelar:**
+
+-   *Kundsegment:* `Consumer` utgjorde den största gruppen (52,9%), följt av `Small Business` (30,2%) och slutligen `Corporate` (16,9%).
 
 -   *Kundtyp:* `Returning` klart största typ med (61,3%), följt av `New` (24,5%) och `VIP` (14,2%).
 

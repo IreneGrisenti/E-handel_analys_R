@@ -1,5 +1,5 @@
-install.packages("viridis")
-install.packages("ggrepel")
+# install.packages("viridis")
+# install.packages("ggrepel")
 
 
 library(tidyverse)
@@ -26,7 +26,7 @@ p1 <- share_segment %>%
     plot.title = element_text(face = "bold", size = 16),
     legend.position = "right"
   )
-print(p1)
+#print(p1)
 
 # Tolkning: 
 # Diagrammet visar fördelningen av kunder mellan olika kundsegment. 
@@ -49,7 +49,7 @@ p2 <- share_customer_type %>%
   ) +
   labs(title = "Share by customer type") +
   theme_void()
-print(p2)
+#print(p2)
 
 # Tolkning: 
 # Detta diagram visar fördelningen av kundtyper i datasetet.
@@ -73,7 +73,7 @@ p3 <- share_category %>%
   ) +
   labs(title = "Share by product category") +
   theme_void()
-print(p3)
+#print(p3)
 # Tolkning: 
 # Diagrammet visar fördelningen av försäljning mellan olika produktkategorier.
 # Electronics är den största kategorin (24.3%), följt av Fashion (23.5%),
@@ -96,7 +96,7 @@ p4 <- share_delivery_group %>%
   ) +
   labs(title = "Share by Delivery Group ") +
   theme_void()
-print(p4)
+#print(p4)
 
 # Tolkning:
 # Diagrammet visar fördelningen av ordrar baserat på leveranstid.
@@ -140,7 +140,7 @@ p5 <- returns_by_category %>%
     y = "Return Rate"
   ) +
   theme_minimal()
-print(p5)
+#print(p5)
 
 # Tolkning
 # Diagrammet visar returfrekvensen för olika produktkategorier.
@@ -185,7 +185,7 @@ p6 <- returns_by_region %>%
     y = "Return Rate"
   ) +
   theme_minimal()
-print(p6)
+#print(p6)
 
 # Tolkning:
 # Diagrammet visar returfrekvensen för olika regioner.
@@ -230,7 +230,7 @@ p7 <- returns_by_customer_type %>%
     y = "Return Rate"
   ) +
   theme_minimal()
-print(p7)
+#print(p7)
 
 #Tolkning: 
 # Diagrammet visar returfrekvensen för olika kundtyper.
@@ -278,7 +278,7 @@ p8 <- returns_by_delivery %>%
     y = "Return Rate"
   ) +
   theme_minimal()
-print(p8)
+#print(p8)
 # Tolkning:
 # Diagrammet visar returfrekvensen baserat på olika leveransgrupper.
 # Slow (6–9 dagar) har den högsta returgraden (20.8%), 
@@ -329,7 +329,7 @@ p9 <- returns_by_order_value_tier %>%
     y = "Return Rate"
   ) +
   theme_minimal()
-print(p9)
+#print(p9)
 # Tolkning:
 # Diagrammet visar returfrekvensen för olika ordervärdesnivåer.
 # Lågprisordrar (Low) har den högsta returgraden (16.4%), följt av
@@ -379,7 +379,7 @@ p10 <- value_by_segment %>%
   ) +
   
   theme_minimal()
-print(p10)
+#print(p10)
 # Tolkning:
 # Diagrammet visar genomsnittligt och median ordervärde för olika kundsegment.
 # Small Business har det högsta genomsnittliga ordervärdet (346),
@@ -435,7 +435,7 @@ p11 <- shipping_by_region %>%
     y = "Mean Shipping Days"
   ) +
   theme_minimal()
-print(p11)
+#print(p11)
 
 # Tolkning:
 # Diagrammet visar genomsnittlig leveranstid för olika regioner.
@@ -484,7 +484,7 @@ p12 <- returns_by_segment_type %>%
     fill = "Customer Type"
   ) +
   theme_minimal()
-print(p12)
+#print(p12)
 
 # Tolkning:
 # Diagrammet visar returfrekvensen uppdelat efter både kundsegment och kundtyp.
@@ -532,7 +532,7 @@ p13 <- shipping_vs_return %>%
     y = "Average Shipping Days"
   ) +
   theme_minimal()
-print(p13)
+#print(p13)
 
 #Tolkning
 # Diagrammet visar genomsnittlig leveranstid för ordrar som returnerats
@@ -584,7 +584,7 @@ p14 <- return_by_discount %>%
   ) +
   theme_minimal()
 
-print(p14)
+#print(p14)
 
 # Tolkning
 # Diagrammet visar hur returgraden varierar beroende på rabattnivå.
@@ -612,20 +612,20 @@ save_plot <- function(plot, filename) {
   )
 }
 
-save_plot(p1, "Share by customer segment.png")
-save_plot(p2, "Share by customer type.png")
-save_plot(p3, "Share by product category.png")
-save_plot(p4, "Share by Delivery Group.png")
-save_plot(p5, "Return rate by Product Category.png")
-save_plot(p6, "Return rate by Region.png")
-save_plot(p7, "Return Rate by Customer Type.png")
-save_plot(p8, "Return Rate by Delivery Group.png")
-save_plot(p9, "Return Rate by Order Value Tier.png")
-save_plot(p10, "Average Order Value by Customer Segment.png")
-save_plot(p11, "Average Shipping Time by Region.png")
-save_plot(p12, "Return Rate by Customer Segment and Type.png")
-save_plot(p13, "Shipping Time vs Return Behavior.png")
-save_plot(p14, "Return Rate by Discount.png")
+# save_plot(p1, "Share by customer segment.png")
+# save_plot(p2, "Share by customer type.png")
+# save_plot(p3, "Share by product category.png")
+# save_plot(p4, "Share by Delivery Group.png")
+# save_plot(p5, "Return rate by Product Category.png")
+# save_plot(p6, "Return rate by Region.png")
+# save_plot(p7, "Return Rate by Customer Type.png")
+# save_plot(p8, "Return Rate by Delivery Group.png")
+# save_plot(p9, "Return Rate by Order Value Tier.png")
+# save_plot(p10, "Average Order Value by Customer Segment.png")
+# save_plot(p11, "Average Shipping Time by Region.png")
+# save_plot(p12, "Return Rate by Customer Segment and Type.png")
+# save_plot(p13, "Shipping Time vs Return Behavior.png")
+# save_plot(p14, "Return Rate by Discount.png")
 
 
 
