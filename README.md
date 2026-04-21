@@ -21,8 +21,6 @@ Gruppen har valt att fokusera på följande frågeställningar:
 2)  **Finns det tecken på att längre leveranstid hänger ihop med fler returer?**
 3)  **Hur påverkar rabatter returgraden?**
 
-Beroende på hur analysen utvecklas kan vi även komma att undersöka ytterligare frågeställningar.
-
 ## Hur man kör projektet
 
 ### Köra analysen
@@ -35,7 +33,7 @@ Beroende på hur analysen utvecklas kan vi även komma att undersöka ytterligar
 -   **Interaktiv rapport:** Öppna `reports/interactive_report`, kör alla kodblock
 -   **PDF-rapport:** Öppna `reports/` och läs PDF-filen direkt
 
-## Nödvändiga paket
+### Nödvändiga paket
 
 Projektet kräver följande R-paket:\
 - `tidyvers`\
