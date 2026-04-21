@@ -199,7 +199,7 @@ p13
 Tolkning Diagrammet visar genomsnittlig leveranstid för ordrar som returnerats jämfört med de som inte har returnerats. Ordrar som har returnerats (Yes) har en högre genomsnittlig leveranstid på 3.98 dagar, jämfört med 3.55 dagar för ordrar som inte returnerats (No). Medianvärdet är högre för returnerade ordrar (4 dagar) jämfört med icke returnerade ordrar (3 dagar). Detta tyder på att längre leveranstider kan vara kopplade till en högre sannolikhet för returer. En möjlig förklaring är att längre väntetid kan påverka kundnöjdheten negativt. Slutsatsen är att snabbare leveranser kan bidra till att minska returer och förbättra kundupplevelsen.
 
 
-## Egen frågeställning - \[...\]
+# Egen frågeställning 
 
 Förslag på frågestellningar som vi kan välja:
 
@@ -208,9 +208,30 @@ Skiljer sig ordervärdet mellan kunder som returnerar och de som inte gör det?\
 Vilka faktorer verkar hänga ihop med returgraden?\
 Skiljer sig leveranstiden mellan regioner och påverkar det kundbeteende?
 
-## Viktigaste resultat
+# Fråga 3(Egen frågeställning ): - Hur påverkar rabatter returgraden?
 
-\[...\]
+#### Return rate by discount
+
+```{r}
+return_by_discount
+```
+
+```{r}
+p14
+```
+
+Tolkning:
+Diagrammet visar hur returgraden varierar beroende på rabattnivå.
+Resultatet visar ett tydligt mönster där returgraden ökar med högre rabatter.
+Kunden utan rabatt (No discount) har den lägsta returgraden (9.4%),
+Låg rabatt (1–10%) visar en något högre returgrad (13.4%),
+Medium rabatt (11–25%) har en ännu högre returgrad (18.2%).
+Hög rabatt (25%+) har den högsta returgraden (50%),men detta resultat bör tolkas försiktigt eftersom antalet observationer i denna kategori är mycket litet (endast 4 ordrar).
+
+Slutsatsen är att högre rabatter kan vara kopplade till ökad returbenägenhet.
+En möjlig förklaring är att större rabatter kan locka mer impulsköp
+Samtidigt kan små urval i högsta rabattgruppen påverka resultatets tillförlitlighet.
+
 
 ## Slutsatser och begränsningar
 

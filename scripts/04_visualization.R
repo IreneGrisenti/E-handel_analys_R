@@ -548,10 +548,60 @@ print(p13)
 # och förbättra kundupplevelsen.
 
 
+# Return rate by discount
+p14 <- return_by_discount %>%
+  ggplot(aes(x = reorder(discount_tier, returgrad), 
+             y = returgrad, 
+             fill = returgrad)) +
+  geom_col(color = "black") +
+  geom_text(
+    aes(label = paste0(sprintf("%.1f", returgrad * 100), "%")),
+    color = "white",
+    fontface = "bold",
+    size = 3.5,
+    vjust = 0.5,
+    hjust = 1.2
+  ) +
+  geom_text(
+    aes(
+      y = returgrad,
+      label = paste0("Sales: ", antal,
+                     "\nReturns: ", returer)
+    ),
+    hjust = -0.15,
+    size = 3.2
+  ) +
+  coord_flip() +
+  scale_fill_viridis_c(option = "plasma") +
+  scale_y_continuous(
+    labels = scales::percent_format(),
+    expand = expansion(mult = c(0, 0.35))
+  ) +
+  labs(
+    title = "Return Rate by Discount",
+    x = "Discount Tier",
+    y = "Return Rate"
+  ) +
+  theme_minimal()
 
+print(p14)
 
+# Tolkning
+# Diagrammet visar hur returgraden varierar beroende på rabattnivå.
+# Resultatet visar ett tydligt mönster där returgraden ökar med högre rabatter.
+# Kunden utan rabatt (No discount) har den lägsta returgraden (9.4%),
+# Låg rabatt (1–10%) visar en något högre returgrad (13.4%),
+# Medium rabatt (11–25%) har en ännu högre returgrad (18.2%).
+#
+# Hög rabatt (25%+) har den högsta returgraden (50%),
+# men detta resultat bör tolkas försiktigt eftersom antalet observationer
+# i denna kategori är mycket litet (endast 4 ordrar).
+#
+# Slutsatsen är att högre rabatter kan vara kopplade till ökad returbenägenhet.
+# En möjlig förklaring är att större rabatter kan locka mer impulsköp
+# Små urval i högsta rabattgruppen kan påverka resultatets tillförlitlighet.
 
-
+# Save all plots in figures folder
 save_plot <- function(plot, filename) {
   ggsave(
     filename = paste0("figures/", filename),
@@ -561,8 +611,6 @@ save_plot <- function(plot, filename) {
     dpi = 300
   )
 }
-
-
 
 save_plot(p1, "Share by customer segment.png")
 save_plot(p2, "Share by customer type.png")
@@ -577,6 +625,7 @@ save_plot(p10, "Average Order Value by Customer Segment.png")
 save_plot(p11, "Average Shipping Time by Region.png")
 save_plot(p12, "Return Rate by Customer Segment and Type.png")
 save_plot(p13, "Shipping Time vs Return Behavior.png")
+save_plot(p14, "Return Rate by Discount.png")
 
 
 
