@@ -23,6 +23,28 @@ Gruppen har valt att fokusera på följande frågeställningar:
 
 ## Hur man kör projektet
 
+### Projekts struktur
+
+project\
+├── data\
+│ └── ecommerce_orders.csv\
+│\
+├── scripts\
+│ ├── 01_data_understanding.R\
+│ ├── 02_data_cleaning_and_prep.R\
+│ ├── 03_stat_summary.R\
+│ └── 04_visualization.R\
+│\
+├── report\
+│ ├── interactive_report.qmd\
+│ └── report.pdf\
+│\
+├── output\
+│ └── (plots and figures)\
+│\
+├── run_analysis.R\
+└── README.md
+
 ### Köra analysen
 
 1.  Öppna `run_analysis.R` i RStudio
