@@ -39,7 +39,7 @@ project\
 │ ├── interactive_report.qmd\
 │ └── report.pdf\
 │\
-├── output\
+├── figures\
 │ └── (plots and figures)\
 │\
 ├── run_analysis.R\

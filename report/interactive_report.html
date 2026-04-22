@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>report</title>
+<title>Interactive report</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -82,7 +82,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">report</h1>
+<h1 class="title">Interactive report</h1>
 </div>
 
 
@@ -99,8 +99,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<section id="introduktion" class="level2">
-<h2 class="anchored" data-anchor-id="introduktion">Introduktion</h2>
+<section id="introduktion" class="level1">
+<h1>Introduktion</h1>
 <p>Detta projekt analyserar orderdata från ett e-handelsföretag i syfte att ge ledningen ett bättre beslutsunderlag. Analysen fokuserar på två huvudfrågor:</p>
 <ul>
 <li><p><strong>Hur skiljer sig returgrad mellan olika kategorier, regioner eller kundtyper?</strong></p></li>
@@ -109,10 +109,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </ul>
 <p>Målet är att identifiera konkreta mönster i datan som företaget kan använda för att minska returer och förbättra kundupplevelsen.</p>
 </section>
-<section id="fråga-1---hur-skiljer-sig-returgrad-mellan-olika-kategorier-regioner-eller-kundtyper" class="level2">
-<h2 class="anchored" data-anchor-id="fråga-1---hur-skiljer-sig-returgrad-mellan-olika-kategorier-regioner-eller-kundtyper">Fråga 1 - Hur skiljer sig returgrad mellan olika kategorier, regioner eller kundtyper?</h2>
-<section id="returgrad-mellan-olika-kategorier" class="level4">
-<h4 class="anchored" data-anchor-id="returgrad-mellan-olika-kategorier">Returgrad mellan olika kategorier</h4>
+<section id="fråga-1---hur-skiljer-sig-returgrad-mellan-olika-kategorier-regioner-eller-kundtyper" class="level1">
+<h1>Fråga 1 - Hur skiljer sig returgrad mellan olika kategorier, regioner eller kundtyper?</h1>
+<section id="returgrad-mellan-olika-kategorier" class="level2">
+<h2 class="anchored" data-anchor-id="returgrad-mellan-olika-kategorier">Returgrad mellan olika kategorier</h2>
 <div class="cell">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>returns_by_category</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
@@ -139,8 +139,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p><strong>Tolkning</strong><br>
 Diagrammet visar returfrekvensen för olika produktkategorier. Fashion har den högsta returgraden (16.2%), följt av Home (15.9%) och Beauty (15.1%). Electronics har en något lägre returgrad (13.2%), medan Sports har den lägsta returgraden (10.9%).</p>
 </section>
-<section id="returgrad-mellan-olika-regioner" class="level4">
-<h4 class="anchored" data-anchor-id="returgrad-mellan-olika-regioner">Returgrad mellan olika regioner</h4>
+<section id="returgrad-mellan-olika-regioner" class="level2">
+<h2 class="anchored" data-anchor-id="returgrad-mellan-olika-regioner">Returgrad mellan olika regioner</h2>
 <div class="cell">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>returns_by_region</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
@@ -166,8 +166,8 @@ Diagrammet visar returfrekvensen för olika produktkategorier. Fashion har den h
 <p><strong>Tolkning</strong><br>
 Diagrammet visar returfrekvensen för olika regioner. Regionen West har den högsta returgraden (18.8%), följt av South (15.6%) och East (13.0%). North har den lägsta returgraden (11.3%), vilket tyder på färre returer i denna region jämfört med övriga.</p>
 </section>
-<section id="returgrad-mellan-olika-kundtyper" class="level4">
-<h4 class="anchored" data-anchor-id="returgrad-mellan-olika-kundtyper">Returgrad mellan olika kundtyper</h4>
+<section id="returgrad-mellan-olika-kundtyper" class="level2">
+<h2 class="anchored" data-anchor-id="returgrad-mellan-olika-kundtyper">Returgrad mellan olika kundtyper</h2>
 <div class="cell">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>returns_by_customer_type</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
@@ -195,6 +195,8 @@ Diagrammet visar returfrekvensen för olika kundtyper. New customers har den hö
 </section>
 <section id="fråga-2---finns-det-tecken-på-att-längre-leveranstid-hänger-ihop-med-fler-returer" class="level1">
 <h1>Fråga 2 - Finns det tecken på att längre leveranstid hänger ihop med fler returer?</h1>
+<section id="returfrekvensen-baserat-på-olika-leveransgrupper" class="level2">
+<h2 class="anchored" data-anchor-id="returfrekvensen-baserat-på-olika-leveransgrupper">Returfrekvensen baserat på olika leveransgrupper</h2>
 <div class="cell">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>returns_by_delivery</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
@@ -218,8 +220,9 @@ Diagrammet visar returfrekvensen för olika kundtyper. New customers har den hö
 </div>
 <p><strong>Tolkning</strong><br>
 Diagrammet visar returfrekvensen baserat på olika leveransgrupper. Slow (6–9 dagar) har den högsta returgraden (20.8%), följt av Medium (3–5 dagar) med 15.0%. Fast (1–2 dagar) har den lägsta returgraden (9.9%), vilket tyder på att snabbare leveranser är kopplade till färre returer. Detta indikerar att längre leveranstider kan påverka kundnöjdheten negativt och öka sannolikheten för returer. Kunder kan bli mer otåliga eller ändra sin uppfattning om produkten när leveransen tar längre tid. Slutsatsen är att leveranstid verkar vara en viktig faktor för returbenägenhet och kundupplevelse.</p>
-<section id="checking-the-avg-time-for-returned-and-not-returned-orders" class="level4">
-<h4 class="anchored" data-anchor-id="checking-the-avg-time-for-returned-and-not-returned-orders">Checking the avg time for returned and not returned orders</h4>
+</section>
+<section id="kontroll-av-genomsnittlig-leveranstid-för-returnerade-och-ej-returnerade-ordrar" class="level2">
+<h2 class="anchored" data-anchor-id="kontroll-av-genomsnittlig-leveranstid-för-returnerade-och-ej-returnerade-ordrar">Kontroll av genomsnittlig leveranstid för returnerade och ej returnerade ordrar</h2>
 <div class="cell">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb13"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>shipping_vs_return</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
@@ -246,8 +249,8 @@ Diagrammet visar genomsnittlig leveranstid för ordrar som returnerats jämfört
 </section>
 <section id="fråga-3---hur-påverkar-rabatter-returgraden" class="level1">
 <h1>Fråga 3 - Hur påverkar rabatter returgraden?</h1>
-<section id="return-rate-by-discount" class="level4">
-<h4 class="anchored" data-anchor-id="return-rate-by-discount">Return rate by discount</h4>
+<section id="returgrad-per-rabattnivå" class="level2">
+<h2 class="anchored" data-anchor-id="returgrad-per-rabattnivå">Returgrad per rabattnivå</h2>
 <div class="cell">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb16"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>return_by_discount</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
@@ -275,10 +278,18 @@ Diagrammet visar hur returgraden varierar beroende på rabattnivå. Resultatet v
 <p>Slutsatsen är att högre rabatter kan vara kopplade till ökad returbenägenhet. En möjlig förklaring är att större rabatter kan locka mer impulsköp Samtidigt kan små urval i högsta rabattgruppen påverka resultatets tillförlitlighet.</p>
 </section>
 </section>
-<section id="additional-analysis" class="level1">
-<h1>Additional analysis</h1>
-<section id="share-by-customer-segment" class="level4">
-<h4 class="anchored" data-anchor-id="share-by-customer-segment">Share by customer segment</h4>
+<section id="slutsatser-och-begränsningar" class="level1">
+<h1>Slutsatser och begränsningar</h1>
+<p>Analysen visar flera tydliga mönster i returdata som kan ge företaget ett bättre beslutsunderlag. Den mest användbara insikten är sambandet mellan leveranstid och returgrad: ordrar med längre leveranstid returneras i betydligt högre utsträckning (20,8% för Slow jämfört med 9,9% för Fast), vilket tyder på att förbättrad leveranseffektivitet direkt kan minska antalet returer.</p>
+<p>Även kundtyp visade sig vara en viktig faktor, där nya kunder returnerar varor oftare (18,0%) än återkommande och VIP-kunder. En begränsning här är att vi inte vet varför de returnerar, och att ett tillägg av returorsaker i datasetet skulle kunna berika kvaliteten på returanalysen.</p>
+<p>Gällande produktkategorier hade Fashion och Home högst returgrad, medan Sports hade lägst, vilket kan användas för att rikta förbättringsåtgärder mot specifika kategorier. Här vore det intressant att undersöka om leveranstiden påverkar returgraden inom respektive kategori.</p>
+<p>Rabattanalysen visade en tydlig ökning av returgrad med högre rabatter, men resultatet bör tolkas med försiktighet på grund av den kraftiga snedfördelningen i den högsta rabattgruppen, som endast representerades av 4 ordrar. Här skulle det vara värdefullt att samla in mer data eller se över indelningen av rabattnivåerna.</p>
+<p>Datasetet består av endast 1000 ordrar, vilket begränsar möjligheten att dra generella slutsatser, särskilt för mindre grupper som High-rabatt och VIP-kunder. Analysen tar inte heller hänsyn till om returmönster förändrats över tid, exempelvis till följd av säsongsvariationer kring jul eller reor. Slutligen kan de saknade värden som fylldes i med median eller typvärde ha påverkat resultaten något, även om påverkan bedöms vara begränsad.</p>
+</section>
+<section id="kompletterande-analys" class="level1">
+<h1>Kompletterande analys</h1>
+<section id="andel-per-kundsegment" class="level2">
+<h2 class="anchored" data-anchor-id="andel-per-kundsegment">Andel per kundsegment</h2>
 <div class="cell">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb19"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a>share_segment</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
@@ -303,8 +314,8 @@ Diagrammet visar hur returgraden varierar beroende på rabattnivå. Resultatet v
 <p><strong>Tolkning</strong><br>
 Diagrammet visar fördelningen av kunder mellan olika kundsegment. Resultatet visar att segmentet Consumer är det största (52,9%) Detta följs av Small Business (30,2%) och Corporate (16,9%). Detta indikerar att företaget främst har en konsumentdriven kundbas.</p>
 </section>
-<section id="share-by-customer-type" class="level4">
-<h4 class="anchored" data-anchor-id="share-by-customer-type">Share by customer type</h4>
+<section id="andel-per-kundtyp" class="level2">
+<h2 class="anchored" data-anchor-id="andel-per-kundtyp">Andel per kundtyp</h2>
 <div class="cell">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb22"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a>share_customer_type</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
@@ -329,8 +340,8 @@ Diagrammet visar fördelningen av kunder mellan olika kundsegment. Resultatet vi
 <p><strong>Tolkning</strong><br>
 Detta diagram visar fördelningen av kundtyper i datasetet. Returning customers utgör den största andelen (61.3%), följt av New customers (24.5%) och VIP customers (14.2%). Detta indikerar att återkommande kunder dominerar kundbasen.</p>
 </section>
-<section id="share-by-product-category" class="level4">
-<h4 class="anchored" data-anchor-id="share-by-product-category">Share by product category</h4>
+<section id="andel-per-produktkategori" class="level2">
+<h2 class="anchored" data-anchor-id="andel-per-produktkategori">Andel per produktkategori</h2>
 <div class="cell">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb25"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a>share_category</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
@@ -357,8 +368,8 @@ Detta diagram visar fördelningen av kundtyper i datasetet. Returning customers 
 <p><strong>Tolkning</strong><br>
 Diagrammet visar fördelningen av försäljning mellan olika produktkategorier. Electronics är den största kategorin (24.3%), följt av Fashion (23.5%), Home (20.7%), Beauty (15.9%) och Sports (15.6%). Detta visar att försäljningen är relativt jämnt fördelad mellan kategorierna men Electronics och Fashion dominerar något.</p>
 </section>
-<section id="share-by-delivery-group" class="level4">
-<h4 class="anchored" data-anchor-id="share-by-delivery-group">Share by delivery group</h4>
+<section id="andel-per-leveransgrupp" class="level2">
+<h2 class="anchored" data-anchor-id="andel-per-leveransgrupp">Andel per leveransgrupp</h2>
 <div class="cell">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb28"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a>share_delivery_group</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
@@ -383,8 +394,8 @@ Diagrammet visar fördelningen av försäljning mellan olika produktkategorier. 
 <p><strong>Tolkning</strong><br>
 Diagrammet visar fördelningen av ordrar baserat på leveranstid. Majoriteten av beställningarna tillhör kategorin Medium (3–5 dagar) med 66.2%. Därefter följer Fast (1–2 dagar) med 23.2%. Slow (6–9 dagar) utgör den minsta andelen med 10.6%.</p>
 </section>
-<section id="average-order-value-by-customer-segment" class="level4">
-<h4 class="anchored" data-anchor-id="average-order-value-by-customer-segment">Average Order value by customer segment</h4>
+<section id="genomsnittligt-ordervärde-per-kundsegment" class="level2">
+<h2 class="anchored" data-anchor-id="genomsnittligt-ordervärde-per-kundsegment">Genomsnittligt ordervärde per kundsegment</h2>
 <div class="cell">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb31"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a> value_by_segment</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
@@ -409,8 +420,8 @@ Diagrammet visar fördelningen av ordrar baserat på leveranstid. Majoriteten av
 <p><strong>Tolkning</strong><br>
 Diagrammet visar genomsnittligt och median ordervärde för olika kundsegment. Small Business har det högsta genomsnittliga ordervärdet (346), följt av Consumer (322).Corporate har det lägsta genomsnittliga ordervärdet (235). Medianvärdena är relativt lika mellan segmenten (cirka 135–162), vilket indikerar att skillnader i medelvärde kan påverkas av vissa höga ordervärden (outliers). Detta tyder på att Small Business-kunder tenderar att göra större köp,medan Corporate-kunder i genomsnitt handlar mindre per order. Slutsatsen är att olika kundsegment har olika köpbeteenden,vilket kan användas för att anpassa marknadsföring och erbjudanden.</p>
 </section>
-<section id="return-rate-by-order-value-tier" class="level4">
-<h4 class="anchored" data-anchor-id="return-rate-by-order-value-tier">Return rate by order value tier</h4>
+<section id="returgrad-per-ordervärdesnivå" class="level2">
+<h2 class="anchored" data-anchor-id="returgrad-per-ordervärdesnivå">Returgrad per ordervärdesnivå</h2>
 <div class="cell">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb34"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb34-1"><a href="#cb34-1" aria-hidden="true" tabindex="-1"></a>returns_by_order_value_tier</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
@@ -436,8 +447,8 @@ Diagrammet visar genomsnittligt och median ordervärde för olika kundsegment. S
 <p><strong>Tolkning</strong><br>
 Diagrammet visar returfrekvensen för olika ordervärdesnivåer. Lågprisordrar (Low) har den högsta returgraden (16.4%), följt av Medium (15.6%). Premium har en något lägre returgrad (13.6%), medan High har den lägsta returgraden (12.0%). Detta tyder på att kunder som köper billigare produkter tenderar att returnera varor oftare än kunder som köper dyrare produkter.</p>
 </section>
-<section id="combination-of-segment-and-customer-type-with-return-rate" class="level4">
-<h4 class="anchored" data-anchor-id="combination-of-segment-and-customer-type-with-return-rate">Combination of segment and customer type with return rate</h4>
+<section id="kombination-av-segment-och-kundtyp-med-returgrad" class="level2">
+<h2 class="anchored" data-anchor-id="kombination-av-segment-och-kundtyp-med-returgrad">Kombination av segment och kundtyp med returgrad</h2>
 <div class="cell">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb37"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb37-1"><a href="#cb37-1" aria-hidden="true" tabindex="-1"></a> returns_by_segment_type</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
@@ -470,8 +481,8 @@ Diagrammet visar returfrekvensen uppdelat efter både kundsegment och kundtyp. D
 <p>VIP-kunder visar en varierande returgrad, där Corporate (14.3%) och Consumer (13.9%) ligger på liknande nivåer, medan Small Business har en betydligt lägre returgrad (7.7%).</p>
 <p>Detta tyder på att kundtyp har en stark påverkan på returbenägenhet, särskilt för nya kunder, medan mer etablerade kunder (Returning och VIP) uppvisar mer stabilt beteende. Slutsatsen är att kombinationen av kundsegment och kundtyp ger viktiga insikter, där fokus bör ligga på att minska returer bland nya kunder, särskilt inom Small Business-segmentet.</p>
 </section>
-<section id="shipping-days-by-region" class="level4">
-<h4 class="anchored" data-anchor-id="shipping-days-by-region">Shipping days by region</h4>
+<section id="leveransdagar-per-region" class="level2">
+<h2 class="anchored" data-anchor-id="leveransdagar-per-region"><strong>Leveransdagar per region</strong></h2>
 <div class="cell">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb40"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb40-1"><a href="#cb40-1" aria-hidden="true" tabindex="-1"></a>shipping_by_region</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
@@ -495,8 +506,8 @@ Diagrammet visar returfrekvensen uppdelat efter både kundsegment och kundtyp. D
 </div>
 </div>
 </section>
-<section id="return-rate-by-region" class="level4">
-<h4 class="anchored" data-anchor-id="return-rate-by-region">Return rate by region</h4>
+<section id="returgrad-per-region" class="level2">
+<h2 class="anchored" data-anchor-id="returgrad-per-region">Returgrad per region</h2>
 <div class="cell">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb43"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb43-1"><a href="#cb43-1" aria-hidden="true" tabindex="-1"></a>p6</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output-display">
@@ -510,17 +521,11 @@ Diagrammet visar returfrekvensen uppdelat efter både kundsegment och kundtyp. D
 <p><strong>Tolkning</strong><br>
 Diagrammet visar genomsnittlig leveranstid för olika regioner. East har den längsta genomsnittliga leveranstiden (4.47 dagar), följt av South (3.75 dagar) och West (3.59 dagar). North har den kortaste leveranstiden (3.10 dagar), vilket indikerar mer effektiva leveranser i denna region. Slutsatsen är att förbättring av leveransprocesser i vissa regioner, särskilt East, kan bidra till bättre kundupplevelse och potentiellt minska returer.</p>
 </section>
-<section id="section" class="level4">
-<h4 class="anchored" data-anchor-id="section"></h4>
 </section>
-<section id="slutsatser-och-begränsningar" class="level2">
-<h2 class="anchored" data-anchor-id="slutsatser-och-begränsningar">Slutsatser och begränsningar</h2>
-<p>[…]</p>
-</section>
-<section id="metod" class="level2">
-<h2 class="anchored" data-anchor-id="metod">Metod</h2>
-<section id="dataförståelse" class="level3">
-<h3 class="anchored" data-anchor-id="dataförståelse">1. Dataförståelse</h3>
+<section id="metod" class="level1">
+<h1>Metod</h1>
+<section id="dataförståelse" class="level2">
+<h2 class="anchored" data-anchor-id="dataförståelse">1. Dataförståelse</h2>
 <p>Datasetet innehåller orderdata och består av 1000 rader och 16 kolumner.</p>
 <p>Numeriska variabler inkluderar exempelvis: <code>quantity</code>, <code>unit_price</code>, <code>discount_pct</code> och <code>shipping_days</code>.</p>
 <p>Kategoriska variabler inkluderar: <code>customer_segment</code>, <code>customer_type</code>, <code>region</code>, <code>city</code> och <code>product_category</code>.</p>
@@ -533,8 +538,8 @@ Diagrammet visar genomsnittlig leveranstid för olika regioner. East har den lä
 <p><code>product_category</code>, <code>region</code>, <code>customer_type</code> = jämförelser mellan grupper</p>
 <p>Används för att analysera returgrad och samband med leveranstid.</p>
 </section>
-<section id="datastädning-och-förberedelse" class="level3">
-<h3 class="anchored" data-anchor-id="datastädning-och-förberedelse">2. Datastädning och förberedelse</h3>
+<section id="datastädning-och-förberedelse" class="level2">
+<h2 class="anchored" data-anchor-id="datastädning-och-förberedelse">2. Datastädning och förberedelse</h2>
 <p>Datarensningen och förberedelsen av data gick igenom tre steg: standardisering och korrigering av data, hantering av saknade värden samt skapande av nya variabler.</p>
 <p><strong>Standardisering</strong><br>
 I det första steget standardiserades kolumner för att säkerställa att datan var konsekvent:</p>
@@ -558,14 +563,15 @@ Fyra nya variabler skapades för att berika analysen:</p>
 </ul>
 <p>Dessa variabler gör det enklare att se mönster och jämföra grupper i analysen.</p>
 </section>
-<section id="statistiska-sammanfattningar" class="level3">
-<h3 class="anchored" data-anchor-id="statistiska-sammanfattningar"><strong>3. Statistiska sammanfattningar</strong></h3>
+<section id="statistiska-sammanfattningar" class="level2">
+<h2 class="anchored" data-anchor-id="statistiska-sammanfattningar"><strong>3. Statistiska sammanfattningar</strong></h2>
 <p>Datasetet innehåller 1 000 ordrar från 255 unika kunder fördelade över 5 produktkategorier.</p>
 <p><strong>Numeriska nyckeltal:</strong></p>
 <p>Medelvärdet för ordervärde <code>order_value</code> var 314 kr, medan medianen låg på 152 kr. Den stora skillnaden tyder på att ett antal höga ordrar drar upp medelvärdet.</p>
 <p>Genomsnittligt antal produkter per order <code>quantity</code> var 1,36 med en median på 1.</p>
-<p><strong>Andelar:</strong> - <em>Kundsegment:</em> <code>Consumer</code> utgjorde den största gruppen (52,9%), följt av <code>Small Business</code> (30,2%) och slutligen <code>Corporate</code> (16,9%).</p>
+<p><strong>Andelar:</strong></p>
 <ul>
+<li><p><em>Kundsegment:</em> <code>Consumer</code> utgjorde den största gruppen (52,9%), följt av <code>Small Business</code> (30,2%) och slutligen <code>Corporate</code> (16,9%).</p></li>
 <li><p><em>Kundtyp:</em> <code>Returning</code> klart största typ med (61,3%), följt av <code>New</code> (24,5%) och <code>VIP</code> (14,2%).</p></li>
 <li><p><em>Produktkategori:</em> <code>Electronics</code> (24,3%) och <code>Fashion</code> (23,5%) var de största kategorierna, följt av <code>Home</code> (20,7%), <code>Beauty</code> (15,9%) och <code>Sports</code> (15,6%).</p></li>
 <li><p><em>Leveranstid:</em> Den vanligaste leveranstiden för kunder är <code>Medium (3-5d)</code> (66,2%), följt utav <code>Fast (1-2d)</code> (23,2%) och till sist <code>Slow(6-9d)</code> med (10.6%).</p></li>
@@ -580,7 +586,6 @@ Fyra nya variabler skapades för att berika analysen:</p>
 </ul>
 <p><strong>Ordervärde per kundsegment:</strong> <code>Small Business</code> hade högst genomsnittligt ordervärde (346 kr), följt av <code>Consumer</code> (322 kr) och <code>Corporate</code> (235 kr).</p>
 <p><strong>Leveranstid per region:</strong> <code>East</code> hade längst genomsnittlig leveranstid (4,5 dagar), medan <code>North</code> hade kortast (3,1 dagar). <code>South</code> och <code>West</code> låg däremellan (3,8 respektive 3,6 dagar).</p>
-</section>
 </section>
 </section>
 

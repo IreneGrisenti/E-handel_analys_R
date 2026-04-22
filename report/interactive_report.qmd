@@ -1,5 +1,5 @@
 ---
-title: "report"
+title: "Interactive report"
 format: html
 ---
 
@@ -36,7 +36,7 @@ returns_by_category
 p5
 ```
 
-**Tolkning** \
+**Tolkning**\
 Diagrammet visar returfrekvensen för olika produktkategorier. Fashion har den högsta returgraden (16.2%), följt av Home (15.9%) och Beauty (15.1%). Electronics har en något lägre returgrad (13.2%), medan Sports har den lägsta returgraden (10.9%).
 
 ## Returgrad mellan olika regioner
@@ -107,8 +107,6 @@ p14
 
 **Tolkning**\
 Diagrammet visar hur returgraden varierar beroende på rabattnivå. Resultatet visar ett tydligt mönster där returgraden ökar med högre rabatter. Kunden utan rabatt (No discount) har den lägsta returgraden (9.4%), Låg rabatt (1–10%) visar en något högre returgrad (13.4%), Medium rabatt (11–25%) har en ännu högre returgrad (18.2%). Hög rabatt (25%+) har den högsta returgraden (50%), men detta resultat bör tolkas försiktigt eftersom antalet observationer i denna kategori är mycket litet (endast 4 ordrar).
-
-Slutsatsen är att högre rabatter kan vara kopplade till ökad returbenägenhet. En möjlig förklaring är att större rabatter kan locka mer impulsköp Samtidigt kan små urval i högsta rabattgruppen påverka resultatets tillförlitlighet.
 
 # Slutsatser och begränsningar
 
